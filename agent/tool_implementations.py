@@ -68,7 +68,8 @@ _CATEGORY_RULES: list[tuple[re.Pattern, str, str | None]] = [
     (re.compile(r"^moving"), "moving", None),
 ]
 
-# Keyword refinements for `interruption -- other`. Read remarks to do better than "other".
+# Soft hints for refining `interruption -- other` (we already know it's NPT — just picking
+# the best subcategory). Looser, can have false positives without harm.
 _REMARK_HINTS: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\b(lost circulation|losses|lcm|partial returns|total losses)\b", re.I), "lost_circulation"),
     (re.compile(r"\b(stuck pipe|pack[- ]?off|tight hole|swelling)\b", re.I), "wellbore_instability"),
@@ -77,20 +78,42 @@ _REMARK_HINTS: list[tuple[re.Pattern, str]] = [
     (re.compile(r"\b(top drive|surface equipment|motor failure|bha failure)\b", re.I), "mechanical"),
 ]
 
+# High-precision hints for reclassifying a non-interruption activity (e.g., "drilling -- drill"
+# coded but the 18-hour entry is actually a stuck-pipe event). Tighter patterns to keep the
+# false-positive rate near zero — only flip if the language is unambiguous.
+_NPT_STRONG_HINTS: list[tuple[re.Pattern, str]] = [
+    (re.compile(r"\b(lost circulation|severe (mud )?losses|total losses|partial losses to formation)\b", re.I), "lost_circulation"),
+    (re.compile(r"\b(stuck pipe|differentially stuck|pack[- ]?off (event|incident)|severe pack[- ]?off)\b", re.I), "wellbore_instability"),
+    # Deliberately excluded: bare "shut-in well" — DST build-up, wireline lubrication, and
+    # pressure-test ops all shut wells in routinely. Only flag unambiguous influx language.
+    (re.compile(r"\b(took a kick|well kicked|swabbed in|kick (event|incident))\b", re.I), "well_control"),
+    (re.compile(r"\b(twist[- ]?off|lost in hole|cut[- ]?and[- ]?thread fishing|fishing operation)\b", re.I), "fishing"),
+    (re.compile(r"\b(top drive failure|tds failure|equipment failure|motor failure|bha failure)\b", re.I), "mechanical"),
+]
+
 
 def _classify_one(activity: dict) -> tuple[str, str | None]:
     code = (activity.get("code") or "").lower()
     remarks = activity.get("remarks") or ""
+    hours = activity.get("hours") or 0
     cat, sub = "other", None
     for pat, c, s in _CATEGORY_RULES:
         if pat.match(code):
             cat, sub = c, s
             break
-    # Refine NPT "other" using remarks keywords.
     if cat == "npt" and sub == "other":
+        # Already NPT — just pick a better subcategory from remarks.
         for pat, refined in _REMARK_HINTS:
             if pat.search(remarks):
                 sub = refined
+                break
+    elif cat != "npt" and hours >= 4:
+        # Not coded as NPT, but the remarks describe a clear NPT event AND the activity is long
+        # enough that misclassifying it would distort the KPIs. Use the high-precision patterns
+        # to keep false positives down.
+        for pat, refined in _NPT_STRONG_HINTS:
+            if pat.search(remarks):
+                cat, sub = "npt", refined
                 break
     return cat, sub
 
@@ -195,21 +218,28 @@ def compute_kpis(classified_data: dict) -> dict:
         day_npt = sum((a.get("hours") or 0) for a in r["activities"] if a.get("category") == "npt")
         long_stop = max(((a.get("hours") or 0) for a in r["activities"] if a.get("category") == "npt"), default=0)
         if day_npt >= 12:
-            top_sub = Counter(a.get("npt_subcategory") for a in r["activities"] if a.get("category") == "npt").most_common(1)
+            top_sub_pair = Counter(
+                a.get("npt_subcategory") for a in r["activities"] if a.get("category") == "npt"
+            ).most_common(1)
+            top_sub = top_sub_pair[0][0] if top_sub_pair else None
             anomalies.append({
                 "day": r["day"],
                 "date": r["date"],
                 "depth_md_m": r.get("depth_md_end_m"),
-                "description": f"{day_npt:.1f}h NPT" + (f" ({top_sub[0][0]})" if top_sub and top_sub[0][0] else ""),
+                "description": f"{day_npt:.1f}h NPT" + (f" ({top_sub})" if top_sub else ""),
+                "top_subcategory": top_sub,
                 "severity": "high" if day_npt >= 20 else "medium",
                 "remarks": (r.get("remarks_combined") or "")[:240],
             })
         elif long_stop >= 12:
+            # Find the subcategory of the long stop itself.
+            long_a = max((a for a in r["activities"] if a.get("category") == "npt"), key=lambda a: a.get("hours") or 0, default=None)
             anomalies.append({
                 "day": r["day"],
                 "date": r["date"],
                 "depth_md_m": r.get("depth_md_end_m"),
                 "description": f"single stop {long_stop:.1f}h",
+                "top_subcategory": long_a.get("npt_subcategory") if long_a else None,
                 "severity": "medium",
                 "remarks": (r.get("remarks_combined") or "")[:240],
             })
@@ -345,15 +375,22 @@ def write_morning_memo(
             return a.get("description") or "—"
         return default
 
-    # Discover the first ROOT_CAUSE from the anomaly remarks for each top NPT subcategory.
+    # Build a subcategory → first-anomaly-remarks index from the FULL anomaly list
+    # (kpis.top_anomalies) rather than just the slice passed in for Notable Events.
+    # That's the bug fix: previously, weather (the largest NPT bucket on F-4) showed "—"
+    # because no Notable Event in the top-3 slice had "weather" in its description.
+    full_anomalies = kpis.get("top_anomalies") or anomalies
+    by_subcat: dict[str, str] = {}
+    for a in full_anomalies:
+        sub = a.get("top_subcategory")
+        if sub and sub not in by_subcat:
+            by_subcat[sub] = (a.get("remarks") or "—")[:120]
+
     def root_cause(i: int) -> str:
         if i >= len(breakdown):
             return "—"
         sub = breakdown[i].get("subcategory")
-        for a in anomalies:
-            if sub and sub in (a.get("description") or ""):
-                return (a.get("remarks") or "—")[:120]
-        return "—"
+        return by_subcat.get(sub, "—")
 
     from datetime import date as _date
     fields = {
