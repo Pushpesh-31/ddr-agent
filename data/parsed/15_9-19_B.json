@@ -1,0 +1,2351 @@
+{
+  "well_id": "15/9-19 B",
+  "metadata": {
+    "spud_date": "1997-11-10",
+    "drill_complete_date": null,
+    "operator": "Statoil",
+    "drill_contractor": null,
+    "rig_name": "BYFORD DOLPHIN",
+    "n_reports": 27,
+    "first_report_date": "1997-11-10",
+    "last_report_date": "1997-12-06",
+    "calendar_span_days": 27,
+    "total_days": 27,
+    "planned_days": 0.9,
+    "td_md_m": 3272.0,
+    "td_tvd_m": 2511.0
+  },
+  "daily_reports": [
+    {
+      "day": 1,
+      "date": "1997-11-10",
+      "report_no": 1,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "PICKED UP 8 1/2\" KICK OFF BHA; AKO MACH 1 XL WITH 1,2 DEGR SETTING. TESTED MOTOR, OK. MADE UP MWD GR/RES/DIR AND LOAD TOOL."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "MADE UP 8 1/2\" DRILLING BHA, RIH. PICKING UP 5\" DP FOR DRILLING.",
+      "days_behind": null,
+      "days_ahead": null
+    },
+    {
+      "day": 2,
+      "date": "1997-11-11",
+      "report_no": 2,
+      "depth_md_end_m": 2243.0,
+      "depth_tvd_end_m": 1662.0,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 143.0,
+          "remarks": "CONTINUED TO MAKE UP BHA; MADE UP 8 1/2\" PDC BIT WITH 8 3/8\" NEAR BIT REAMER. CHECKED SCRIBE LINE AND PICK UP NEW DRILLING JAR."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 956.0,
+          "remarks": "RIH TO 956M. RECORDED SERIAL NO'S ON HWDP."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 956.0,
+          "remarks": "FILLED STRING AND CHECKED MWD PULSES, OK. CHANGE ELEVATOR TO PICK UP 5\" DP."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1323.0,
+          "remarks": "PICKING UP 5\" DP FOR DRILLING. CURRENT DEPTH 1323M"
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2053.0,
+          "remarks": "CONTINUED TO PICK UP 5\" DP TO 2053M. TOTAL P/UP 114 JT."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2138.0,
+          "remarks": "PRECAUTIONARY WASH FROM 2053M TO 2138M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2178.0,
+          "remarks": "WASHED CMT FROM 2138M TO CSG WINDOW AT 2178M. WORK PIPE TO ORIENT TOOL FACE AN HIT WOODEN CROWN BLOCK BUMPER WITH TRAVELLING BLOCKS."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 3.0,
+          "depth_md_m": 2178.0,
+          "remarks": "INSPECTED CROWN BLOCKS AND TRAVELLING BLOCKS. FOUND WOODEN BUMPER AND CLAMPS BROKEN. REMOVED DAMAGED PARTS TO DRILLFLOOR. PERFORMED VISUAL INSPECTION TO DERRICK STRUCTURE AND NO DAMAGE WAS FOUND."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2231.0,
+          "remarks": "WASHED DOWN WITH 400 L/MIN TO OUTSIDE WINDOW AND OBSERVED SLIGHT PACK OFF. PULLED INTO WINDOW, NO OVERPULL. CONTINUED WASHING W/400 L/MIN TO 2223M. INCREASED PUMP RATE TO 1800 L/MIN AND CLEAN HOLE UP TO WINDOW. DRESSED INCONSISTENT CMT FROM 2223 TO FIRM CMT AT 2231M"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2243.0,
+          "remarks": "TIME DRILLED IN ORIENTED MODE TO KICK OFF WELL FROM 2231M TO 2243M. HELD TOOLFACE AT 90 DEGR LEFT. 60-70% CMT IN CUTTINGS AT 2243M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.55,
+        "viscosity_cp": 100.0,
+        "type": "QUADRILL",
+        "pv_mPas": 46.0,
+        "yp_Pa": 14.0
+      },
+      "remarks_combined": "CONTINUED PICK UP 5\" DP AND RIH. WASH CMT TRACES TO CSG WINDOW.\nDRILLER HIT WOODEN BEAMS UNDERNEATH CROWN BLOCKS. REMOVED WOOD AND\nINSPECT CROWN BLOCKS (3 HRS REPAIR TIME) DRESS CMT AND PERFORMED KICK\nOFF FROM 2231M TO 2277M.",
+      "days_behind": 1.1,
+      "days_ahead": null
+    },
+    {
+      "day": 3,
+      "date": "1997-11-12",
+      "report_no": 3,
+      "depth_md_end_m": 2345.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2277.0,
+          "remarks": "CONTINUED TIME DRILLING FROM 2243M TO 2268M, ROTATED TO 2277M. GOT 100% FORMATION 2250M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2283.0,
+          "remarks": "CONTINUED DRILL 8 1/2\" HOLE IN ORIENTED MODE FROM 2268M TO 2283M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2283.0,
+          "remarks": "PUMP WITH REDUCED RATE AND RECIPROCATE PIPE WHILST CLEARING CUTTINGS CHUTE BETWEEN SHAKERS SCREW CONVEYERS AND BIG BAG FILLING STATION."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 2345.0,
+          "remarks": "CONTINUED ORIENTED DRILLING FROM 2283M TO 2345M. NOT ABLE TO GET PLANNED BUILD RATE."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2345.0,
+          "remarks": "CIRCULATED HOLE UNTIL SHAKERS CLEANED UP, TOTAL 120% HOLE VOLUME. FLOW CHECKED, WELL STATIC."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "PUMPED SLUG AND POOH. RE-SLUG PIPE, CONTINUED POOH."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "LAID DOWN NEAR BIT ROTATION STABILIZER, BROKE BIT. DOWNLOADED MWD AND CHANGED SETTING ON AKO TO 1,4 DEGR. MADE UP ROCK BIT. FOUND 1 DP TO BE MISSING FROM STRING, ALL DEPTHS ON TODAYS REPORT ARE ADJUSTED ACCORDINGLY= -9,5M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.56,
+        "viscosity_cp": 85.0,
+        "type": "QUADRILL",
+        "pv_mPas": 43.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "DRILLED FROM 2268M TO 2345M. DID NOT GET PLANNED CURVATURE, CIRC AND\nPOOH. CHANGED BIT AND L/D NB STABILIZER. CHANGED AKO SETTING AND RIH.",
+      "days_behind": 2.1,
+      "days_ahead": null
+    },
+    {
+      "day": 4,
+      "date": "1997-11-13",
+      "report_no": 4,
+      "depth_md_end_m": 2744.0,
+      "depth_tvd_end_m": 2064.0,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2345.0,
+          "remarks": "RIH TO 2312M. FILLED PIPE AT 1000M AND AT CSG WINDOW AT 2110M. TRAVEL THROUGH CSG WINDOW, NO OBSTRUCTIONS. PRECAUTIONARY WASH/ROTATE TO BTM AT 2345M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2350.0,
+          "remarks": "DRILLED IN ROTATION FROM 2345M TO 2350M. TAKE SCR AND ORIENTED STRING TO CONTINUE SLIDING."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 11.0,
+          "depth_md_m": 2619.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 2350M TO 2619M. ROTATED START AND END OF EACH STAND AND ORIENTED 18-20M IN MIDDLE OF EACH STAND TO TURN WELL TO LEFT AND TO DROP ANGLE."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 2619.0,
+          "remarks": "GEOSERVICE COMPUTER SERVER CRASHED, RE-STARTED SYSTEM. CIRCULATED AND RECIPROCATED PIPE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 2744.0,
+          "remarks": "CONTINUED DRILLING FROM 2619M TO 2744M. REAMED ALL STANDS 2 TIMES IN CONNECTIONS."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.55,
+        "viscosity_cp": 87.0,
+        "type": "QUADRILL",
+        "pv_mPas": 46.0,
+        "yp_Pa": 15.0
+      },
+      "remarks_combined": "DRILL AND ORIENT FROM 2350M TO 2808M.",
+      "days_behind": 3.1,
+      "days_ahead": null
+    },
+    {
+      "day": 5,
+      "date": "1997-11-14",
+      "report_no": 5,
+      "depth_md_end_m": 2817.0,
+      "depth_tvd_end_m": 2129.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2808.0,
+          "remarks": "CONTINUED DRILLING FROM 2744M TO 2808M. ORIENTED 18-20M IN MIDDLE OF EACH STAND. REAMED STANDS 2 TIMES IN CONNECTIONS."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2811.0,
+          "remarks": "CONTINUED ORIENTING AND DRILL FROM 2808 TO 2811M."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 0.0,
+          "remarks": "FLOW CHECKED, WELL STATIC. PUMPED LUG AND POOH. FLOW CHECKED AT CSG WINDOW. DOWNLOADED MWD TOOL."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP NEW BIT AND ROTATING NEAR BIT STABILIZER. ADJUSTED SETTING ON AKO TO 1,2 DEGR."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 2100.0,
+          "remarks": "RIH WITH BHA. PICKED UP 51 JT 5\" DP. RIH TO 1000M AND FILLED PIPE. CONTINUED RIH TO 2100 AND BREAK CIRC, CHECK MWD."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2100.0,
+          "remarks": "FUNCTION TESTED BOP FROM BLUE POD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2811.0,
+          "remarks": "CONTINUED TO RIH TO 2773M. PRECAUTIONARY WASH AND REAM TO BTM AT 2811M"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2817.0,
+          "remarks": "WASH BTM CLEAN FOR DEBRIS AND DRILLED IN ORIENTED MODE FROM 2811 TO 2817. MOTOR STALLED FREQUENTLY DUE TO BIT WEIGHT SENSIVETY."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.55,
+        "viscosity_cp": 70.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 41.0,
+        "yp_Pa": 17.5
+      },
+      "remarks_combined": "CONTINUED DRILLING TO 2811M. POOH CHANGED BIT AND SET AKO FROM 1,4 TO\n1,2 DEGR. PICK UP 5\" DP WHILST RIH. FUNCTION TESTED BOP AT WINDOW.\nRIH AND DRILLED IN ORIENTING AND ROTATING MODE FROM 2811M TO 2850M.",
+      "days_behind": 4.1,
+      "days_ahead": null
+    },
+    {
+      "day": 6,
+      "date": "1997-11-15",
+      "report_no": 6,
+      "depth_md_end_m": 3039.0,
+      "depth_tvd_end_m": 2315.8,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2850.0,
+          "remarks": "ORIENTED AND ROTATED FROM 2817M TO 2850M. FREQUENTLY STALLING MOTOR. ROTATING MODE; 40-50 M/HR WITH 1-2T WOB."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 9.5,
+          "depth_md_m": 3035.0,
+          "remarks": "CONTINUED DRILLING AND ORIENTING FROM 2850M TO 3035M - LOST RETURNS."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 3035.0,
+          "remarks": "FLOW CHECKED, WELL STATIC. ATTEMPTED TO REGAIN CIRCULATION BY STAGING PUMPS, 100 % RETURNS BELOW 400 L/MIN. MIXED LCM PILL."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 3039.0,
+          "remarks": "PUMPED 8 M3 NUT PLUG COARSE, MICA COARSE AND LIGNOCEL (WOOD FIBRE) TOTAL CONCENTRATION, 222,8 KG/M3/1,8 SG. CLEARED SUCTION STRAINERS ON MUD PUMPS PRIOR TO DISPLACING PILL. DURING DISPLACING; DRILLED FROM 3035M TO 3039M NO RETURNS. OBSERVED 17-18 BAR PRESS INCREASE WHEN LCM PASSED BHA. PULLED BACK TO 3030M. STAGED PUMPS TO REGAIN CIRC."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2927.0,
+          "remarks": "ATTEMPTED TO ESTABLISH CIRC. LOSSES TO FORMATION STARTED ABOVE 400 L/MIN. LOST TOTAL 43 M3 MUD. POOH WET TO 2927M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 0.5,
+          "depth_md_m": 2927.0,
+          "remarks": "FLOW CHECKED, WELL STATIC."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2530.0,
+          "remarks": "POOH TO 2530M. FLOWED BACK 14 M3, THEN HOLE TOOK NORMAL AMOUNT OF MUD"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.55,
+        "viscosity_cp": 81.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 42.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "DRILLED FROM 2850 TO 3035M. LOST RETURNS, MIXED AND PUMPED LCM PILL NO\nSIGNIFICANT IMPROVEMENT FROM PILL. DRILLED 4 M WITHOUT RETURN BEFORE\nSPOTTING LCM PILL. LOST 43 M3 MUD TO FORMATION. FLOW CHECKED POOH TO\nSHOE, WELL FLOWED BACK WITH 14,1 M3. ATTEMPTED TO ESTABLISH CIRC. NO\nSUCCESS. POOH WITH REDUCED SPEED DUE TO FLOW BACK DURING TRIP.",
+      "days_behind": null,
+      "days_ahead": null
+    },
+    {
+      "day": 7,
+      "date": "1997-11-16",
+      "report_no": 7,
+      "depth_md_end_m": 3039.0,
+      "depth_tvd_end_m": 2315.8,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2130.0,
+          "remarks": "CONTINUED POOH INTO CSG WINDOW."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 0.5,
+          "depth_md_m": 2130.0,
+          "remarks": "ATTEMPTED TO CIRCULATE INSIDE CSG. NOT ABLE TO GET RETURNS ABOVE 400 L/MIN LEVEL. FLOW CHECKED, WELL STATIC. 2 % GAS IN RETURNS."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 4.5,
+          "depth_md_m": 667.0,
+          "remarks": "PUMPED SLUG. LOST TOTAL 8 M3 MUD TO FORMATION WHEN ATTEMPTING REGAIN CIRC AND PUMP SLUG. POOH. FLOW CHECKED AT 1917M, WELL STATIC. WELL FLOWED BACK DURING TRIP TOTAL 10,6 M3. TOOK NORMAL VOLUME FROM 800M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED POOH. FLOW CHECKED OK BEFORE PULLED BHA ABOVE BOP."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "RACKED BACK BHA, BROKE BIT AND NEAR BIT STAB."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 4.0,
+          "depth_md_m": 2000.0,
+          "remarks": "MADE UP 3 1/2\" MULESHOE ON 290 M 3 1/2\" DP AND RIH TO 2000M. NO LOSSES OBSERVED."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 2000.0,
+          "remarks": "REPARED HYDRAULIC LEAK ON ACCUMULATOR BOTTLE FOR BLOCK RETRACTION SYSTEM."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 3037.0,
+          "remarks": "CONTINUED RIH TO 3030M. MADE UP CMT STAND AND CMT LINE. TESTED CMT LINE WITH 200 BAR."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 3037.0,
+          "remarks": "TAGGED BTM AT 3037M. DRILLED DEPTH 3039M. PUMPED 3 M3 SPACER WITH CMT UNIT AND MIXED AND PUMPED 4 M3 1,65 SG CMT SLURRY. DISPLACED CMT WITH RIG PUMPS. NO LOSSES DURING TRIP IN, LOST 1 M3 DURING CEMENTING AND DISPLACING AND 0,2 M3 WHEN CMT ENTERED OPEN HOLE."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2742.0,
+          "remarks": "POOH TO 2742M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2742.0,
+          "remarks": "CLOSED BOP AND PUMPED 0,55 M3 AND OBTAINED 32 BAR ON CMT PLUG, OK EQUALS 1,69 SG ECD. BLED BACK 0,39 M3 TO CMT UNIT."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 2742.0,
+          "remarks": "CIRCULATED HOLE THE LONG WAY. ROTATED AND RECIPROCATED STRING. MAX CIRULATION RATE 2200 L/M. GOT WOOD FIBRE FROM LCM PILL OVER SHAKERS AT  END OF CIRCULATION AND REDUCED CIRCULATION RATE TO 1200 L/M. NO MUD LOSSES. FLOW CHECKED, WELL STATIC."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 620.0,
+          "remarks": "PUMPED SLUG AND LAID DOWN CMT STAND. POOH TO 620M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.55,
+        "viscosity_cp": 67.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 39.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "CONTINUED POOH AND RIH WITH 3 1/2\" CMT STINGER ON 5\" DP. PUMP 3 M3\nSPACER FOLLOWED 4 M3 CMT SLURRY. POH TO ABOVE CMT AND PRESSURE TO 32\nBAR ON PLUG, OK. LOST 0.2 M3. CIRC HOLE VOLUME AND POOH W/CMT STRING.\nMADE UP BHA AND RIH.",
+      "days_behind": 6.1,
+      "days_ahead": null
+    },
+    {
+      "day": 8,
+      "date": "1997-11-17",
+      "report_no": 8,
+      "depth_md_end_m": 3039.0,
+      "depth_tvd_end_m": 2315.8,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED POOH. RACKED BACK 3 1/2\" CMT STINGER."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "PICKED UP BHA AND CHECKED OUT AKO, FOUND 4-5 MM BURR ON MIDDLE OF AKO HOUSING. CHANGE TO NEW AKO. CHECKED FOR DEBRIS INSIDE MWD AND DOWNLOAD ED SAME. SET AKO TO 1,2 DEGR AND CHECKED SCRIBE LINE. TESTED MOTOR OK. MADE UP BIT AND NEAR BIT STABILIZER."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 549.0,
+          "remarks": "RIH WITH DRILLING AND ORIENTING BHA."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 1905.0,
+          "remarks": "CONTINUED RIH TO 1905M. AT 0850 HRS. DRILLER SET PIPE ELEVATOR ONTO UPPER PIPE RACKING ARM AND DAMAGED ARM."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 15.0,
+          "depth_md_m": 1905.0,
+          "remarks": "RIG REPAIR: REMOVED DAMAGED HEAD AND CYLINDER ON UPPER RACKING ARM. DISMANTLED TELESCOPE CYLINDER ON STANDLIFT ARM AND MOUNTED SAME ON UPPER RACKING ARM. REPAIRED URA HEAD AND FINGER AND FABRICATED NEW PROTECTION BUMPER FOR FINGER AND ARM TILT. CHANGED BROKEN SAFETY SHEAR PINS FOR RACKING ARM. OBSERVED WELL ON TRIP TANK."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.57,
+        "viscosity_cp": 109.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 38.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "CONTINUED RIH. SET ELEVATOR ON TO AND DAMAGED UPPER PIPE RACKING ARM\nREPAIRED ON RACKING ARM.",
+      "days_behind": 7.1,
+      "days_ahead": null
+    },
+    {
+      "day": 9,
+      "date": "1997-11-18",
+      "report_no": 9,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.4,
+      "activities": [
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 6.0,
+          "depth_md_m": 1905.0,
+          "remarks": "CONTINUED RIG REPAIR: NDT INSPECTION WAS CARRIED OUT ON VITAL PARTS ON RACKING HEAD. INSTALLED RACKING HEAD AND TESTED FINGER. FINGER HAD INCOMPLETE TRAVEL. CHANGED FINGER ACTUATOR. WELDED BAR WITH RUBBER BUMPER FOR UPPER RACKING ARM. CUT DOWN HINGED WORK PLATFORM FOR URA DUE TO CRACK DAMAGE. OBSERVED WELL ON TRIP TANK."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 4.5,
+          "depth_md_m": 1905.0,
+          "remarks": "CONTINUED RIG REPAIR ON UPPER RACKING ARM. RE-ADJUSTED URA FINGER TRAVEL. INSTALLED SAFETY WIRES FOR HEAD AND HEAD PROTECTION. CLEARED DERRICK FOR TOOLS AND PERFORMED FINAL INSPECTION. TESTED UPPER RACKING ARM."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 1905.0,
+          "remarks": "PERFORMED SAFE JOB ANALYSIS WITH ALL INVOLVED PERSONNEL. TOPIC; HANDLING PIPE WITHOUT STANDLIFT."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2580.0,
+          "remarks": "RIH TO 2580M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 2580.0,
+          "remarks": "REPAIRED OPERATING CYLINDER ON 5\" DP ELEVATOR. FILLED STRING."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 0.5,
+          "depth_md_m": 2700.0,
+          "remarks": "CONTINUED RIH TO 2700M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.5,
+          "depth_md_m": 2880.0,
+          "remarks": "WASHED AND ROTATED FROM 2700M TO 2785M. REAMED AND DRILLED FROM 2785 TO 2880M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2995.0,
+          "remarks": "DRILLED INCONSISTENT CMT FROM 2880M TO 2983M. CONTINUED DRILLING FIRM CMT FROM 2983M TO 2995M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2995.0,
+          "remarks": "CIRCULATED HOLE CLEAN DUE TO 20T DRAG INCREASE. REGAINED NORMAL STRING WEIGHT."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.5,
+          "depth_md_m": 3039.0,
+          "remarks": "DRILLED CMT AT CONTROLLED RATE FROM 2995M TO 3039M. STARTED TO LOOSE FROM 3035M. ATTEMPTED TO ESTABLISH PUMP RATE TO MINIMIZE MUD LOSS, AT 2100 L/MIN: LOST 29 M3/HR. 1500 L/MIN: LOST 16 M3/HR."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 3054.0,
+          "remarks": "DRILLED FROM 3035M TO 3054M. VARIED PUMP RATES FROM 2250 -1800 L/M LOSSES 42 - 40 M3/HR."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 3054.0,
+          "remarks": "CIRCULATED AND ATTEMPTED TO ESTABLISH 100% RETURNS, NO SUCCESS PUMP RATE 1500 L/M; LOSS RATE 12 M3/HR AND DECLINED TO 5 M3/HR. TOTAL LOSS 45,3 M3 MUD TO FORMATION."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 3050.0,
+          "remarks": "POOH WET TO 2940M. GOT TOTAL FLOWBACK OF 18,2 M3 FROM FORMATION. RIH TO 3050M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.57,
+        "viscosity_cp": 109.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 38.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "CONTINUED REPAIR ON UPPER RACKING ARM. RIH AND DRILLED CMT FROM 2983M\nTO 3039M AND NEW HOLE TO 3054M. LOST 42 M3 MUD DURING DRILLING.\nCIRCULATED BTM UP. POOH TO 3001M. GOT 18 M3 FLOW BACK FROM FORMATION.\nRIH TO 3045M AND CIRCULATED BTM UP. POOH.",
+      "days_behind": 8.1,
+      "days_ahead": null
+    },
+    {
+      "day": 10,
+      "date": "1997-11-19",
+      "report_no": 10,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.4,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 3050.0,
+          "remarks": "CIRCULATED HOLE WITH 1500 L/M. LOST 22,4 M3 MUD TO FORMATION."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 4.5,
+          "depth_md_m": 1074.0,
+          "remarks": "POOH 25 T OVERPULL IN SECTION 2265-2260M. WORK OBSTRUCTION, OK. FLOW CHECKED INSIDE CSG, WELL STATIC. CONTINUED POOH. HOLE STARTED TO TAKE CORRECT AMOUNT FOR PIPE DISPLACEMENT FROM 1400 M. TOTAL FLOW BACK FROM FORMATION DURING TRIP: 23,2 M3."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED POOH WITH DRILLING BHA. FLOW CHECKED, OK BEFORE PULLING ABOVE BOP. RACKED BACK BHA."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2010.0,
+          "remarks": "MADE UP 3 1/2\" MULESHOE ON 3 1/2\" DP, TOTAL 290 M AS CEMENTING STINGER CONTINUED RIH WITH 5\" DP TO 2010M."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2010.0,
+          "remarks": "WAITED ON WEATHER DUE TO HIGH WIND, 26-30 M/S AND RIG HEAVE 2 M. WIND SPEED PREDICTIONS INDICATED MORE HEAVE THAN OPERATIONAL LIMITS."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2121.0,
+          "remarks": "MADE UP DRILL PIPE HANG OFF TOOL AND RIH TO WELLHEAD. HUNG OFF CEMENT STRING AT 2121M AT 1820 HRS. POOH WITH LANDING STRING."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED WAITING ON WEATHER DUE TO HIGH WIND, 25-32 M/S AND MAXIMUM HEAVE 9,M - 6,M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.53,
+        "viscosity_cp": 61.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 35.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "CONTINUED POOH WITH DRILLING BHA. RIH WITH 3 1/2\" CMT STINGER TO 2121M\nHUNG OFF STRING IN WELLHEAD AND WAITED ON WEATHER.",
+      "days_behind": 9.1,
+      "days_ahead": null
+    },
+    {
+      "day": 11,
+      "date": "1997-11-20",
+      "report_no": 11,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.4,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED WAITING ON WEATHER DUE TO HIGH WIND 22-29 M/S. RIG HEAVE 4,5 -5,2 M. AT REPORT TIME."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 18.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED WAITING ON WEATHER DUE TO HIGH WIND, 23-30 M/S, RIG HEAVE; 4,6- 9,7 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.53,
+        "viscosity_cp": 61.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 37.0,
+        "yp_Pa": 9.5
+      },
+      "remarks_combined": "WAITING ON WEATHER.",
+      "days_behind": 10.1,
+      "days_ahead": null
+    },
+    {
+      "day": 12,
+      "date": "1997-11-21",
+      "report_no": 12,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.4,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 6.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED WAITING ON WEATHER DUE TO HIGH WIND, 20-30 M/S RIG HEAVE 4,9-7,9 M."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED W.O.W. WIND 20-30 M/S, RIG HEAVE 4.5M - 5.5M, MAX 8.5M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.53,
+        "viscosity_cp": 111.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 36.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "W.O.W.",
+      "days_behind": 11.1,
+      "days_ahead": null
+    },
+    {
+      "day": 13,
+      "date": "1997-11-22",
+      "report_no": 13,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.0,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED W.O.W. WIND 20-30 M/S, RIG HEAVE 4M- 5M, MAX 7.6M."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED W.O.W. WIND 26-32 M/S, RIG HEAVE 5.0-5.5M, MAX 8.5M. RAPID, REPEATED HIGH HEAVE 7.0-8.5M FROM 0730. DISPLACED RISER TO SEAWATER AND DISCONNECTED AT 0850 HRS. DEBALLASTED RIG TO SURVIVAL DRAFT AT 1000 HRS."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 14.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED W.O.W. WIND 32 M/S DECREASING TO 20 M/S THEN INCREASING TO 25 M/S. HEAVE 5.5M DECREASING TO 4.0M THEN INCREASING TO 5.0M."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "W.O.W. DISPLACED RISER TO SEAWATER AND DISCONNECTED LMRP.",
+      "days_behind": 12.1,
+      "days_ahead": null
+    },
+    {
+      "day": 14,
+      "date": "1997-11-23",
+      "report_no": 14,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.0,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2121.0,
+          "remarks": "CONTINUED W.O.W. WIND 16-22 M/S AND SLOWLY SUBSIDING. HEAVE 3.3-4.3M AND SLOWLY SUBSIDING."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 2131.0,
+          "remarks": "W.O.W. WIND 22 M/S DECREASING TO 16 M/S. SEAS 6-8 M DECREASING TO 3-5 M. HEAVE 3M DECREASING TO 1.8M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.53,
+        "viscosity_cp": 112.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 36.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "W.O.W.",
+      "days_behind": 13.1,
+      "days_ahead": null
+    },
+    {
+      "day": 15,
+      "date": "1997-11-24",
+      "report_no": 15,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.0,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2131.0,
+          "remarks": "CONTINUED W.O.W. WIND PERSISTED AT 16 M/S. SEAS DECAYED TO 4M, HEAVE TO 1.5M WITH OCCASIONAL PEAKS OF 1.8M. MADE UP DIVERTER HANDLING TOOL AND PREPARED TO RECONNECT LMRP."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2131.0,
+          "remarks": "JUMPED ROV AND POSITIONED RIG TO RECONNECT LMRP. LATCHED LMRP AND PULL TESTED WITH 25T OVERPULL. PRESSURE TESTED CHOKE/KILL LINES TO 35/345 BAR. OPENED CHOKE/KILL LINES AND CHECKED FOR FLOW/PRESSURE."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2131.0,
+          "remarks": "RIH W/ DP RETRIEVAL STRING. DISPLACED RISER TO 1.53 SG MUD AND FLUSHED BOP BETWEEN SHEAR RAMS AMD LOWER PIPE RAMS. OPENED SR AND MADE UP RETRIEVING STRING INTO EDPHOT."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2131.0,
+          "remarks": "CLOSED LOWER ANNULAR PREVENTER AND TESTED EX GASKET IN LMRP CONNECTOR TO 30 BAR. OPENED LPR AND CHECKED PRESSURE - 12 BAR. FLUSHED STACK DOWN KILL LINE AND UP UPPER CHOKE THROUGH POOR BOY DEGASSER - MAX GAS 5.8% STABILIZED AT 4-5%."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2131.0,
+          "remarks": "FLOWCHECKED WELL ON CHOKE LINE. OPENED LAP AND FLOWCHECKED WELL ON RISER."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2025.0,
+          "remarks": "CIRCULATED AND CONDITIONED MUD. POOH TO 2096M. CIRCULATED BOTTOMS UP AT 2000 LPM MAX. MAX GAS 8.8% BOTTOMS UP FROM WELLHEAD. GAS STABILIZED  AT 2%. POOH. BROKE OUT EDPHOT AND REMADE EDPHOT STAND AND RACKED IN DERRICK."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.5,
+          "depth_md_m": 3054.0,
+          "remarks": "M/U CEMENTING STAND AND RIH TO 3054M. BROKE CIRCULATION SEVERAL TIMES WHILE RIH TO BALANCE MUD. NO FILL - NO MUD LOSSES."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 3054.0,
+          "remarks": "BROKE CIRCULATION AT 250 LPM WITH NO LOSSES. INCREASED RATE TO 1000 LPM AND BEGAN LOSING MUD AT 15 M3/HR. REDUCED CIRCULATING RATE TO 500 LPM - LOSSES AT 12 M3/HR. REDUCED CIRCULATING RATE TO 250 LPM - LOSSES AT 9 M3/HR. FLOWCHECKED - HOLE STOOD FULL WITH 30 BAR BACK PRESSURE ON DP. BLED OFF DP PRESSURE AND POOH 1 STAND TO 3025. NO MUD GAINED."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 3025.0,
+          "remarks": "CIRCULATED AT 250 LPM - LOSSES AT 2 M3/HR, AT 400 LPM - LOSSES AT 4 M3/HR, AT 500 LPM - LOSSES AT 13 M3/HR. 91T STRING WEIGHT DOWN, 95T STRING WEIGHT UP. BACK PRESSURE ON DP 18-30 BAR EACH TIME PUMPS SHUT DOWN. MEANWHILE CONTINUED REDUCING MUD WEIGHT FROM 1.53SG TO 1.51SG. HAVE NOW LOST 52.6 M3 MUD. MAX GAS 6%."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2584.0,
+          "remarks": "SLUGGED PIPE AND BEGAN POOH TO CASING WINDOW. NORMAL DRAG."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.51,
+        "viscosity_cp": 102.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 42.0,
+        "yp_Pa": 13.0
+      },
+      "remarks_combined": "RECONNECTED LMRP TO BOP. POOH W/ EMERGENCY DRILL PIPE HANG OFF TOOL.\nRIH TO BOTTOM. COULD NOT GAIN FULL CIRCULATION. POOH TO CASING WINDOW.\nGAINED FULL CIRCULATION. BEGAN WASHING TO BOTTOM AND REDUCING MW.",
+      "days_behind": 14.1,
+      "days_ahead": null
+    },
+    {
+      "day": 16,
+      "date": "1997-11-25",
+      "report_no": 16,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.0,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2165.0,
+          "remarks": "FINISHED POOH TO JUST ABOVE CASING WINDOW (WINDOW AT 2178M). DRAG OK. GAINED 1.1 M3 MUD."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 2165.0,
+          "remarks": "BROKE CIRCULATION AT 250 LPM - NO LOSSES. STAGED PUMP RATE UP TO 2000 LPM WITHOUT LOSSES. MAX GAS 17%."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 2410.0,
+          "remarks": "BEGAN WASHING TO BOTTOM AT 2000 LPM WHILE REDUCING MUD WEIGHT TO 1.49 SG. NO MUD LOSSES. BGG - 1.6%. TOTAL MUD LOST FOR THE DAY - 51.5 M3."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 7.0,
+          "depth_md_m": 3020.0,
+          "remarks": "CONTINUED WASHING DOWN TO 3030M. AT 3030M CIRCULATION RATE 1000 LPM, ROTARY RPM 130. LOST 1.5 M3 MUD WHILE WASHING DOWN FROM CASING WINDOW."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 3030.0,
+          "remarks": "GAINED 3.5 M3 WHILE MAKING CONNECTION. CLOSED IN WELL. INITIAL SICP/SIDPP 17 BAR/17 BAR. LEVELED OUT AT 20 BAR/20 BAR. TOTAL GAINED 4.5 M3."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 3030.0,
+          "remarks": "BLED 5 M3 MUD FROM ANNULUS THROUGH CHOKE. BLEED OFF RATE DECREASED FROM 360 LPM TO 250 LPM. CLOSED CHOKE - SICP/SIDPP 11 BAR/16 BAR. BLED OFF 2 M3 MUD FROM ANNULUS - BLEED RATE DECREASED TO 200 LPM. SICP/SIDPP 11 BAR/11 BAR. BLED REMAINING PRESSURE OFF WELL. TOTAL MUD GAINED BACK 21 M3."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 3054.0,
+          "remarks": "CONTINUED WASHING DOWN TO 3054M. CIRCULATED BOTTOMS UP AT 1000 LPM. NO GAINS, NO LOSSES. MAX GAS 11.5%. NO FILL."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 3052.0,
+          "remarks": "M/U CEMENTING STAND WHILE BOOSTING RISER. TESTED CEMENT LINE TO 100 BAR. PUMPED 4 M3 1.55 SG SPACER, 5.5 M3 1.65 SG CEMENT. DISPLACED CEMENT WITH .5 M3 SPACER AND 24 M3 MUD TO BALANCE. LOST .4 M3 MUD AND GAINED 6 BAR PRESSURE AFTER CEMENT PASSED STINGER."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 3.0,
+          "depth_md_m": 2356.0,
+          "remarks": "RACKED BACK CEMENT STAND AND POOH 7 STANDS DP TO 2852M - PIPE CAME OUT OF PLUG SLIGHTLY WET. PUMPED 3 M3 MUD TO CLEAR STINGER AND SLUG PIPE. CONTINUED POOH."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 78.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 22.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "FINISHED WASHING TO BOTTOM WITH CEMENT STINGER. WELL STARTED FLOWING.\nMONITORED PRESSURES AND BLED OFF SAME. CIRCULATED BOTTOMS UP. SET\nBALANCED CEMENT PLUG OVER LOSS ZONE AND SQUEEZED SAME. CBU.",
+      "days_behind": 15.1,
+      "days_ahead": null
+    },
+    {
+      "day": 17,
+      "date": "1997-11-26",
+      "report_no": 17,
+      "depth_md_end_m": 3054.0,
+      "depth_tvd_end_m": 2328.0,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 0.5,
+          "depth_md_m": 2223.0,
+          "remarks": "FINISHED POOH TO INSIDE CASING WINDOW. NO LOSSES, NO GAINS."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2223.0,
+          "remarks": "CLOSED UPR AND LINED UP HALLIBURTON. SQUEEZED 1.5 M3 MUD DOWN DRILL PIPE 100 LITERS AT A TIME, HESITATING 1 MINUTE BETWEEN PUMPING. PRESSURE AFTER STOPPING PUMP 28-30 BAR, AFTER 1 MINUTE 27-29 BAR. TOTAL MUD PUMPED DOWN DRILL PIPE 2.2 M3 (.8 M3 TO REACH LEAK OFF PRESSURE AND 1.5 M3 SQUEEZED)."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 2223.0,
+          "remarks": "HELD AND AND MONITORED PRESSURE ON WELL. PRESSURE DROPPED FROM 27.1 BAR TO 20.6 BAR IN 1.5 HOURS AND STABILIZED FOR .5 HOURS."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2223.0,
+          "remarks": "BLED PRESSURE OFF DRILL PIPE - 0.9 M3 MUD BLED BACK. 17 BAR PRESSURE REMAINED ON ANNULUS. BLED OFF PRESSURE AND 1.1 M3. CIRCULATED BOTTOMS UP. MAX GAS 8.5%. NO GAINS, NO LOSSES - 2000 LPM CIRCULATING RATE."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2223.0,
+          "remarks": "SLIPPED AND CUT DRILLING LINE."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2223.0,
+          "remarks": "FINISHED SLIPPING AND CUTTING DRILLING LINE (EXTRA TIME DUE TO RECENT HIGH WINDS HAVING FOULED HANGOFF LINES IN DERRICK)."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "FINISHED POOH. CHANGED SAVER SUB ON TDS."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP JET SUB, 3 STANDS HWDP, BOP TEST TOOL, AND RIH. JETTED WELLHEAD (8% MAX GAS). TESTED BOP ON BLUE POD FROM DRILL FLOOR - RAMS, FAILSAFES, AND LAP TO 35/345 BAR FOR 5/10 MINUTES, UAP TO 35/241 BAR FOR 5/10 MINUTES. FUNCTION TESTED BOP FROM TP OFFICE ON YELLOW POD. TESTED ACOUSTIC SYSTEM. POOH WITH TEST TOOL AND L/D TOOL AND JET SUB."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 4.5,
+          "depth_md_m": 150.0,
+          "remarks": "MADE UP BIT TO MOTOR. DUMPED MEMORY AND CHANGED OUT MWD'S. SET AKO AT 1.2 DEG. AND CHECKED ALIGNMENT WITH MWD. FINISHED RIH WITH BHA."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 1509.0,
+          "remarks": "RIH ON DRILL PIPE. BROKE CIRCULATION EVERY 500 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 78.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 22.0,
+        "yp_Pa": 11.0
+      },
+      "remarks_combined": "SLIPPED AND CUT DRILLING LINE. FINISHED POOH. TESTED BOP. RIH WITH\nDRILLING BHA. BEGAN WASHING TO BOTTOM FROM 2600 M.",
+      "days_behind": 16.1,
+      "days_ahead": null
+    },
+    {
+      "day": 18,
+      "date": "1997-11-27",
+      "report_no": 18,
+      "depth_md_end_m": 3125.0,
+      "depth_tvd_end_m": 2388.0,
+      "activities": [
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.5,
+          "depth_md_m": 2150.0,
+          "remarks": "CONTINUED RIH."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2150.0,
+          "remarks": "CIRCULATED BOTTOMS UP. MAX. GAS 7%. ECD AT 2000 LPM FROM ANNULAR PRESSURE SUB 1.59 SG EMW (CALCULATED 1.57 SG EMW.) ORIENTED MOTOR TO PASS THROUGH WINDOW."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.5,
+          "depth_md_m": 2600.0,
+          "remarks": "CONTINUED RIH. NO OBSTRUCTIONS IN HOLE."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 2651.0,
+          "remarks": "BEGAN WASHING TO BOTTOM FROM 2600 M. 1500 LPM PUMP RATE - NO LOSSES. ECD FROM ANNULAR PRESSURE SUB 1.58 SG EMW. NO GAINS, NO LOSSES OF MUD FOR THE DAY."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2920.0,
+          "remarks": "CONTINUED WASHING DOWN FROM 2651M TO 2920M WITH 1500 LPM PUMP RATE."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2920.0,
+          "remarks": "EXCESSIVE CUTTINGS AND CAVINGS AT SHAKERS. CIRCULATED UNTIL CUTTINGS VOLUME DECREASED AND ECD REDUCED FROM 1.63 SG TO 1.59 SG. CIRCULATION RATE 1500 LPM - 1000 LPM - 1500 LPM."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 3054.0,
+          "remarks": "WASHED DOWN TO 2973M. DRILLED SOFT TO FIRM CEMENT 2973M TO 3054M. CIRCULATION RATE 1500 LPM. ECD 1.59-1.60 SG. NO LOSSES."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 3103.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3054M TO 3103M WHILE STAGING CIRCULATION RATE  FROM 1500 LPM TO 1700 LPM. ROP CONTROLLED AT 20 MPH TO AVOID OVERLOADING ANNULUS. TOOK SPR'S."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3103.0,
+          "remarks": "CUTTINGS TRANSPORT PIPE TO BAGGING STATION PLUGGED - CLEARED SAME (NOT DUE TO ANY LARGE VOLUME OF CUTTINGS AT THE TIME)."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3116.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3103M TO 3116M. CONTROLLED ROP AT 20 MPH TO AVOID OVERLOADING ANNULUS. STAGED CIRCULATION RATE UP TO 1700 LPM. ECD 1.59 SG - 1.62 SG. NO LOSSES."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3116.0,
+          "remarks": "GAIN OF 0.3 M3 DETECTED - FLOWCHECKED NEGATIVE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3125.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3116M TO 3125M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 78.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 35.0,
+        "yp_Pa": 9.5
+      },
+      "remarks_combined": "WASHED DOWN FROM 2651M TO 2920M. WASHED AND DRILLED SOFT TO FIRM\nCEMENT FROM 2920M TO 3054M. DRILLED 8 1/2\" HOLE FROM 3054M TO 3212M.\nNO MUD LOSSES.",
+      "days_behind": 17.1,
+      "days_ahead": null
+    },
+    {
+      "day": 19,
+      "date": "1997-11-28",
+      "report_no": 19,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 3212.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3125M TO 3212M. INCREASED CONTROLLED ROP TO 30 MPH AND STAGED CIRCULATION RATE UP TO 2000 LPM. ECD 1.61-1.62 SG."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 3268.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3212M TO 3268M AT CONTROLLED ROP OF 20-30 MPH, CIRCULATING RATE OF 2000 LPM. NO ABNORMAL TORQUE OR DRAG INDICATIONS. ECD TENDING TO INCREASE."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3268.0,
+          "remarks": "CIRCULATED BOTTOMS UP AND UNTIL SHAKERS CLEANED UP AT 2000 LPM. NO LOSSES. ECD DECREASED FROM 1.62 SG TO 1.60 SG."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3272.0,
+          "remarks": "DRILLED 8 1/2\" HOLE FROM 3268M TO 3272M."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 3272.0,
+          "remarks": "AT 3272 METERS STARTED LOSING MUD AT 20-30 M3/HR. PICKED UP FROM BOTTOM - NO UNUSUAL DRAG. REDUCED PUMP RATE TO 800 LPM. STILL LOSING MUD. QUIT CIRCULATING AND MONITORED ANNULUS ON TRIP TANK. HOLE STAYING FULL. STAGED PUMPS TO 600 LPM WHERE MUD LOSSES RESUMED. RACKED BACK 1 STAND. REDUCED RATE TO 300 LPM WITH FULL RETURNS. MIXED LCM PILL."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3248.0,
+          "remarks": "WORKED STRING WITH REDUCED PUMP RATE WHILE MIXING LCM PILL. BEGAN EXPERIENCING ERRATIC TORQUE AND LOSSES OF 12 M3/HR. PICKED UP TO 3248M WHERE COMPLETE RETURNS WERE LOST AND PIPE STUCK - NO RETURNS, NO NO ROTATION, NO RECIPROCATION POSSIBLE."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 10.0,
+          "depth_md_m": 3241.0,
+          "remarks": "ATTEMPTED TO RIH - NO GO. JARRED DOWN WITH NO PROGRESS. JARRED AND WORKED DRILL STRING UP FROM 3248M TO 3241M. INITIALLY ATTAINED ROTATION AND A WINDOW OF A FEW METERS PIPE RECIPROCATION BUT LOST IT AGAIN. CONTINUED JARRING AND WORKING STRING. HOLE STANDING FULL - NO GAINS, NO LOSSES. ATTEMPTED CIRCULATION WITH NO SUCCESS."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 78.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 35.0,
+        "yp_Pa": 9.5
+      },
+      "remarks_combined": "DRILLED 8 1/2\" HOLE FROM 3212M TO 3272M. BEGAN LOSING MUD RETURNS.\nPIPE STARTED STICKING. WORKED AND JARRED PIPE TO 3241 WHERE NO FURTHER\nPROGRESS COULD BE MADE. RIGGED UP TO RUN STRINGSHOT TO BACKOFF PIPE.",
+      "days_behind": 18.1,
+      "days_ahead": null
+    },
+    {
+      "day": 20,
+      "date": "1997-11-29",
+      "report_no": 20,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3241.0,
+          "remarks": "CONTINUED JARRING AND WORKING PIPE UP AND DOWN WITH NO SUCCESS. HOLE CONTINUED TO STAND FULL WITH NO GAINS OR LOSSES. MUD LOST FOR THE DAY: 55.3 M3."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 3241.0,
+          "remarks": "RIGGED UP ATLAS TO RUN STRINGSHOT TO BACKOFF DRILL STRING."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 11.0,
+          "depth_md_m": 3241.0,
+          "remarks": "FINISHED RIGGING UP ATLAS WIRELINE TO RUN BACKOFF TOOL STRING THROUGH TOP DRIVE. HAD TO RE-RIG SHEAVES BECAUSE OF HIGH DRAG ON THE LOGGING CABLE. ATLAS RIH CHECKING UP WEIGHTS EVERY 500M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3241.0,
+          "remarks": "TOP DRIVE WOULD NOT ROTATE. INVESTIGATED PROBLEM AND CORRECTED SAME."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 3241.0,
+          "remarks": "WORKED 32,000 FT. X LBS. AND 20 TURNS RIGHT HAND TORQUE INTO STRING. RELEASED RIGHT HAND TORQUE AND WORKED IT OUT OF DRILL STRING. DRILL STRING INADVERTENTLY BACKED OFF WHILE WORKING LEFT TURNS IN AT 25,000 FT.X LBS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 3241.0,
+          "remarks": "ATLAS POOH TO 150 M JUST BELOW WELLHEAD. COLLAR LOCATOR INDICATED DRILL PIPE BACKED OFF AT 297M. SCREWED BACK INTO DRILL STRING."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3241.0,
+          "remarks": "ATLAS CONTINUED POOH WITH BACKOFF TOOL STRING AND R/D SAME."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 77.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 34.0,
+        "yp_Pa": 11.5
+      },
+      "remarks_combined": "R/U ATLAS TO RUN BACKOFF TOOL THROUGH TOP DRIVE. ATLAS RIH. BACKED OFF\nDP TOO HIGH (JUST BELOW WELLHEAD)WHILE APPLYING LEFT HAND TORQUE. R/D\nBACKOFF STRING. SCREWED INTO DP. R/U AND RAN SEVERENCE CHARGE.",
+      "days_behind": 19.1,
+      "days_ahead": null
+    },
+    {
+      "day": 21,
+      "date": "1997-11-30",
+      "report_no": 21,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 3241.0,
+          "remarks": "R/U JRC SEVERENCE CHARGE ON ATLAS WIRELINE. ATLAS RIH."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 3241.0,
+          "remarks": "APPLIED 50 TONS OVERPULL AND 32,000 FT X LBS RIGHT TORQUE IN DP. POSITIONED 2 5/8\" SEVERENCE CHARGE AT CONNECTION OF FIRST JT. OF HWDP ABOVE JAR (CHARGE WOULD NOT PASS THROUGH JAR). FIRED CHARGE - NO INDICATION AT SURFACE THAT IT FIRED, EITHER FROM ATLAS AMPMETER OR TENSION/TORQUE ON DRILL STRING. ATLAS POOH - CHARGE FOUND TO BE FIRED."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3164.0,
+          "remarks": "WORKED PIPE FREE WITH 20-25K FT X LBS TORQUE AND 100 TONS OVERPULL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 3000.0,
+          "remarks": "WORKED PIPE OUT OF HOLE FROM 3164M TO 3000M. ROTATING 60-100 RPM W/ 15-20K FT X LBS. OCCASIONALLY ATTEMPTED TO BREAK CIRCULATION - PARTIAL RETURNS FOR A SHORT PERIOD ONLY. PRESSURE TRAPPED ON DP WHEN PUMP SHUT DOWN. PUMPED TO FILL HOLE WHILE PULLING PIPE. COULD NOT WORK PIPE BACK DOWN HOLE."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2996.0,
+          "remarks": "WORKED PIPE FROM 3000M TO 2996M. CONDITIONS DETERIORATED - NO PROGRESS FROM 2996M WITH 25K FT X LBS TORQUE AND 120 TONS OVERPULL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2950.0,
+          "remarks": "PIPE STARTED MOVING UP WITH 170 TONS OVERPULL. CONTINUED PULLING TO 2950M WHERE OVERPULL RETURNED TO NORMAL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2164.0,
+          "remarks": "PUMPED SLUG AND POOH TO ABOVE CASING WINDOW. NO LOSSES - HOLE FILL NORMAL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2164.0,
+          "remarks": "RIGGED DOWN ATLAS AND RIG SHEAVES FROM DERRICK AND TOP DRIVE. MEANWHILE CIRCULATED BOTTOMS UP AT MAXIMUM 2000 LPM - NO LOSSES. MAXIMUM GAS 40% FROM WELLHEAD AREA."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "FINISHED POOH. FOUND HWDP JOINT TO HAVE BEEN SEVERED IN THE CONNECTION AT THE TOP OF THE PIN. TOOL JOINT BELLED OUT TO OVER 8.5\" (IRREGULAR OD MADE IT DIFFICULT TO GAUGE EXACTLY). LEFT IN HOLE(AS EXPECTED) -BIT STAB, NAVIDRILL, STAB, XO SUB, MWD INCLUDING MDP AND DPR SUBS, SAVER SUB, 3 X HWDP, JAR, 1 X HWDP. TOP OF FISH 3164M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.49,
+        "viscosity_cp": 78.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 35.0,
+        "yp_Pa": 11.0
+      },
+      "remarks_combined": "CUT DRILL STRING AT 3164M. POOH - TIGHT TO 2950M. P/U CLEANOUT\nASSEMBLY AND RIH.",
+      "days_behind": 20.1,
+      "days_ahead": null
+    },
+    {
+      "day": 22,
+      "date": "1997-12-01",
+      "report_no": 22,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1171.0,
+          "remarks": "M/U CLEANOUT ASSEMBLY AND RIH. HOLE FILLING OK. TOTAL MUD LOST FOR THE DAY - 1.75 M3"
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 2835.0,
+          "remarks": "CONTINUED RIH TO 2100M. CONDITIONED MUD AT 1800 LPM - FULL RETURNS. RIH TO 2600M. FILLED PIPE AND BROKE CIRCULATION. RIH TO 2835M. TOOK WEIGHT."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2935.0,
+          "remarks": "COULD NOT WORK PIPE DOWN PAST 2835M. BROKE CIRCULATION AND WASHED AND REAMED FROM 2835M TO 2935M. 1800 LPM, FULL RETURNS. EXCESSIVE CUTTINGS AT SHAKERS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2935.0,
+          "remarks": "CIRCULATED BOTTOMS UP WHILE MOVING PIPE. PUMPING 1800 LPM WITH FULL RETURNS. EXCESSIVE AMOUNTS OF CUTTINGS AT SHAKERS. MAX ECD 1.65 SG. CONTINUED CIRCULATING AT 1800 LPM UNTIL ECD REDUCED TO 1.61 SG. CIRCULATED TOTAL OF 2 X BOTTOMS UP - STILL EXCESSIVE FRESH CUTTINGS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 3161.0,
+          "remarks": "WASHED DOWN FROM 2935M TO TOP OF FISH AT 3161M. HIGH TORQUE IN PLACES, OTHERWISE MET LITTLE RESISTENCE. MEANWHILE RAISED MUD WEIGHT FROM 1.49 SG TO 1.52 SG. CUTTINGS/CAVINGS DECREASED. ECD INCREASED FROM 1.61 SG TO 1.64 SG. SLIGHT LOSSES - APPROX. 2 M3/HR WHILE CIRCULATING AT 1800 LPM."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3161.0,
+          "remarks": "CIRCULATED BOTTOMS UP. AT 1800 LPM SOME LOSS DETECTED - 3-6 M3/HR. ECD 1.62 - 1.64 SG. NO EXCESS CUTTINGS AT BOTTOMS UP."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2967.0,
+          "remarks": "FLOWCHECKED - SLIGHT GAIN, RATE OF GAIN FALLING. BEGAN POOH. NORMAL DRAG TO 3087M. TIGHT HOLE 3087M TO 3025M REQUIRED AS MUCH AS 50 TONS OVERPULL. TIGHT AT 3006M AND 2996M TO 2986M WHERE DRAG RETURNED TO NORMAL. HOLE DID NOT TAKE CORRECT FILL. CONT. POOH TO 2967M. BROKE CIRCULATION WITH 900 LPM, FULL RETURNS. PUMPED SLUG."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2316.0,
+          "remarks": "CONTINUED POOH. NORMAL DRAG, HOLE FILL CORRECT."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.52,
+        "viscosity_cp": 73.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 34.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "CONTINUED RIH WITH CLEANOUT ASSEMBLY. WASHED AND REAMED TO TOP OF\nFISH. EXCESSIVE CUTTINGS - RAISED MUD WEIGHT FROM 1.49 SG TO 1.52 SG.\nSLIGHT LOSSES. POOH TO P/U CEMENT STINGER FOR SIDETRACK PLUG.",
+      "days_behind": 21.1,
+      "days_ahead": null
+    },
+    {
+      "day": 23,
+      "date": "1997-12-02",
+      "report_no": 23,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED POOH. NORMAL DRAG, HOLE FILL CORRECT."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 315.0,
+          "remarks": "BEGAN RIH WITH CEMENT STINGER TO SET SIDETRACK PLUG. TOTAL MUD LOST TODAY - 11 M3."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 2826.0,
+          "remarks": "CONTINUED RIH WITH 3 1/2\" CEMENT STINGER FROM 315M TO 2826M. BROKE CIRCULATION AND CONDITIONED MUD AT 1000M, 2100M, AND 2600M. FULL RETURNS AT 500 LPM. TOOK WEIGHT AT 2826M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3161.0,
+          "remarks": "WASHED DOWN FROM 2827M TO 2887M WITH 500 LPM AND FULL RETURNS. RIH FROM 2887M TO 3050M. WASHED DOWN FROM 3050M DUE TO BACKFLOW UP DRILL PIPE. WASHED TO 3161M WITH 500M LPM AND FULL RETURNS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 3161.0,
+          "remarks": "STARTED TO CIRCULATE BOTTOMS UP FROM 3161M. EXPERIENCED LOSSES OF 6 M3/HR CIRCULATING AT 500 LPM, 2.5 M3/HR AT 350 LPM, NO LOSSES AT 250 LPM. SHUT DOWN PUMPS. SLOWLY GAINED BACK 3.8 M3. HAD LOST 16.3 M3 - NET LOSS = 12.5 M3. NO UNUSUAL HOLE DRAG EXPERIENCED."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3035.0,
+          "remarks": "POOH WITH CEMENT STINGER FROM 3161M TO 3035M. STAGED PUMPS UP TO 400 LPM WITH 12 M3/HR LOSSES, 300 LPM WITH 10 M3/HR LOSSES, NO LOSSES AT 250 LPM. RIG PUMPED 5 M3 1.69 SG SPACER AT 250 LPM. NORMAL HOLE DRAG."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 3035.0,
+          "remarks": "LINED UP HALLIBURTON AND TESTED LINES TO 100 BAR. MIXED AND PUMPED 7.3 M3 1.95 SG CEMENT AND .9 M3 1.69 SG SPACER. LOST 1.5 M3 MUD. LINED UP RIG PUMP AND DISPLACED CEMENT TO BALANCE WITH 23.7 M3 MUD - NO RETURNS ALL PUMPING DONE AT 250 LPM UNTIL CEMENT PASSED STINGER THEN 200 LPM. GAINED 18 BAR PUMP PRESSURE AFTER CEMENT PASSED STINGER."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2560.0,
+          "remarks": "STARTED POOH. GAINED MUD FROM DP AND ANNULUS - 11 M3 TOTAL - WHILE POOH TO 2560M. GAIN VERY SMALL AT 2560M. PUMPED SLUG. NORMAL HOLE DRAG"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.53,
+        "viscosity_cp": 73.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 33.0,
+        "yp_Pa": 11.5
+      },
+      "remarks_combined": "RIH WITH CEMENT STINGER. WASHED TO BOTTOM AND CIRCULATED WITH REDUCED\nPUMP RATE TO MAINTAIN RETURNS. SET SIDETRACK PLUG. POOH. P/U STEERABLE\nDRILLING ASSEMBLY.",
+      "days_behind": 22.1,
+      "days_ahead": null
+    },
+    {
+      "day": 24,
+      "date": "1997-12-03",
+      "report_no": 24,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2106.0,
+          "remarks": "CONTINUED POOH. HOLE FILL CORRECT BUT PIPE STARTED RUNNING OVER. BROKE CIRCULATION WITH 800 LPM AND FULL RETURNS. PUMPED SLUG."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED POOH. HOLE FILL CORRECT."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 54.0,
+          "remarks": "M/U STEERABLE BHA INCLUDING LO-FLO MWD W/ ANNULAR PRESSURE SUB. MAXIMUM GAS FOR THE DAY - 18% CIRCULATING AT 2100M WHILE RIH WITH CEMENT STINGER. TOTAL MUD LOST FOR THE DAY - 28.5 M3."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1000.0,
+          "remarks": "M/U AND RIH WITH 8 1/2\" STEERABLE BHA. TESTED MWD. NO COMMUNICATION WITH ANNULAR PRESSURE SUB. REPLACED SUB WITH NEW ONE - STILL NO SIGNAL RIH TO 1000M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1000.0,
+          "remarks": "FILLED PIPE AND BROKE CIRCULATION WHILE STAGING PUMPS UP TO 500 LPM - FULL RETURNS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2100.0,
+          "remarks": "CONTINUED RIH WITH STEERABLE ASSEMBLY. FILLED PIPE AND BROKE CIRCULATION WHILE STAGING PUMPS UP TO 500 LPM - FULL RETURNS."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2100.0,
+          "remarks": "CUT AND SLIPPED DRILLING LINE WHILE CIRCULATING 500 LPM. 1.55 SG MUD COMING OUT OF HOLE. FULL RETURNS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2100.0,
+          "remarks": "CONTINUED CIRCULATING AND STAGED PUMPS UP TO 1300 LPM. MUD WEIGHT OUT 1.65 SG MAX FROM SLUGS, MW IN 1.52 SG. NO LOSSES."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2500.0,
+          "remarks": "RIH FROM 2100M TO 2500M. BROKE CIRCUALTION AT 2350M, 500 LPM, NO LOSSES."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2978.0,
+          "remarks": "WASHED TO BOTTOM WITH 500 LPM AND NO LOSSES. RESISTANCE AT 2882M - 2884M REQUIRED 900 LPM TO GET THROUGH WITHOUT MOTOR STALLING. NO LOSSES. OTHERWISE NO RESISTANCE MET. VERY FINE CEMENT PARTICLES STARTED RETURNING. MUD WEIGHT INCREASED FROM 1.53 SG TO RANGE OF 1.55-1.60 SG W/ MAX. OF 1.64 SG. SOLIDS IN RETURNS UP TO 90%CEMENT."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.52,
+        "viscosity_cp": 68.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 30.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "RIH WITH STEERABLE DRILLING ASSEMBLY AND WASHED FROM 2500M TO 3010M\nWITH NO RESISTANCE OR EVIDENCE OF HARD CEMENT PLUG. POOH TO P/U\nCEMENT STINGER.",
+      "days_behind": 23.1,
+      "days_ahead": null
+    },
+    {
+      "day": 25,
+      "date": "1997-12-04",
+      "report_no": 25,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3010.0,
+          "remarks": "CONTINUED WASHING DOWN. FROM 2977M INCREASED PUMP RATE FROM 500 LPM TO 700 LPM TO MAINTAIN PROGRESS (TOP OF BALDER?). STILL A LOT OF FINE CEMENT PARTICLES COMING UP BUT NO REAL RESISTANCE. MUD WEIGHT 1.54 SG TO 1.59 SG FROM CEMENT CONTAMINATION. NO LOSSES DOWNHOLE. MAXIMUM GAS 5% (FROM WELLHEAD AREA)."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 582.0,
+          "remarks": "PUMPED SLUG AND POOH. HOLE FILL OK."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "COMPLETED POOH WITH 8 1/2\" SIDETRACK BHA; STOOD BACK BHA IN DERRICK."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "SERVICED RIG & TDS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2100.0,
+          "remarks": "MU 3 1/2\" CMT. STINGER X 5\" DP.RIH TO 1011 M & BROKE CIRCULATION. CONTINUED TO RIH TO 2100 M. BROKE CIRCULATION - EXCESSIVE AMOUNT OF CUTTINGS Ø SHAKERS - 20% CMT. IN RETURNS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2100.0,
+          "remarks": "CIRCULATED Ø 2100 M TO ACHIEVE EVEN MUD WT. & TO CLEAN SHAKERS. INCREASED CIRC. RATE TO 1300 LPM MAXIMUM - VIA STEP INCREASES. AFTER BTMS UP, SHAKERS WERE CLEAN BUT MUD WT. OUT = 1,55 SG. CONTINUED TO CIRC. UNTIL 1,52 SG MUD WT. COMING OUT. NOTE: BOOSTED RISER DURING CIRCULATING; NO MUD LOSSES DURING CIRCULATION."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2776.0,
+          "remarks": "MU CMT. STAND & RACKED SAME IN DERRICK. CONTINUED RIH WITH CMT.STINGER FROM 2100 - 2776 M. BROKE CIRCULATION Ø 2300, 2500 & 2700 M - FULL RETURNS Ø 500 LPM."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2776.0,
+          "remarks": "WHILE TIH, TOOK 5 MT OF WEIGHT DOWN Ø 2776 M. W/R FROM 2776 - 2800 M - USING 500 LPM & 70 RPM. CONTINUED RIH TO 2980 M; BROKE CIRC. Ø 2900 M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3004.0,
+          "remarks": "WASHED DOWN LAST STAND FROM 2980 - 3004 M Ø 500 LPM; STARTED LOSING MUD Ø 4 M3/HR."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "operation failed",
+          "hours": 1.0,
+          "depth_md_m": 2983.0,
+          "remarks": "PULLED BACK TO 3002 M; STILL LOSING MUD Ø 500 LPM. PULLED BACK TO 2983 M. BROKE CIRC. - NO MUD LOSSES Ø 200,300,400,&500 LPM. BROKE OUT CONNECTION; MUD U TBG. UP STRING."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2983.0,
+          "remarks": "MU CMT. STAND & CONTINUED TO CIRCULATE. NOW LOSING MUD Ø 450 LPM BUT NO LOSSES Ø 400 LPM. CIRCULATED APPROX. 1/2 DP VOLUME WHILE PREPARING TO SPOT CMT. PLUG."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2983.0,
+          "remarks": "RU CEMENT HOSE & PUMPED 5 M3 1,69 SG SPACER Ø 400 LPM USING RIG PUMP. TESTED LINES TO 125 BAR & STARTED MIXING CMT. FOR SIDETRACK PLUG."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.52,
+        "viscosity_cp": 68.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 30.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "COMPLETED POOH WITH SIDETRACK BHA. TIH TO SET SIDETRACK PLUG -\nBREAKING CIRCULATION & CIRCULATING AS NEEDED. SET SIDETRACK PLUG FROM\n2983 - 2835 M WITH 0,5 M3 OF MUD LOSS. POOH WITH STINGER.",
+      "days_behind": 24.1,
+      "days_ahead": null
+    },
+    {
+      "day": 26,
+      "date": "1997-12-05",
+      "report_no": 26,
+      "depth_md_end_m": 3272.0,
+      "depth_tvd_end_m": 2511.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2983.0,
+          "remarks": "MIXED/PUMPED 5,4 M3 1,95 SG CMT. + 1,5 M3 1,69 SG SPACER - Ø MAXIMUM RATE OF 400 LPM. DISPLACED CMT. W/RIG PUMP-Ø 400 LPM. SLOWED RATE TO 280 LPM ONCE CMT. CLEARED END OF DP/STINGER. RECORDED 0,5 M3 OF MUD LOSS DURING THE DISPLACEMENT; NO LOSS DURING PUMPING OF CMT. SIDETRACK PLUG FROM 2983 - 2835 M. CIP Ø 0145 HRS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2694.0,
+          "remarks": "POOH TO 2694 M - TOTAL OF 10 STDS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 1100.0,
+          "remarks": "PUMPED SLUG & POOH WITH CMT. STINGER."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "COMPLETED POOH WITH 3 1/2\" CMT. STINGER. RACKED 3 1/2\" DP IN DERRICK."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 576.0,
+          "remarks": "MU 8 1/2\" STEERABLE BHA & TIH TO 576 M; LD NON-OPERABLE BHI DOWNHOLE ECD SUB. TESTED MOTOR & MWD Ø 576 M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 576.0,
+          "remarks": "FUNCTION TESTED BOPS ON BOTH PODS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2716.0,
+          "remarks": "CONTINUED TO RIH TO 2716 M; BROKE CIRCULATION Ø 1200 & 2105 M ON TIH."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 1.5,
+          "depth_md_m": 2716.0,
+          "remarks": "WHILE RIH, DRILLER RAN INTO OBSTRUCTION AT 2716M. SET DOWN 50 TON, THIS INCLUDES PARTIAL WT. OF TDS/BLOCK. PULLED FREE WITH 30TON O.PULL. STOOD BACK 1 STD. & TRIED TO ESTABLISH CIRC.BIT OR DRILLSTRING PLUGGED EVENTUALLY ABLE TO PARTIALLY/MOMENTARILY UNPLUG WITH 241 BAR BUT BIT- STRING PLUGGED AGAIN.TRIED TO BREAK PLUG W/275 BAR - UNSUCCESSFUL."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 5.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH - WET - TO REPLACE BIT & MOTOR."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 2.0,
+          "depth_md_m": 23.0,
+          "remarks": "PU NEW BUTTON BIT & BACK-UP MOTOR DUE TO EARLIER MISHAP. FOUND SOLIDS- 90% CMT.-PACKED IN MWD'S IN-LINE SCREEN. TESTED MOTOR & MWD - OK."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.52,
+        "viscosity_cp": 69.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 30.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "FINISHED POOH WITH CEMENT STINGER. TIH WITH 8 1/2\" SIDETRACK BHA.\nTAGGED Ø 2716M; ENTIRE WEIGHT OF DRILLSTRING + PARTIAL WEIGHT OF TDS/\nBLOCK SLACKED-OFF. DRILLSTRING PLUGGED-UNABLE TO CIRCULATE. POOH WITH\nWET STRING. MU NEW BIT & MOTOR;FOUND MWD PLUGGED. TIH TO SIDETRACK.",
+      "days_behind": 25.1,
+      "days_ahead": null
+    },
+    {
+      "day": 27,
+      "date": "1997-12-06",
+      "report_no": 27,
+      "depth_md_end_m": 3021.0,
+      "depth_tvd_end_m": 2304.0,
+      "activities": [
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 6.0,
+          "depth_md_m": 1900.0,
+          "remarks": "CONTINUED TO MU & RIH WITH 8 1/2\" SIDETRACK BHA - DRIFTING DP TO 2 3/4\" BECAUSE OF CEMENT LOCATED IN DRILLSTRING EARLIER. BROKE CIRC. Ø 430M & Ø 1000M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 4.0,
+          "depth_md_m": 2600.0,
+          "remarks": "CONTINUED TO TIH WITH SIDETRACK BHA TO 2600 M. BROKE CIRCULATION Ø 9 5/8\" WINDOW."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "mud loss",
+          "hours": 2.0,
+          "depth_md_m": 2730.0,
+          "remarks": "WASH/REAM FROM 2600 - 2730 M. HAD TO WORK THROUGH OBSTRUCTION/LEDGE Ø 2714 M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2903.0,
+          "remarks": "CONTINUED TO WASH/REAM FROM 2730 - 2903 M; TAGGED TOP OF SIDETRACK PLUG Ø 2903 M."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2911.0,
+          "remarks": "DRILLED CMT. FROM 2903 - 2911 M; DRESSING-OFF SIDETRACK PLUG."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.52,
+        "viscosity_cp": 71.0,
+        "type": "ULTIDRILL",
+        "pv_mPas": 36.0,
+        "yp_Pa": 11.5
+      },
+      "remarks_combined": "COMPLETED RIH TO 2600 M. W/R FROM 2600 - 2903 M;TOP OF SIDETRACK PLUG.\nDRILLED CMT. TO 2911 M. COMMENCED DRILLING 8 1/2\" HOLE FROM 2911 M AT\n15/9-19BT2.",
+      "days_behind": 26.1,
+      "days_ahead": null
+    }
+  ]
+}

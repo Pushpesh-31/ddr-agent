@@ -1,0 +1,926 @@
+{
+  "well_id": "15/9-F-15 B",
+  "metadata": {
+    "spud_date": "2009-01-13",
+    "drill_complete_date": null,
+    "operator": "StatoilHydro",
+    "drill_contractor": "Mærsk Contractors",
+    "rig_name": "MÆRSK INSPIRER",
+    "n_reports": 6,
+    "first_report_date": "2009-01-14",
+    "last_report_date": "2009-01-19",
+    "calendar_span_days": 6,
+    "total_days": 6,
+    "planned_days": 30.2,
+    "td_md_m": 3497.0,
+    "td_tvd_m": 3016.0
+  },
+  "daily_reports": [
+    {
+      "day": 1,
+      "date": "2009-01-14",
+      "report_no": 1,
+      "depth_md_end_m": 3401.0,
+      "depth_tvd_end_m": 2949.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 11.75,
+          "depth_md_m": 3401.0,
+          "remarks": "Drilled 8½\" hole from 3210m to 3401m. Drilling parameters: Flow 2140 lpm / SPP 142-157 bars / String RPM 130  TQ 15-20 kNm / WOB 3-8,5 / ECD 1.42 EMW / MUD weight 1.34 SG / ROP 20-30 mph."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.34,
+        "viscosity_cp": null,
+        "type": "OBM-Standard",
+        "pv_mPas": 29.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "Drilled 8½\" hole from 3210m to 3473m. Took pressure points.",
+      "days_behind": null,
+      "days_ahead": 20.3
+    },
+    {
+      "day": 2,
+      "date": "2009-01-15",
+      "report_no": 2,
+      "depth_md_end_m": 3497.0,
+      "depth_tvd_end_m": 3016.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 3416.0,
+          "remarks": "Continued drilling 8½\" hole from 3400m to 3416m. Drilling parameters: Flow 2140 lpm / SPP 157 bars / String RPM 130  TQ 16-20 kNm / WOB 4-9 / ECD 1.42 EMW / MUD weight 1.34 SG / ROP 30 mph."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 3416.0,
+          "remarks": "Circulated hole clean prior to take pressure points, reciprocating the string. Simultaneously held tool box talk prior to take pressure points."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 3416.0,
+          "remarks": "Performed sticky test. 5min PU 192 MT SO 136 MT. 10min PU 195 MT SO 136 MT"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 3416.0,
+          "remarks": "Correlation log from 3416m to 3411m.\nTook pressure points:\n\nMD probe      TVD                    Reservoir press.         Mud hydrostatic         Pressure gradient\n3378m           2933.5m               No test\n3377m           2932.8m              297.7 bars                   385.5 bars                   1.035 SG\n3374m           2930.9m              297.8 bars                   385.3 bars                   1.036 SG\n3370.5m        2928.7m                No test"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 3473.0,
+          "remarks": "Continued drilling 8½\" hole from 3416m to 3473m. Drilling parameters: Flow 2140 lpm / SPP 156 bars / String RPM 130  TQ 17-18 kNm / WOB 2-7 / ECD 1.42 EMW / MUD weight 1.34 SG / ROP 30 mph."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 3497.0,
+          "remarks": "Continued drilling 8½\" BHA hole from 3473m to 3497m (TD). Drilling parameters: Flow 2140 lpm / SPP 156 bars / String RPM 130  TQ 17-18 kNm / WOB 2-7 / ECD 1.42 EMW / MUD weight 1.34 SG / ROP 30 mph."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.25,
+          "depth_md_m": 3497.0,
+          "remarks": "Circulated well clean reciprocating drill string 3000lpm, 140 rpm and 254 bars."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3497.0,
+          "remarks": "Flow checked well - well static. Simultaneously held tool box talk prior to POOH pumping."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.75,
+          "depth_md_m": 2531.0,
+          "remarks": "POOH with 8½\" BHA pumping from 3497m to 2531m, 1000lpm 25-40 bars. Pulling speed 203 m/hours. Leak in Kelly hose connection."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.75,
+          "depth_md_m": 2531.0,
+          "remarks": "Held tool box talk prior to repair the Kelly hose. Greased auto slips, installed TIW . Cleared and cleaned the rig floor. Circulated over the T/T."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.75,
+          "depth_md_m": 2531.0,
+          "remarks": "Repaired the Kelly hose, O-ring bursted changed out same."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2531.0,
+          "remarks": "Held tool box talk prior to slip and cut drill line."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.25,
+          "depth_md_m": 2531.0,
+          "remarks": "Slip and cut drill line."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2531.0,
+          "remarks": "Held tool box talk prior to POOH with 8½\" BHA. Simultaneously pumped 3.9m³ 1.60 SG slug."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 2210.0,
+          "remarks": "POOH with 8½\" BHA on 5½\" DP from 2531m to 2210m. Pulling speed 458 m/hours. Filled trip tank."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.34,
+        "viscosity_cp": null,
+        "type": "OBM-Standard",
+        "pv_mPas": 31.0,
+        "yp_Pa": 8.5
+      },
+      "remarks_combined": "Drilled to TD 3498m. Circulated hole clean. POOH with 8½ BHA to shoe at 2531m. Slip & cut drill line. Continued POOH with 8½\" BHA and laid out same.",
+      "days_behind": null,
+      "days_ahead": 22.9
+    },
+    {
+      "day": 3,
+      "date": "2009-01-16",
+      "report_no": 3,
+      "depth_md_end_m": 3497.0,
+      "depth_tvd_end_m": 3016.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1197.0,
+          "remarks": "Continued POOH with 8½\" BHA from 2210m to 1197m. Pulling speed 810 m/hours."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 1197.0,
+          "remarks": "Changed over to 5\" handling equipment."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 139.0,
+          "remarks": "Continued POOH with 8½\" BHA on 5\" DP from 1197m to 139m. Pulling speed 846 m/hours."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 139.0,
+          "remarks": "Flow checked well - well static. Simultaneously held tool box talk prior to pull out and lay out 8½ BHA."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 0.0,
+          "remarks": "Pulled out and laid out 8½\" BHA. Laid out BHA."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Broke and laid out 8 1/2\" drilling BHA."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held toolbox talk / handover meeting."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Removed excess equipment and BHA from drillfloor. Cleaned and tidied drillfloor."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Prepared fro picking up 3 1/2\" DP. Changed dies in IR. Inserted auto slips. Installed rollers and function tested HTS."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 231.0,
+          "remarks": "RIH with 3 1/2\" DP singles from surface to 231 m MD."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 231.0,
+          "remarks": "Suspended tripping temporarily for conducting weather critical lifts to cantilever. Lifted 12 1/4\" drilling BHA from main deck to cantilever."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 300.0,
+          "remarks": "RIH with 3 1/2\" DP singles from 231 m to 300 m MD."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 300.0,
+          "remarks": "Changed from 3 1/2\" to 5\" handling gear."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 1033.0,
+          "remarks": "RIH with 5\" DP from 300 m to 1033 m MD. Reduced trippping speed due to winds in excess of 50 knots. Tripping speed 590 m/hrs."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1033.0,
+          "remarks": "Changed from 5\" to 5 1/2\" handling gear."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 2562.0,
+          "remarks": "RIH with 5 1/2\" DP from 1033 m to 13 3/8\" shoe depth at 2562 m MD. Tripping speed 680 m/hrs."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 3332.0,
+          "remarks": "Made up TDS. RIH with 5 1/2\" DP from 2562 m to 3332 m MD while washing down at 1500 lpm on each stand. Observed occasional hang-ups and plugging tendencies and adjusted tripping speed accordingly. Tripping/washing speed 110 m/hrs."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.35,
+        "viscosity_cp": null,
+        "type": "OBM-Standard",
+        "pv_mPas": 31.0,
+        "yp_Pa": 8.5
+      },
+      "remarks_combined": "Laid out 8 1/2\" drilling BHA. RIH with 3 1/2\" x 5\" x 5 1/2\" string for P&A cementing. Washed down from 13 3/8\" shoe to TD when tripping in. Tagged TD at 3498 m MD. Circulated and condtioned mud. Pumped spacer and cement and displaced same with OBM. POOH with 5 stands dry to 3280 m MD. POOH to 3196 m MD.",
+      "days_behind": null,
+      "days_ahead": 23.0
+    },
+    {
+      "day": 4,
+      "date": "2009-01-17",
+      "report_no": 4,
+      "depth_md_end_m": 3497.0,
+      "depth_tvd_end_m": 3016.0,
+      "activities": [
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 3490.0,
+          "remarks": "RIH with 5 1/2\" DP from 3332 m to 3490 m MD while washing down with 1500 lpm on each stand. Tripping/washing speed 126 m/ hrs."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 3498.0,
+          "remarks": "Made up last stand to TDS. RIH and tagged TD at 3498 m MD while pumping at 1500 lpm / 83 bar SPP. Pulled back, broke and set back stand."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3490.0,
+          "remarks": "Made up TDS to 5 1/2\" DP. Circulated and condtioned mud. Pumped bottoms up volume at 2250 lpm / SPP 173-178 bar. Obtained MW in/out 1,35 sg+."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 3490.0,
+          "remarks": "Lined up cement unit to standpipe mainfold. Tested cement line against closed standpipe mainfold valve to 200 bar / 5 min - ok."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 3490.0,
+          "remarks": "Lined up mud pumps. Pumped 7 m3 of 1,6 sg cement spaced at 1100 lpm / SPP 50 bar. Partly displaced cement spacer to drillfloor with 2,6 m3 OBM to put ~1 m3 cement spacer behind the cement."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 3490.0,
+          "remarks": "Mixed and pumped 9,7 m3 1,9 sg Silica cement. Pumprate 800 lpm / CUP 45-29 bar. Displaced cement line with 890 l of seawater. Lined over to mud pumps and displaced cement with 31,6 m3 1,35 OBM. Pumprate 2000 lpm / SPP 83 bar increasing to 150 bar at the end of the displacement. Rotated 30/50 rpm during cementing and displacement / torque 11 kNm."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 3280.0,
+          "remarks": "POOH with 5 1/2\" DP from 3490 m to 3280 m MD. Pulled 5 dry stands."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3196.0,
+          "remarks": "Made up TDS and pumped 1 m3 OBM to clean 3 1/2\" DP. POOH with 5 1/2\" DP from 3280 m to 3196 m MD. Pulled wet pipe. Inserted cleaning sponges in string."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 3196.0,
+          "remarks": "Made up TDS to string. Washed and wiped string by chasing sponge balls with 2250 lpm / SPP ~170 bar. Rotated string at 120 RPM / torque ~10 kNm."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 3196.0,
+          "remarks": "Pumped 17 m3 1,34 sg hivis / bentonite pill at 1100 lpm / SPP 40-65 bar. Displaced hivis pill by pumping 27,6 m3 1,35 sg OBM at 2000 lpm. Observed increasing SPP peaking at 160 bar, adjusted rate to 1300 lpm accordingly. Observed erratic SPP 90-130 bar."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 2897.0,
+          "remarks": "Lined up and filled trip tanks. POOH with 5 1/2\" DP from 3196 m to 2897 m MD to locate end of string for setting 2nd cement plug in open hole. Pulled wet pipe. Tripping speed 240 m/hrs."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2897.0,
+          "remarks": "Circulated out excess hivis pill at 2250 lpm / SPP~170 bar. Reduced rate to 1000 lpm / SPP 49 bar towards end of circulation. Detected hivis pill in returns indicating ideal placement."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2897.0,
+          "remarks": "Broke TDS. Installed CST and dart in string. Made ut TDS to string. Pumped CST down string at 1000 lpm / 43 bar. Reduced flowrate to 500 lpm / 21 bar SPP when CST entered 3 1/2\" DP. Observed SPP dropping to 18 bar when CST exited 3 1/2\" pipe."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2892.0,
+          "remarks": "Pulled back to 2892 m MD. Pumped 7 m3 1,65 sg cement spacer at 2250 lpm / SPP 167 bar. Chased spacer with 2,6 m3 to put 1 m3 spacer behind cement."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2892.0,
+          "remarks": "Lined up cement unit to standpipe.Verified line up. Mixed and pumped 11 m3 1,9 sg G-cement to put cement plug #2 in interval 2892-2692 m MD. Pumprate 800 lpm / CUP 18 bar. Displaced cement line with 890 l of seawater. Lined over to mud pumps and displaced cement with 25,1 m3 1,35 sg OBM. Pumprate 2000 lpm. Observed erratic SPP 70-120 bar during displacement. Rotated at 60 rpm / torque 10 kNm during displacement."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 2690.0,
+          "remarks": "Pulled out of cement with 5 1/2\" DP from 2892 m to 2690 m MD. Pulled 5 dry stands."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 2690.0,
+          "remarks": "Circulated out excess cement with OBM at 2250 lpm / SPP 163 bar."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2690.0,
+          "remarks": "Pumped 7 m3 1,65 sg cement spacer at 2250 lpm / SPP 167 bar. Chased spacer with 2,6 m3 to put 1 m3 spacer behind cement."
+        },
+        {
+          "code": "plug abandon -- cement plug",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2690.0,
+          "remarks": "Lined up cement unit to standpipe.Verified line up. Mixed and pumped 18,5 m3 2,0 sg G-cement to put cement plug #3 in interval 2692-2512 m MD. Pumprate 800 lpm / CUP ~20 bar. Displaced cement line with 890 l of seawater. Lined over to mud pumps and displaced cement with 22,5 m3 1,35 OBM. Pumprate 2000 lpm / SPP max 125 bar. Rotated at 65 rpm / torque 10 kNm during displacement."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2432.0,
+          "remarks": "Pulled out of cement with 5 1/2\" DP from 2690 m to 2432 m MD. Pulled 6 stands of dry pipe."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2432.0,
+          "remarks": "Cleaned 3 1/2\" DP by pumping 1 m3 OBM at 500 lpm / 19 bar SPP."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2112.0,
+          "remarks": "POOH with 5 1/2\" DP from 2432 m to 2112 m MD. Pulled wet pipe. Tripping speed 320 m/hrs."
+        },
+        {
+          "code": "plug abandon -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2112.0,
+          "remarks": "Inserted 2 ea sponge balls in string. Made up TDS.  Washed and wiped string by chasing sponge balls with 2500 lpm / SPP ~180 bar. Rotated string at 120 RPM / torque 3-6 kNm. Circulated bottoms up."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2112.0,
+          "remarks": "Pumped 4 m3 1,60 sg slug at 1100 lpm / SPP 45 bar. Lined up trip tanks. Allowed mud level to settle."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2112.0,
+          "remarks": "Function tested BOP."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 1033.0,
+          "remarks": "POOH with 5 1/2\" DP from 2112 m to 1033 m MD. Tripping speed 617 m/hrs."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 1033.0,
+          "remarks": "Changed from 5 1/2\" to 5\" handling equipment."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 951.0,
+          "remarks": "POOH with 5\" DP from 1033 m to 951 m MD. Tripping speed 328 m/hrs."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.38,
+        "viscosity_cp": null,
+        "type": "OBM-Standard",
+        "pv_mPas": 39.0,
+        "yp_Pa": 12.5
+      },
+      "remarks_combined": "Pumped hivis for cement support and circulated out excess. Launched and set CST. Set 2nd cement plug from 2892 m to 2692 m MD. Set 3rd cement plug from 2692 m to 2512 m MD. Pulled above cement and circulated out excess. Cleaned string. POOH with 5 1/2 x 5\" x 3 1/2\" cement string from 2112 m MD to surface. Laid out 3 1/2\" singles. WOW due to high winds.",
+      "days_behind": null,
+      "days_ahead": 23.4
+    },
+    {
+      "day": 5,
+      "date": "2009-01-18",
+      "report_no": 5,
+      "depth_md_end_m": 3497.0,
+      "depth_tvd_end_m": 3016.0,
+      "activities": [
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 299.0,
+          "remarks": "POOH with 5\" DP from 951 m to 299 m MD. Tripping speed 870 m/hrs."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 299.0,
+          "remarks": "Changed from 5\" to 5 1/2\" handling equipment."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 299.0,
+          "remarks": "Held toolbox talk for laying out 3 1/2\" DP singles."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 0.0,
+          "remarks": "POOH with 3 1/2\" DP singles from 299 m MD to surface. Laid out singles on deck. Tripping speed 133 m/hrs."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Cleared and tidied drillfloor. Changed die carriers in IR. Removed auto slips."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "Waited on weather. Winds > 40 knots - cranes down. Meanwhile changed pneumatic control valve on TDS."
+        },
+        {
+          "code": "plug abandon -- wait",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.75,
+          "depth_md_m": 0.0,
+          "remarks": "Waited on weather. Winds > 40 knots. Meanwhile worked on TDS pneumatic valve. Planned for making up BHA using PDM, HTS and rollers."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 100.0,
+          "remarks": "Picked up 12 1/4\" Powerdrive exceed with PDM and slings. Placed Powerdrive on rollers and rolled onto HTS. Picked up Powerdrive from HTS and hung off same in rotary. Picked up Powerpulse with PDM and slings and placed same onto roller sections. Rolled Powerpulse onto HTS. Picked up ARC with PDM. Made up ARC to Powerpulse using chaintongs while still laying on rollers/HTS. Rolled BHA onto HTS. Picked up and made up Powerpulse/ARC to Powerdrive. Picked up and made up 2 ea NMDC. Made up jar/DC stand. Made up stand of 8 1/4\" DC. Installed totco ring. Made up xover to 5 1/2\" HWDP."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 286.0,
+          "remarks": "Installed automatic slips in RT. RIH with 12 1/4\" BHA on 5 1/2\" HWDP from 100 m to 286 m MD."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 286.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 286 m to 609 m MD."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 609.0,
+          "remarks": "Filled string. Tested MWD at 2400 lpm / SPP 91 bar - ok."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 730.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 609 m to 730 m MD."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 730.0,
+          "remarks": "Obtained favoruable wind conditions for manriding. Serviced PRS and TDS."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1374.0,
+          "remarks": "RIH with 12 1/4\" BHA from 730 m to 1374 m MD. Tripping speed 444 m/hrs."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1374.0,
+          "remarks": "Set up for drifting pipe that was not wiped/cleaned after cementing."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1859.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 1374 m to 1859 m MD. Drifted every stand by dropping drift in derrick. Tripping speed 243 m/hrs."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.25,
+        "viscosity_cp": null,
+        "type": "OBM-Standard",
+        "pv_mPas": 17.0,
+        "yp_Pa": 8.0
+      },
+      "remarks_combined": "Waited on weather. Made up 12 1/4\" drilling BHA and RIH with same to 2103 m MD. Washed down from 2103 m to 2440 m MD with 2000 lpm / no WOB.",
+      "days_behind": null,
+      "days_ahead": 23.7
+    },
+    {
+      "day": 6,
+      "date": "2009-01-19",
+      "report_no": 6,
+      "depth_md_end_m": 3497.0,
+      "depth_tvd_end_m": 3016.0,
+      "activities": [
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1980.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 1859 m to 1980 m MD. Drifted every stand by dropping drift in derrick. Filled pipe. Winds in derrick > 60 knots. Abandoned drifting in derrick. Discussed situation. Decided to drift by installing kelly cock in the string."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 2181.0,
+          "remarks": "Installed kelly cock in string and closed same. RIH with 5 stand of 5 1/2\" DP from 1980 m to 2181 m MD. Filled 500 l OBM in string and dropped drift."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1980.0,
+          "remarks": "POOH with 5 stands of 5 1/2\" DP from 2181 to 1980 m MD. Broke kelly cock and recovered 2 3/4\" drift."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2103.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 1980 to 2103 m MD."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2440.0,
+          "remarks": "Made up TDS. Washed down from 2103 m MD to 2440 m MD. Parameters : 2000 lpm / SPP~90 bar/ 30 rpm / Torque~10 kNm. No WOB."
+        },
+        {
+          "code": "plug abandon -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 2490.0,
+          "remarks": "Washed down from 2440 m to 2490 m MD. Parameters : 2000 lpm / SPP~90bar / 30 rpm / Torque 10 kNm. Tagged top of cement at 2490 m MD. Turned off pumps and stopped roatation. Load tested top of cement with 7 MT - ok."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 2504.0,
+          "remarks": "Drilled cement in 13 3/8\" casing from 2490 m to 2504 m MD. Drilling parameters : 3000 lpm / SPP~162 bar / 60 rpm / Torque 14-18 kNm / WOB 1-3 MT. Limited ROP to 5 m/hrs due to processing cement cuttings in DCI and mud displacement. Displaced from 1,35 sg to 1,25 sg OBM while drilling stand."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 2562.0,
+          "remarks": "Drilled cement in 13 3/8\" casing from 2504 m to shoe depth at 2562 m MD. Drilling parameters : 3000 lpm / SPP~161 bar / 60 rpm / Torque 14-18 kNm / WOB 1-5 MT. Controlled ROP to 10-15 m/hrs."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 2562.0,
+          "remarks": "Encountered problem with DCI system - excessive solids bulid up in mill tank. Picked off bottom to 2554 m MD and circulated at 500 lpm / SPP 8 bar / 15 rpm while working on DCI system."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 2566.0,
+          "remarks": "Reamed back to 2562 m MD. Drilled 12 1/4\" section from 2562 m to 2566 m MD. Drilling parameters :  3000 lpm / SPP~164 bar / 60 rpm / Torque ~18 kNm / WOB 4 MT. Controlled ROP to 20 m/hrs."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 2575.0,
+          "remarks": "Pulled back to 2559 m MD. Downlinked powerdrive. Drilled 12 1/4\" section from 2566 m to 2575 m MD. Drilling parameters : 3000 lpm / SPP~160 bar / 80 rpm / Torque~16 kNm / WOB 2-3 MT. Controlled ROP to 2 m/hrs. (time drililling). Obtained 50/50 formation/cement shows in sample at 2575 m MD.\n\n****Transferred operations to F-15 A****"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Washed down from 2440 m and tagged cement at 2490 m MD. MD. Displaced from 1,35 sg ot 1,25 sg OBM. Drilled cement from 2490 m to 2566 m MD. Initiated kick off and drilled 12 1/4\" section down to 2575 m MD.",
+      "days_behind": null,
+      "days_ahead": 24.2
+    }
+  ]
+}

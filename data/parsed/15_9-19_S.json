@@ -1,0 +1,4578 @@
+{
+  "well_id": "15/9-19 S",
+  "metadata": {
+    "spud_date": "1992-09-18",
+    "drill_complete_date": "1992-12-18",
+    "operator": "Statoil",
+    "drill_contractor": "UNKNOWN",
+    "rig_name": "TREASURE PROSPECT",
+    "n_reports": 49,
+    "first_report_date": "1992-09-09",
+    "last_report_date": "1992-12-19",
+    "calendar_span_days": 102,
+    "total_days": 49,
+    "planned_days": 1.9,
+    "td_md_m": 3353.0,
+    "td_tvd_m": 2252.0
+  },
+  "daily_reports": [
+    {
+      "day": 1,
+      "date": "1992-09-09",
+      "report_no": 1,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED AND BOLSTERED ANCHORS NO.5, 1 AND 8"
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "WAITING ON NPD APPROVAL TO MOVE THE RIG. CONTINUE WORKING ON OUT- STANDING ITEMS ACCORDING TO PUNCHLISTS."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": null,
+      "days_ahead": null
+    },
+    {
+      "day": 2,
+      "date": "1992-09-10",
+      "report_no": 2,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUE WAITING ON NPD APPROVAL TO MOVE THE RIG."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED AND BOLSTERED ANCHORS NO.3 AND 7. BEGIN PULLING ANCHOR NO. 6"
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 8.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED AND BOLSTERED ANCHOR NO 6."
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 10.0,
+          "depth_md_m": 0.0,
+          "remarks": "WAITED ON NPD APPROVAL TO MOVE RIG. WORKED ON OUTSTANDING ITEMS ON PUNCH LIST."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 1.3,
+      "days_ahead": null
+    },
+    {
+      "day": 3,
+      "date": "1992-09-11",
+      "report_no": 3,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED WAITING ON APPROVAL TO MOVE RIG. WORKED ON OUTSTANDING ITEMS ON PUNCH LIST. M/U FRAMO UMBILICAL TO CTS FOR FUNCTION TEST."
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 0.0,
+          "remarks": "WAITING ON APPROVAL TO MOVE RIG. WORKED ON OUTSTANDING ITEMS ON PUNCH LIST. FUNCTION TESTED FRAMO CTS."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED AND BOLSTERED ANCHOR NO 2."
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 10.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 2.3,
+      "days_ahead": null
+    },
+    {
+      "day": 4,
+      "date": "1992-09-12",
+      "report_no": 4,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE."
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 3.3,
+      "days_ahead": null
+    },
+    {
+      "day": 5,
+      "date": "1992-09-13",
+      "report_no": 5,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 4.3,
+      "days_ahead": null
+    },
+    {
+      "day": 6,
+      "date": "1992-09-14",
+      "report_no": 6,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 5.3,
+      "days_ahead": null
+    },
+    {
+      "day": 7,
+      "date": "1992-09-15",
+      "report_no": 7,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIG ON MOVE TO LOCATION 15/9-C"
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "DROPPED ANCHOR NO 7, ON BOTTOM 03:00 HRS. CHECKED ANCHOR HOLDING 50 TON, OK."
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "UNLOADED NORDMANN BORG."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG TO TEMPLATE,PREPARED TO RUN ROV."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "JUMPED ROV.INSPECTED TEMPLATE AND INSTALLED HONEYWELL TRANSPONDER IN A1. UNABLE TO DISCONNECT TRANSPONDER DUE TO LIGHT FAILURE ON ROV. PULL ROV AND TRANSPONDER."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 0.0,
+          "remarks": "ANCHOR ON BTM LENGTH BOAT           ANCHOR ON BTM LENGTH BOAT NO.2   09:15  1012M  MEARSK SUPPORT NO.3  09:22   1312M  NORMAND BORG NO.1   10:30  1129M  NORMAND BORG   NO.6  11:06   1098M  SOLFONN NO.5   13:02  1220M  SOLFONN        NO.4  14:15   1242M  SOLFONN"
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "JUMPED ROV AND INSPECTED TEMPLATE. POS. RIG AND INSTALLED HONYWELL TRANSPONDER IN PILE SLEEVE A1. RETRIVED SIMRAD HPR TRANSPONDER IN C1. LOST TRANSPONDER ON WAY OUT. LOCATED TRANSPONDER W/ROV ON SEA BED 10-15M FROM S3 ON TEMPLATE."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "SET OUT ANCHOR NO.8 W/NORMAND BORG. ON BTM. AT 20:05 HRS. LENGTH 1059M"
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "DEBALLASTED RIG TO OPERATION DRAFT."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 6.3,
+      "days_ahead": null
+    },
+    {
+      "day": 8,
+      "date": "1992-09-16",
+      "report_no": 8,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUE DEBALLASTED RIG."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "ATTEMTED TO SET OUT CTS ANCHOR. WIRE FROM RIG TO NORMAND BORG WAS ACRO SS EMERGENCY TOWING LINE."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "REARRANGED WIRE FROM RIG TO NORMAND BORG."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED CTS ANCHOR OVER TO NORMAND BORG. REARRANGED CTS ANCHOR."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSISTIONED NORMAND BORG AND DROPPED CTS ANCHOR 120M/110 DEG. FROM TEMPLATE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "INSPECTED CTS ANCHOR WITH ROV. RELEASED ROV HOOK. PULLED HOOK TO NORMAND BORG."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "JUMPED SEA OWL,RETRIEVED SAME DUE TO ELECTRICAL FAILURE."
+        },
+        {
+          "code": "moving -- anchor",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "PULLTESTED ANCHORS TO 160 TON,OK. JUMPED SEA OWL. POSITIONED RIG OVER TEMPLATE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "PREPARED GUIDE LINE NO.4 TO OPEN HATCH,WHILE PERFORMED TEMPLATE SURVEY W/ROV."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "OPENED LATCH ON HATCH S3. ESTABLISHED WIRE TO OPEN HATCH. OPENED HATCH S3. INSPECTED HINGES,RELEASED WIRE. STABBED AND INSTALLED GUIDE WIRE NO.4. PULLTESTED SAME TO 2 TON,OK."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED GUIDE WIRE NO.1 AND PULLTESTED SAME WITH 2 TON,OK."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 12M IN DIR. 110 DEG. OPERATION INTERRUPTED DUE TO PROBLEMS ON GUIDE LINE NO.4."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED GUIDE WIRE NO.2 AND NO.3 PULLTESTED SAME TO 2 TON. MOVED RIG 25M FROM TEMPLATE IN DIR. 110 DEG."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "P/U 5\" HWDP"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "INSPECTED CTS ANCHOR WITH THE ROV AND RELEASED SAME. PULLTESTED\nANCHORS TO 160 TONS AND POSITIONED RIG OVER S3. OPENED HATCH S3.\nINNSTALLED GUIDEWIRE AND PREPARED FOR RUNNING CTS.",
+      "days_behind": 7.3,
+      "days_ahead": null
+    },
+    {
+      "day": 9,
+      "date": "1992-09-17",
+      "report_no": 9,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. P/U 5\" HWDP AND RACKED SAME BACK IN DERRICK. M/U 26\" BIT FOR RUNNING CTS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "PICK UP 9 1/2\" DRILL COLLARS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP SPUD ASSEMBLY."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "DRIFTED CTS TO 34\" USING 34\"/36\" HOLEOPENER."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "BREAK CONNECTION BWETWEEN FRONT DRILL AND HOLE OPENER. TREADS DAMAGE. LAID DOWN BOTH."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP 1 STAND 9 1/2\" DC AND RACKED BACK IN DERRICK."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "STABBED INTO CTS PUMP UNIT WITH 26\" BIT. CLOSED RAM AND PERFORMED PICK UP TEST."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "PREPERED CTS PUMP AND HOSE FOR RUNNING."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "PICKED UP AND RAN CTS PUMP AND HOSE."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "HOOKED UP COOLING TO CTS FROM RIG SYSTEM."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "RAN CTS TO 78M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "WIRE CONNECTED TO MIDDLE POINT OF CTS HOSE TO SHORT. CLAMPED ON NEW WIRE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "RAN CTS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CHECKED WIRE/HOSES WITH ROV."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG OVER WELL. CHECKED WIRE/HOSES WITH ROV."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "RAN CTS. CHECKED WIRE/HOSES WITH ROV."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 8.3,
+      "days_ahead": null
+    },
+    {
+      "day": 10,
+      "date": "1992-09-18",
+      "report_no": 10,
+      "depth_md_end_m": null,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "RAN CTS. HAD PROBLEMS STABBING INTO PGB AND USED SCORPION TO HELP STABBING. STABBED IN WITH CTS 01:40 HRS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "TOOK WEIGHT WHEN CTS WAS 1.20M ABOVE PGB. CHECKED CTS HOSE, HYDRAULIC HOSE, OK. SLACKED OFF CTS WEIGHT (5-6 TONS). CTS STILL AT THE SAME PLACE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "STARTED CTS PUMP. MAX. RATE APPROX. 7000 L/MIN. WITH 160 BAR PRESSURE, WHILE OBSERVING OUTLET CTS HOSE WITH ROV."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "SET BIT ON BOTTOM AT 108,5M. JETTED FROM 108,5M TO 110M. MAX RATE 1650 L/MIN. CTS PUMP LANDED ON PGB."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "OPENED RAM ON CTS. PULLED 26\" BIT ABOVE TEMPLATE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 25M, DIRECTION 110 DEG.."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED OUT OF HOLE WITH CTS LANDING STRING."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED OUT OF HOLE WITH CTS LANDING STRING. LAID DOWN BIT AND SUBS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP AND RACKED BACK 10 STANDS 5\" DP."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "PICKED UP BOTTOM HOLE ASSEMBLY NO.1. SET MEMORY ON MWD AND FUNCTIONED SAME, OK."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP JAR, 2 X 8\" DC, CROSSED OVER TO HWDP AND RAN IN TO 91M."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG TO 15M OFF LOCATION."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED AND RAN GUIDE FRAME. FOUND WIRE FOR CTS HOSE TWISTED. UNTWISTED SAME."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG IN POSITION OVER TEMPLATE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "UNTWISTED WIRE FOR CTS HOSE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "HELD SHALLOW GAS MEETING WITH THE CREW."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "STAB INTO CTS PUMP AT 2315 HRS. RIH TO 107M. PULLED GUIDE FRAME TO SURFACE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CLOSED RAM ON CTS PUMP AND TOOK SURVEY WITH MWD TOOL. INSPECTED CTS HOSE."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "-PULLED OUT WITH CTS LANDING STRING.\n-MAKE UP 9 7/8\" BHA.\n-POSITIONED RIG OVER WELL.\n-DRILLED 9 7/8\" PILOTHOLE FROM 109 M TO 134 M.\n-POOH TO CTS PUMP DUE TO MWD DEPTH FAILURE.\n-RIH, DRILLED 9 7/8\" PILOTHOLE FROM 134 M TO 180 M.",
+      "days_behind": 9.3,
+      "days_ahead": null
+    },
+    {
+      "day": 11,
+      "date": "1992-09-19",
+      "report_no": 11,
+      "depth_md_end_m": 543.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG. TOOK SURVEY ON BOTTOM 0,3 DEG."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "INSPECTED CTS HOSE WITH ROV AND STRAIGHTED SAME."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 134.0,
+          "remarks": "DRILLED 9 7/8\" PILOTHOLE FROM 109 M TO 134 M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 107.0,
+          "remarks": "SWEEPED HOLE WITH 5 M3 HI-VIS MUD. POOH TO CTS PUMP, DUE TO FAILURE ON DEPTH SENSOR TO MWD."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 180.0,
+          "remarks": "RIH TO 134 M. DRILLED 9 7/8\" PILOTHOLE FROM 134 M TO 180 M. PUMPED 5 M3 HI-VIS MUD ON EVERY STAND."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 195.0,
+          "remarks": "DRILLED 9 7/8\" PILOTHOLE FROM 180 M TO 195 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "HELD SHALLOW GAS MEETING WITH CREW."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 17.0,
+          "depth_md_m": 547.0,
+          "remarks": "DRILLED 9 7/8\" PILOTHOLE FROM 195 M TO 547 M. PUMPED 5 M3 HI-VIS PILL ON EVERY CONNECTION."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "-DRILLED 9 7/8\" PILOTHOLE FROM 180 M TO 547 M.\n-PUMPED 10 M3 HI-VIS PILL FOLLOWED BY 10 M3 SW AND 10 M3 1,25 SG\n HI-VIS MUD.\n-POOH,TO ABOVE TEMPLATE.\n-PULLED RIG 35 M OFF TEMPLATE.\n-POOH WITH 9 7/8\" BHA.",
+      "days_behind": 10.3,
+      "days_ahead": null
+    },
+    {
+      "day": 12,
+      "date": "1992-09-20",
+      "report_no": 12,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 547.0,
+          "remarks": "PUMPED 10 M3 HI-VIS PILL FOLLOWED BY 10 M3 SEAWATER AND 10 M3 1,25 SG HI-VIS MUD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 80.0,
+          "remarks": "POOH TO 15 M ABOVE TEMPLATE. PUMPED 0,7 M3 1,25 SG HI-VIS MUD ON EVERY STAND WHEN PULLING OUT."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED RIG 35 M DIRECTION 110 DEG."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH. L/D 8\" MWD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "M/U 12 1/4\" BIT,34\"/36\" HOLEOPENER, REARRANGED BHA AND RIH TO 92 M."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 92.0,
+          "remarks": "POSITIONED RIG OVER TEMPLATE"
+        },
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 128.0,
+          "remarks": "STABBED INTO CTS PUMP,CLOSED CTS RAM TO CENTER STRING. OPENED UP 9 7/8\" PILOT HOLE TO 36\" FROM 109 M TO 128 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "REPAIRED SPEED CONTROL ON DRAW WORK."
+        },
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 147.0,
+          "remarks": "OPENED UP 9 7/8\" PILOTHOLE TO 36\" FROM 128 M TO 147 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "INVESTIGATED FAILURE ON DRAW WORK SPEED CONTROL SYSTEM."
+        },
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 170.0,
+          "remarks": "OPENED 9 7/8\" PILOTHOLE TO 36\" FROM 147 M TO 170 M. (12 1/4\" BIT AT 172 M)"
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 170.0,
+          "remarks": "DISPLACED HOLE WITH 40 M3 HI-VIS MUD."
+        },
+        {
+          "code": "drilling -- survey",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 170.0,
+          "remarks": "DROPPED SINGLE SHOT SURVEY, PULLED STRING TO 118 M, RETRIEVED SURVEY WITH SLICK LINE. RIH TO 170 M. (SURVEY \"BULLSEYE\")"
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 170.0,
+          "remarks": "DISPLACED HOLE WITH 90 M3 1,25 SG HI-VIS MUD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH TO 118 M, CLOSED CTS RAM,PULLED CTS PUMP ON 34\"/36\" HOLEOPENER TO ABOVE TEMPLATE."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 11.3,
+      "days_ahead": null
+    },
+    {
+      "day": 13,
+      "date": "1992-09-21",
+      "report_no": 13,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED RIG 25 M DIRECTION 110 DEG."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH WITH BHA AND CTS PUMP.OUT OFF WATER 03:00 HRS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "SECURED CTS PUMP ON TROLLEY,OPENED CTS RAM,PULLED 34\"/36\" HOLEOPENER RACKED SAME IN DERRICK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "PREPARED FOR RUNNING 30\" CASING, PICKED UP SHOE AND CHECKED SAME."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 91.0,
+          "remarks": "RAN 30\" CASING TO 91 M."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG OVER TEMPLATE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 166.0,
+          "remarks": "STABBED 30\" INTO PGB, LANDED 30\" CASING. SHOE AT 166 M. CHECKED LOCKRING ENGAGED WITH 22 TON OVERPULL, OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 166.0,
+          "remarks": "HOOKED UP CEMENT HOSE.PRESSURE TESTED SURFACE LINES TO 100 BAR,OK. CIRCULATED 19 M3 WITH SEAWATER.STARTED TO MIX AND PUMP CEMENT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 1.5,
+          "depth_md_m": 166.0,
+          "remarks": "LOST MIXWATER INTO SEA THROUGH TRIPTANK, FOUND ONE VALVE OPEN. CIRCULATED OUT CEMENT, MADE NEW LEAD MIXWATER IN PIT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 166.0,
+          "remarks": "MIXED AND PUMPED 17,2 M3 1,56 SG LEAD SLURRY, FOLLOWED BY 15 M3 1,9 SG TAIL SLURRY, DISPLACED SAME WITH 4,6 M3 SEAWATER. FLOWCHECKED-OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 104.0,
+          "remarks": "B/U 30\" RUNNING TOOL , TESTED SCR'S WHILE CLEANED PIPE. PULL STINGER ABOVE TEMPLATE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED RIG 25 M DIRECTION 110 DEG."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH, L/D 30\" RUNNING TOOL."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "DISCONNECTED CTS EXTENSION PIPE FOR 36\" HOLE."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 12.3,
+      "days_ahead": null
+    },
+    {
+      "day": 14,
+      "date": "1992-09-22",
+      "report_no": 14,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "M/U CTS EXTENSION FOR DRILLING 26\" HOLE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "M/U 18 3/4\" HOUSING JOINT, RACKED SAME IN DERRICK."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "M/U 26\" BHA."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 44.0,
+          "remarks": "M/U 26\" BHA, TESTED MWD OK.CLOSED CTS RAM ON 26\" HOLEOPENER. RIH WITH CTS PUMP/26\" HOLEOPENER TO 44 M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 2.0,
+          "depth_md_m": 44.0,
+          "remarks": "SORTED OUT LOOP ON CTS HOSE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 72.0,
+          "remarks": "RIH WITH CTS PUMP/26\" HOLEOPENER TO 72 M."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 72.0,
+          "remarks": "POSITIONED RIG OVER TEMPLATE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 162.0,
+          "remarks": "LANDED CTS PUMP ON 30\" HOUSING,CONTINUED RIH WITH 12 1/4\" BIT/26\" HO. TAGGED CEMENT AT 162 M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "SORTED OUT LOOP ON CTS HOSE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 170.0,
+          "remarks": "DRILLED CEMENT FROM 162 M,30\" SHOE AT 166 M AND CEMENT TO 170 M. (12 1/4\" BIT AT 172 M)"
+        },
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 230.0,
+          "remarks": "OPENED 9 7/8\" PILOTHOLE TO 26\" HOLE FROM 170 M TO 230 M. PUMPED 5 M3 HI-VIS PILL EVERY 15 M DRILLED."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "-RAN IN WITH CTS PUMP ON 26\" HOLEOPENER.\n-SORTED OUT LOOP ON CTS HOSE.\n-POSITIONED RIG OVER TEMPLATE.\n-LANDED CTS PUMP ON 30\" HOUSING,CONT RIH TAGGED CEMENT AT 162 M.\n-DRILLED CEMENT,30\" SHOE AT 166 M AND CEMENT TO 170 M.\n-OPENED 9 7/8\" PILOTHOLE TO 26\" FROM 170 M TO",
+      "days_behind": 13.3,
+      "days_ahead": null
+    },
+    {
+      "day": 15,
+      "date": "1992-09-23",
+      "report_no": 15,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 311.0,
+          "remarks": "OPENED 9 7/8\" PILOTHOLE TO 26\" FROM 230 M TO 311 M. PUMPED 5 M3 HI-VIS PILL ON EVERY 15 M DRILLED."
+        },
+        {
+          "code": "drilling -- hole open",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 15.0,
+          "depth_md_m": 545.0,
+          "remarks": "OPENED 9 7/8\" PILOTHOLE TO 26\" HOLE FROM 311 M TO 545 M. (12 1/4\" BIT AT 547 M) PUMPED 5 M3 HI-VIS PILL ON EVERY 15 M DRILLED."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 545.0,
+          "remarks": "PUMPED 10 M3 HI-VIS PILL,FOLLOWED BY 60 M3 OF SEAWATER.DISPLACED HOLE WITH 110 M3 HI-VIS PILL."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 545.0,
+          "remarks": "POOH TO 30\" CASING SHOE. MAX OVERPULL 20 TON AT 420 M. RIH TO 545 M. WORKED TIGHT SPOT AT 420 M,OK."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "-OPENED 9 7/8\" PILOTHOLE TO 26\" FROM 311 M TO 545 M.\n-PUMPED 10 M3 HI-VIS PILL,60 M3 SEAWATER AND 110 M3 HI-VIS MUD.\n-WIPERTRIPPED TO 30\" CASING SHOE.\n-CIRC BOTTOMS UP WITH SEAWATER,FOLLOWED BY HI-VIS MUD AND 120 M3\n 1,25 SG HI-VIS MUD.\n-POOH TO 122 M,CLOSED CTS RAM,PULLED CTS PUMP ABOVE TEMPLATE-\n-MOVED RIG 25 M.\n-POOH WITH CTS PUMP/26\" HOLEOPENER.",
+      "days_behind": 14.3,
+      "days_ahead": null
+    },
+    {
+      "day": 16,
+      "date": "1992-09-24",
+      "report_no": 16,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 545.0,
+          "remarks": "PUMPED 200 M3 OF SEAWATER FOLLOWED BY 45 M3 HI-VIS PILL. DISPLACED HOLE WITH 120 M3 1,25 SG HI-VIS MUD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 90.0,
+          "remarks": "POOH TO 122 M,CLOSED CTS RAM,PULLED CTS PUMP/26\" HOLEOPENER ABOVE TEMPLATE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 25 M DIRECTION 110 DEG."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "POOH WITH CTS PUMP/26\" HOLEOPENER.SECURED CTS PUMP ON TROLLEY."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "SECURED CTS PUMP,OPENED CTS RAM,RACKED 26\" HOLEOPENER BACK IN DERRICK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 85.0,
+          "remarks": "PREPARED AND RAN 20\" CASING TO 84 M. LOCKED FIRST 3 JOINTS. M/U CEMENT HEAD ON DP,RACKED SAME IN DERRICK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG OVER TEMPLATE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 0.5,
+          "depth_md_m": 84.0,
+          "remarks": "GUIDE WIRE NO.3 HOOKED ON 20\" CASING,SORTED SAME OUT,OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 531.0,
+          "remarks": "RAN 20\" CASING,LATCHED ON 30\" HOUSING,20\" SHOE AT 531 M. TOOK 18 TON OVERPULL,OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 531.0,
+          "remarks": "HOOKED UP SURFACE LINES, PUMPED 95 M3 SEAWATER.MAX 2000 L/MIN. PRESSURE TESTED SURFACE LINES TO 100 BAR,OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 531.0,
+          "remarks": "MIXED AND PUMPED 101 M3 1,56 SG LEAD SLURRY,FOLLOWED BY 15 M3 1.9 SG TAIL SLURRY.RELEASED DART ,DISPLACED CEMENT W/74,1 M3 1,25 SG MUD. SHEARED WIPERPLUG W/345 BAR. BUMPED PLUG AND PRESSURE TESTED 20\" CASING TO 70 BAR."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 15.3,
+      "days_ahead": null
+    },
+    {
+      "day": 17,
+      "date": "1992-09-25",
+      "report_no": 17,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "RELEASED 20\" RUNNING TOOL BY 3 RIGHT HAND TURNS. PULLED RUNNING TOOL ABOVE TEMPLATE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 25 M DIRECTION 110 DEG."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "L/D CEMENT HEAD,POOH L/D 20\" RUNNING TOOL."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 82.0,
+          "remarks": "M/U CORROSION CAP,RIH TO 82 M. INSTALLED MODIFIED GUIDE FRAME."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "WASHED WELLHEAD,USING SCORPION.PERFORMED SURVEY ON WELLHEAD,OK."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG OVER TEMPLATE."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "LANDED CORROTION CAP."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MIXED AND PUMPED INHIBITOR.OBSERVED WITH ROV,OK. SHEARED PINS ON CORROTION CAP RUNNING TOOL WITH 5 TON OVERPULL. POOH TO 81 M."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "RELEASED AND PULLED 3 GUIDE LINE ANCHORS."
+        },
+        {
+          "code": "plug abandon -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "HOOKED GUIDELINE ANHCOR NO.3 TO HATCH NO.3. CLOSED AND LOCKED SAME. (END OFF REPORT,CONT. ON REPORT NO.1 ON WELL 15/9-C 2H)"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.06,
+        "viscosity_cp": 100.0,
+        "type": "SEAWATER/BENT.",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": 15.8,
+      "days_ahead": null
+    },
+    {
+      "day": 71,
+      "date": "1992-11-18",
+      "report_no": 18,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "moving -- position",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 30M FORWARD"
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "RELEASED BOP FROM CARRIER. LIFTED BOP OFF TEST STUMP. INSTALLED VX ON STUMP. SET BOP BACK ON TEST STUMP AND WELDED BOP TO CARRIER. REMOVED RISER AND MOVED CARRIER BACK FOR BOP TESTING."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "OPENED HATCH COVER ON SLOT NO. 3."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "*OPENED HATCH COVER. RAN GUIDE WIRES. PULLED CORROSION CAP.",
+      "days_behind": 16.1,
+      "days_ahead": null
+    },
+    {
+      "day": 72,
+      "date": "1992-11-19",
+      "report_no": 19,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED GUIDE WIRES."
+        },
+        {
+          "code": "moving -- position",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG OVER WELL. PULL TESTED GUIDE LINES TO 2,5 TONS."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 103.0,
+          "remarks": "RIH WITH CORROSION CAP R/R TOOL.  RAN GUIDE FRAME. RETRIEVED CORROSION CAP WITH 15 TONS OVERPULL. POOH WITH CAP AND R/R TOOL."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "LD CORROSION CAP AND R/R TOOL."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 9.0,
+          "depth_md_m": 0.0,
+          "remarks": "PRESSURE TESTED UAP TO 27/345 BAR, 5/15 MINS. PRESSURE TESTED LAP AND PIPE RAMS TO 27/690 BAR, 5/15 MINS."
+        },
+        {
+          "code": "moving -- position",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "MOVED RIG 30 M OFF WELL."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "FOUND SHEAR RAM LEAKING.  BROUGHT CARRIER UP IN HIGH POSITION. PREPARED FOR WORKING ON SHEAR RAM."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "SECURED BOP."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "FUNCTION TESTED BOP."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "WORKED ON SHEAR RAM."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 118.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 30.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "*TESTED BOP. SHEAR RAM LEAKING. CHANGING SEAL.",
+      "days_behind": 17.1,
+      "days_ahead": null
+    },
+    {
+      "day": 73,
+      "date": "1992-11-20",
+      "report_no": 20,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. WORKING ON SHEAR RAM.  FOUND T-SEAL TO BE DAMAGED."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "LD RISER AND RUNNING TOOL"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "CHANGED SAVER SUB IN TDS TO 6 5/8\" FH."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "RU FOR AND CARRIED OUT TORQUE MEASUREMENTS FOR CALIBRATION PURPOSES."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONT.REPAIRING SHEAR RAM."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 17.0,
+          "depth_md_m": 0.0,
+          "remarks": "W.O.W. TO RUN BOP/RISER"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 106.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 30.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "*REPAIRED LEAKING SHEAR RAM.  WAITED ON WEATHER TO RUN BOP/RISER.",
+      "days_behind": 18.1,
+      "days_ahead": null
+    },
+    {
+      "day": 74,
+      "date": "1992-11-21",
+      "report_no": 21,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONT W.O.W."
+        },
+        {
+          "code": "interruption -- waiting on weather",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 10.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. WOW TO RUN BOP/RISER. WHILE WOW, REARRANGED 9 1/2\" DC AND 8\" DC IN DERRICK AND PU/MU 17 1/2\" BHA AND RACKED SAME IN DERRICK."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 0.0,
+          "remarks": "RD DRILLPIPE EQUIPMENT.  RU TO RUN BOP.  MOVED BOP/CARRIER IN PLACE. PU 2 EA 50 FT RISER JOINTS AND MU TO BOP. DEBALLASTED RIG, CUT BOP LOOSE FROM CARRIER AND BALLASTED RIG. INSTALLED GUIDE WIRES. LIFTED BOP OFF CARRIER, MOVED CARRIER AWAY AND RAN BOP THROUGH SPLASH ZONE. RU TO TEST K/C LINES. TESTED TO 30 BAR/5 MINS."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "ATTEMPTED PRESSURE TESTING K/C LINES TO 345 BAR, NEG.  TEST PLUG LEAKING."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 105.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 27.0,
+        "yp_Pa": 15.0
+      },
+      "remarks_combined": "*WOW, MU BHA\n*RAN BOP",
+      "days_behind": 19.1,
+      "days_ahead": null
+    },
+    {
+      "day": 75,
+      "date": "1992-11-22",
+      "report_no": 22,
+      "depth_md_end_m": 547.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "TESTED K/C LINES TO 345 BAR/10 MINS."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. RUNNING BOP/RISER. PRESSURE TESTED K/C LINES TO 30/345 BAR, 5/10 MINS. MU SLIP JOINT AND HANDLING JOINT.  MU GOOSE NECK FROM KILL LINE TO RISER.  DE-BALLASTED RIG 2M."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. INSTALLATION OF KILL/CHOKE LINES, RISER TENSIONERS AND SADDLE FOR POD HOSES.  PRESSURE TESTED KILL/CHOKE LINES TO 35/345 BAR, 5/10 MINUTES."
+        },
+        {
+          "code": "moving -- position",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "POSITIONED RIG OVER WELL"
+        },
+        {
+          "code": "moving -- transit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "BALLASTED RIG TO DRILLING DRAFT"
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 0.0,
+          "remarks": "LANDED BOP.  OVERPULL TESTED WITH 25 TONS. CLOSED SHEAR RAM WITH ACOUSTIC SYSTEM AND PRESSURE TESTED 20\" CASING AND SHEAR RAM TO 75 BAR/15 MINUTES. LAID DOWN LANDING JOINT.  INSTALLED DIVERTER.  RIGGED DOWN RISER HANDLING EQUIPMENT."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIGGED UP PIPE HANDLING EQUIPMENT.  MADE UP SPRING LOADED TOOL AND RAN IN HOLE. PRESSURE TESTED WELLHEAD CONNECTOR TO 20/345 BAR, 5/10 MINUTES.  PULLED TOOL."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP SPRING LOADED TOOL TO 18 3/4\" NOMINAL BORE PROTECTOR AND RAN IN HOLE.  FUNCTION TESTED BOP ON BLUE POD FROM DRILLERS PANEL. RETRIEVED SPRING LOADED TOOL."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED SPIDER AND DIVERTER RUNNING TOOL.  PICKED UP DIVERTER AND CHANGED OUT O-RINGS ON CONNECTION BETWEEN THE DIVERTER AND THE SLIP- JOINT INNER BARREL.  RE-INSTALLED DIVERTER, OK."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 105.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 27.0,
+        "yp_Pa": 15.0
+      },
+      "remarks_combined": "None",
+      "days_behind": 20.1,
+      "days_ahead": null
+    },
+    {
+      "day": 76,
+      "date": "1992-11-23",
+      "report_no": 23,
+      "depth_md_end_m": 633.0,
+      "depth_tvd_end_m": 633.0,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 506.0,
+          "remarks": "MADE UP BOTTOMHOLE ASSEMBLY NUMBER 4 AND RAN IN HOLE TO 506 METERS. TESTED MUD MOTOR AND MWD ON WAY IN."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 506.0,
+          "remarks": "HELD KICK DRILL"
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 510.0,
+          "remarks": "CONT. RUNNING IN TO DRILL FLOAT/CEMENT/SHOE"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 525.0,
+          "remarks": "TAGGED AT 517M.  DRILLED PLUGS AND FLOAT FROM 517 TO 519 M AND CEMENT FROM 519 TO 525 M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 525.0,
+          "remarks": "ATTEMPTED TO TEST ACOUSTIC CONTROL SYSTEM, NEG.  TROUBLE SHOOTING. RE-TESTED OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 531.0,
+          "remarks": "CONT. DRILLING CEMENT FROM 525 TO 531 M."
+        },
+        {
+          "code": "moving -- position",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 531.0,
+          "remarks": "POSITIONED RIG"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 547.0,
+          "remarks": "DRILLED SHOE AT 531M.  CLEANED OUT RAT HOLE TO 547M.  PUMPED 35 M3 BENTONITE MUD."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 552.0,
+          "remarks": "DISPLACED WELL TO 1,20 SG KCL MUD.  DRILLED 5M NEW FORMATION FROM 547M TO 552M WHILE DISPLACING."
+        },
+        {
+          "code": "formation evaluation -- rft/fit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 552.0,
+          "remarks": "PULLED BACK TO CASING SHOE.  CIRCULATED UNTIL EVEN MUDWEIGHT AROUND AND FLUSHED KILL/CHOKE LINES.  PERFORMED LEAK-OFF TEST TO 1,62 SG EMW."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "REPAIRED UPPER RACKING ARM:  WELDED ON ANTI-TURN PADS FOR SWING MOTOR."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 633.0,
+          "remarks": "DRILLED/SURVEYED 17 1/2\" FROM 552 TO 633M: STEERED FROM 562 TO 619M AND FROM 625 TO 633M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 67.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 19.0,
+        "yp_Pa": 8.0
+      },
+      "remarks_combined": "*DRILLED FLOAT/SHOE ETC.\n*DISPLACED TO 1,20 SG KCL MUD, DRILLED 5M NEW FORMATION.\n*TOOK LOT TO 1,62 SG EMW\n*DRILLED 17 1/2\" HOLE TO 762M",
+      "days_behind": 21.1,
+      "days_ahead": null
+    },
+    {
+      "day": 77,
+      "date": "1992-11-24",
+      "report_no": 24,
+      "depth_md_end_m": 1037.0,
+      "depth_tvd_end_m": 1010.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 762.0,
+          "remarks": "CONT. DRILLING/SURVEYING 17 1/2\" HOLE TO 762M. STEERED FROM 633 TO 650M, 663M TO 684M, 692M TO 711M AND 721M TO 745M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 780.0,
+          "remarks": "DRILLED/SURVEYED 17 1/2\" HOLE FROM 762 TO 780M. STEERED FROM 762 TO 772M"
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 780.0,
+          "remarks": "ATTEMPTED TO DUMP SHAKERBOX, NO-GO.  UNPLUGGED DUMP LINE AND CLEANED OUT SHAKERBOX."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 780.0,
+          "remarks": "REAMED FROM 720 TO 750M TO REDUCE DOG LEG."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 780.0,
+          "remarks": "CHANGED SHAKER SCREENS AND CLEANED OUT SHAKER BOX."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 780.0,
+          "remarks": "CONT. REAMING DOG LEG FROM 750 TO 780M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 13.0,
+          "depth_md_m": 1037.0,
+          "remarks": "DRILLED/SURVEYED 17 1/2\" HOLE FROM 780 TO 1037M: STEERED 780-795M, 809-824M, 839-854M, 868-885M, 897-916M, 928-946M, 958-976M, 987-1006M AND 1016-1035M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.21,
+        "viscosity_cp": 67.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 24.0,
+        "yp_Pa": 11.0
+      },
+      "remarks_combined": "*DRILLED/SURVEYED 17 1/2\" HOLE TO 1117M.",
+      "days_behind": 22.1,
+      "days_ahead": null
+    },
+    {
+      "day": 78,
+      "date": "1992-11-25",
+      "report_no": 25,
+      "depth_md_end_m": 1395.0,
+      "depth_tvd_end_m": 1222.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1044.0,
+          "remarks": "CONT. ROTATION DRILLING AND SURVEYING TO 1044M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1044.0,
+          "remarks": "PULLED BACK TO 986M.  REAMED DOG LEG TO 1044M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 1105.0,
+          "remarks": "CONT. DRILLING/SURVEYING TO 1105M: STEERED FROM 1051-1068M AND 1077- 1094M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1105.0,
+          "remarks": "PULLED BACK TO 1044M. REAMED DOG LEG TO 1105M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1117.0,
+          "remarks": "CONT. DRILLING/SURVEYING TO 1117M: STEERED 1109-1117"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 1395.0,
+          "remarks": "DRILLED/SURVEYED 17 1/2\" HOLE FROM 1117M TO 1395M: STEERED FROM 1117 TO 1123M, 1132-1147M, 1162-1175M, 1191-1203M AND 1221-1233M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 74.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 24.0,
+        "yp_Pa": 15.0
+      },
+      "remarks_combined": "*DRILLED/SURVEYED 17 1/2\" HOLE TO 1450M, ORIGINAL CSG SHOE SETTING\n DEPTH WAS IN SAND.",
+      "days_behind": 23.1,
+      "days_ahead": null
+    },
+    {
+      "day": 79,
+      "date": "1992-11-26",
+      "report_no": 26,
+      "depth_md_end_m": 1490.0,
+      "depth_tvd_end_m": 1273.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1450.0,
+          "remarks": "CONT. DRILLING/SURVEYING 17 1/2\" HOLE TO 1450M: STEERED FROM 1415 TO 1425M AND 1447-1452M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 1490.0,
+          "remarks": "CONT. DRILLING/SURVEYING 17 1/2\" HOLE TO SECTION TD AT 1490M: STEERED FROM 1450 TO 1452M AND 1485 TO 1490M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1490.0,
+          "remarks": "CIRCULATED"
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 8.0,
+          "depth_md_m": 1490.0,
+          "remarks": "BACK-REAMED FROM 1490M TO 533M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 533.0,
+          "remarks": "CIRCULATED HOLE CLEAN"
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 533.0,
+          "remarks": "PULLED OUT OF HOLE.  BROKE BIT, RACKED BACK BOTTOMHOLE ASSEMBLY. CHANGED SAVER SUB ON WAY OUT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP PRE-LOADED CEMENT HEAD."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.22,
+        "viscosity_cp": 61.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 24.0,
+        "yp_Pa": 13.0
+      },
+      "remarks_combined": "*DRILLED 17 1/2\" HOLE TO 1490M.\n*BACKREAMED OOH. RETRIEVED WEAR BUSHING, WASHED WELLHEAD.",
+      "days_behind": 24.1,
+      "days_ahead": null
+    },
+    {
+      "day": 80,
+      "date": "1992-11-27",
+      "report_no": 27,
+      "depth_md_end_m": 1490.0,
+      "depth_tvd_end_m": 1273.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED MAKING UP CEMENT HEAD. RACKED BACK HEAD IN DERRICK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP WIPER PLUGS, CASING HANGER AND SEAL ASSEMBLY TO SINGLE TRIP TOOL.  RACKED ASSEMBLY IN DERRICK."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 108.0,
+          "remarks": "MADE UP JET SUB. RAN IN HOLE AND WASHED WELLHEAD."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 221.0,
+          "remarks": "MADE UP SPRING LOADED TOOL. RAN IN HOLE AND RETRIEVED 18 3/4\" NOMINAL BORE PROTECTOR WITH 3 TONS OVERPULL. LAID DOWN BORE PROTECTOR AND TOOL. FLUSHED KILL AND CHOKE LINES. WASHED WELLHEAD ON WAY OUT."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 110.0,
+          "remarks": "WASHED WELLHEAD, BOP AND RISER. LAID DOWN JET SUB."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "operation failed",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "REMOVED STUCK DRIFT FROM PLUG LAUNCHER IN CASING HANGER JOINT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "INSTALLED CASING STABBING BOARD. RIGGED UP TO RUN CASING."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP TAM PACKER AND 5\" PUP TO TDS."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 8.0,
+          "depth_md_m": 517.0,
+          "remarks": "RAN SHOE JOINT, 1 CASING JOINT AND FLOAT JOINT AFTER HAVING CHECKED FLOATS.  THREAD LOCKED SHOE JOINT AND FLOAT JOINT TO INTERMEDIATE JOINT.  RAN 13 3/8\" CASING TO 517M.  FILLED CASING WITH 1,20 SG WHEN RUNNING IN HOLE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 517.0,
+          "remarks": "CIRCULATED BOTTOM UP AND CLEAN HOLE."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 517.0,
+          "remarks": "CHANGED TO 500 TON ELEVATOR AND SPIDER."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 739.0,
+          "remarks": "CONTINUED RUNNING 13 3/8\" CASING TO 739M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.22,
+        "viscosity_cp": 60.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 23.0,
+        "yp_Pa": 11.5
+      },
+      "remarks_combined": "*WASHED WELLHEAD AND RETRIEVED WEAR BUSHING.\n*PREPARED FOR RUNNING CASING.\n*RAN 13 3/8\" CASING TO 1275M.",
+      "days_behind": 25.1,
+      "days_ahead": null
+    },
+    {
+      "day": 81,
+      "date": "1992-11-28",
+      "report_no": 28,
+      "depth_md_end_m": 1490.0,
+      "depth_tvd_end_m": 1273.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1275.0,
+          "remarks": "CONTINUED RUNNING 13 3/8\" CASING TO 1275M."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1376.0,
+          "remarks": "RAN 13 3/8\" CASING TO 1376 M."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1482.0,
+          "remarks": "MAKE UP 13 3/8\" CASING HANGER. RAN 13 3/8\" CASING ON 5\" HWDP. LANDED SAME. TOOK MEASUREMENTS."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1482.0,
+          "remarks": "CIRCULATED BOTTOMS UP. PUMPED 25 M3 1,2 SG BENTONITE MUD. PRESSURE TESTED SURFACE LINE TO 345 BAR."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 1482.0,
+          "remarks": "PUMPED 12 M3 1,4 SG SPACER. MIXED AND PUMPED 71,8 M3 1,56 SG LEAD SLURRY,FOLLOWED BY 20,1 M3 1,9 SG TAIL SLURRY. DROPPED DART AND DISPLACED CEMENT WITH 1,5 M3 1,4 SG SPACER."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1482.0,
+          "remarks": "DISPLACED CEMENT WITH 102,6 M3 1,2 SG MUD USING RIG PUMP. GOT CEMENT CONTAMINATED MUD IN RETURN OVER SHAKER. DID NOT BUMP PLUG."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 1.0,
+          "depth_md_m": 1482.0,
+          "remarks": "FLUSHED K/C LINE AND RISER. DUMPED CEMENT CONTAMINATED MUD. ATTEMPTED TO SET SEAL ASSY, NEGATIVE. RELEASED SEAL ASSY AND POOH WITH SAME."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.5,
+          "depth_md_m": 106.0,
+          "remarks": "M/U MILL AND FLUSH TOOL. RIH AND WASHED SEAL AREA.GOT CMT CONTAMINATED MUD IN RETURN. POOH, L/D MILL AND FLUSH TOOL."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 106.0,
+          "remarks": "M/U AND RIH W/SEAL ASSY. SET AND PRESSURE TEST SAME TO 140 BAR. RETORQUED SEAL ASSY AND PRESSURE TESTED TO 220 BAR. POOH AND L/D R/T."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 106.0,
+          "remarks": "M/U JET SUB. RIH TO BELOW WELLHEAD. WASHED WELLHEAD/BOP AND RISER."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CHANGED BAILS."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.22,
+        "viscosity_cp": 53.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 15.0,
+        "yp_Pa": 6.5
+      },
+      "remarks_combined": "-RAN 13 3/8\" CASING TO 1482 M.\n-CEMENTED 13 3/8\" CASING. GOT CEMENT IN RETURN.\n-FLUSHED KILL/CHOKE LINE/RISER.\n-ATTEMPTED TO SET SEAL ASSY. NEG.\n-RIH W/MILL/FLUSH TOOL, WASHED SEAL AREA.\n-RIH W/JET SUB, WASHED WELLHEAD, BOP, RISER.\n-RIH W/13 3/8\" WEAR BUSHING.\n-TESTED BOP.",
+      "days_behind": 26.1,
+      "days_ahead": null
+    },
+    {
+      "day": 82,
+      "date": "1992-11-29",
+      "report_no": 29,
+      "depth_md_end_m": 1490.0,
+      "depth_tvd_end_m": 1273.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "R/D CASING STABBING BOARD. BROKE PLUG LAUNCHER FROM SINGLE TRIP TOOL."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 106.0,
+          "remarks": "MADE UP WEAR BUSHING TO SPRING LOADED TOOL. RIH AND SET 13 3/8\" WEARBUSHING."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 106.0,
+          "remarks": "PRESSURE TESTED BOP 20/220 BAR ON YELLOW POD, FUNCTION TEST BOP ON BLUE POD. FUNCTION TESTED ACOUSTIC SYSTEM."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "PULLED OUT OF HOLE WITH WEAR BUSHING RUNNING TOOL,JET SUB AND LAID DOWN SAME."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "PRESSURE TESTED LOWER/UPPER KELLY COCK, KELLY HOSE ON TOPDRIVE TO 20/220 BAR,OK."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "LAID DOWN 13 3/8\" TAM PACKER AND CEMENT HEAD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "LAID DOWN 17 1/2\" BOTTOM HOLE ASSEMBLY."
+        },
+        {
+          "code": "drilling -- survey",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIGGED UP ATLAS WIRE LINE."
+        },
+        {
+          "code": "drilling -- survey",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1400.0,
+          "remarks": "RAN GYRO ON ATLAS WIRELINE.GYRO STOPPED AT 1407 M.CHECK LOGGED OUT OF HOLE.LAID DOWN GYRO."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 1407.0,
+          "remarks": "RAN CBL. CBL LOG STOPPED AT 1407 M. LOGGED CBL."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.22,
+        "viscosity_cp": 51.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 15.0,
+        "yp_Pa": 6.5
+      },
+      "remarks_combined": "-POOH WITH WEAR BUSHING TOOL.\n-PRESSURE TESTED TOP DRIVE TO 20/220 BAR.\n-LAID DOWN TAM PACKER,CEMENT HEAD AND 17 1/2\" BOTTOM HOLE ASSEMBLY.\n-RAN GYRO DOWN TO 1400 M.\n-LOGGED CBL FROM 1405 M.\n-MADE UP 12 1/4\" BOTTOM HOLE ASSEMBLY.",
+      "days_behind": 27.1,
+      "days_ahead": null
+    },
+    {
+      "day": 83,
+      "date": "1992-11-30",
+      "report_no": 30,
+      "depth_md_end_m": 1637.0,
+      "depth_tvd_end_m": 1347.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED LOGGING CBL TO WELLHEAD. RIGGED DOWN ATLAS WIRELINE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "MADE UP 12 1/4\" BOTTOM HOLE ASSEMLY. CLOSED SHEAR RAM USING ACOUSTIC,PRESSURE TESTED 13 3/8\" CASING TO 220 BAR,OK."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "REPAIRED SCR FOR MUD PUMP."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONTINUED TO MAKE UP 12 1/4\" BOTTOM HOLE ASSEMLY. FUNCTION TESTED MUD MOTOR AND MWD."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 1441.0,
+          "remarks": "RIH WITH 12 1/4\" BIT,TAGGED CEMENT AT 1441 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1441.0,
+          "remarks": "PERFORMED BOP DRILL."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 1490.0,
+          "remarks": "DRILLED CEMENT,FLOAT AND SHOE AND CLEANED RAT HOLE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1495.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 1490 M TO 1495 M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1495.0,
+          "remarks": "CIRCULATED/CONDITIONED MUD.GOT 1,28 SG IN RETURNS,CIRCULATED UNTIL 1,25 SG IN/OUT."
+        },
+        {
+          "code": "formation evaluation -- rft/fit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1482.0,
+          "remarks": "PERFORMED LOT WITH 1,25 SG MUD,EQUIVALENT TO 1,73 SG."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 1551.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 1495 M TO 1551 M. STARTED TO DRILL WITH NEW 1,2 SG MUD."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "HAD BLACK OUT DUE TO GENERATOR OVERLOAD. CIRCULATED WITH NBS WHILE RESTARTED GENERATOR."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 1637.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1551 M TO 1637 M. ORIENTATED FROM 1585 M TO 1595 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": 63.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 18.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "-RIH WITH 12 1/4\" BIT TO 1441 M.\n-DRILLED CEMENT,FLOAT ,SHOE AND CLEANED RAT HOLE.\n-DRILLED 12 1/4\" HOLE FROM 1490 M TO 1495 M.\n-CIRCULATED AND CONDITIONED MUD.\n-PERFORMED LOT,EQUIVALENT TO 1,73 SG.\n-DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1495 M TO 1551 M.\n-HAD BLACK OUT DUE TO GENERATOR OVERLOAD.\n-DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1551 M TO 1748 M.",
+      "days_behind": 28.1,
+      "days_ahead": null
+    },
+    {
+      "day": 84,
+      "date": "1992-12-01",
+      "report_no": 31,
+      "depth_md_end_m": 1981.0,
+      "depth_tvd_end_m": 1528.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 1748.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1637 M TO 1748 M. ORIENTATED FROM 1677 M TO 1691 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 1981.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1748 M TO 1981 M. ORIENTATED FROM 1926 M TO 1938 M (HS)."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.3,
+        "viscosity_cp": 60.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 20.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "-DRILLED 12 1/4\" HOLE FROM 1748 M TO 2018 M.\n-BACKREAMED FROM 2018 M TO 1985 M.",
+      "days_behind": 29.1,
+      "days_ahead": null
+    },
+    {
+      "day": 85,
+      "date": "1992-12-02",
+      "report_no": 32,
+      "depth_md_end_m": 2041.0,
+      "depth_tvd_end_m": 1559.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 2018.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 1981 M TO 2018 M. ORIENTATED FROM 1988 M TO 2001 M (15R)."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1985.0,
+          "remarks": "BACKREAMED FROM 2018 M TO 1985 M. (POOH DUE TO LOW ROP)"
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.5,
+          "depth_md_m": 800.0,
+          "remarks": "BACKREAMED FROM 1985 M TO 13 3/8\" SHOE AT 1482 M, CONTINUED BACKREAMING INSIDE CASING TO 800 W/HOLE ANGLE 20 DEG."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 800.0,
+          "remarks": "CIRCULATED HOLE CLEAN. CIRCULATED RISER THROUGH KILL/CHOKE LINE."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "POOH,BROKE BIT."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 1983.0,
+          "remarks": "MADE UP NEW BIT,REPLACED LOWER SLEEVE STABILIZER TO 12\". FUNCTION TESTED MOTOR/MWD,RIH TO 1983 M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2018.0,
+          "remarks": "REAMED FROM 1983 M TO 2018 M AS PRECAUTION."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2041.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 2018 M TO 2041 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.31,
+        "viscosity_cp": 58.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 19.0,
+        "yp_Pa": 9.0
+      },
+      "remarks_combined": "-BACKREAMED FROM 1985 M TO 800 M.\n-CIRCULATED HOLE CLEAN AND POOH.\n-CHANGED BIT AND LOWER SLEEVE STABILIZER.\n-RIH TO 1983 M.\n-REAMED FROM 1983 M TO 2018 M.\n-DRILLED 12 1/4\" HOLE FROM 2018 M TO 2166 M.",
+      "days_behind": 30.1,
+      "days_ahead": null
+    },
+    {
+      "day": 86,
+      "date": "1992-12-03",
+      "report_no": 33,
+      "depth_md_end_m": 2470.0,
+      "depth_tvd_end_m": 1785.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 2166.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 2041 M TO 2166 M. ORIENTATED FROM 2132 M TO 2142 M (HS)."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.0,
+          "depth_md_m": 2300.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 2166 M TO 2300 M. FLOWCHECKED DRILLING BREAK AT 2194 M,NEGATIVE."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2300.0,
+          "remarks": "CIRCULATED AND ROTATED DRILLSTRING DUE TO INADEQUATE HOLE CLEANING."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 9.0,
+          "depth_md_m": 2470.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 2300 M TO 2470 M. INCREASED MUDWEIGHT FROM 1,3 SG TO 1,4 SG,WHILE DRILLING FROM 2300 M TO 2383 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 2465.0,
+          "remarks": "REPAIRED TOP DRIVE DUE TO OVERLOAD ON ELECTRO MOTOR."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 60.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 26.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "-DRILLED 12 1/4\" HOLE FROM 2166 M TO 2465 M. INCREASED MUD WEIGHT TO\n 1,4 SG WHEN DRILLING FROM 2300 M TO 2383 M.\n-REPAIRED TOP DRIVE\n-DRILLED 12 1/4\" HOLE FROM 2465 M TO 2531 M.\n-PUMPED OUT OF HOLE DUE TO PROBLEMS WITH TOP DRIVE.",
+      "days_behind": 31.1,
+      "days_ahead": null
+    },
+    {
+      "day": 87,
+      "date": "1992-12-04",
+      "report_no": 34,
+      "depth_md_end_m": 2531.0,
+      "depth_tvd_end_m": 1815.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 2531.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 2470 M TO 2531 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 2531.0,
+          "remarks": "CIRCULATED DUE TO OVERLOAD ON ELECTROMOTOR ON TOP DRIVE."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 2.5,
+          "depth_md_m": 1000.0,
+          "remarks": "PUMPED OUT OF HOLE DUE TO PROBLEMS WITH ELECTRO MOTOR ON TOP DRIVE."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 7.0,
+          "depth_md_m": 1483.0,
+          "remarks": "PUMPED OUT OF HOLE FROM 2100 M TO 1435 M. PACKED OFF AND CHARGED FORMATION AT 2094 M, 1830 M AND 1535 M. MAX GAS 2,2 %. RIH TO 1483 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 7.0,
+          "depth_md_m": 1483.0,
+          "remarks": "REPLACED OIL PUMP ON TOP DRIVE, DUE TO STUCK UPPER BEARING. CIRCULATED/ROTATED PIPE WHILE REPAIRED TOP DRIVE. PUMPED TWO 10 M3 HI-VIS PILLS GIVING LARGE AMOUNTS OF CUTTINGS IN RETURNS."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2215.0,
+          "remarks": "TESTED MWD, PICKED UP 66 JOINTS 5\" DRILL PIPE WHILE RIH FROM 1570 M TO 2215 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 57.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 22.0,
+        "yp_Pa": 10.0
+      },
+      "remarks_combined": "-PUMPED OUT OF HOLE FROM 2100 M TO 1435 M.\n-RIH TO 1483 M.\n-REPAIRED TOP DRIVE.\n-PICKED UP 66 JOINTS 5\" DRILL PIPE WHILE RIH.\n-CONTINUED RIH TO 2531 M, REAMED LAST STAND.\n-DRILLED 12 1/4\" HOLE FROM 2531 M TO 2632 M.",
+      "days_behind": 32.1,
+      "days_ahead": null
+    },
+    {
+      "day": 88,
+      "date": "1992-12-05",
+      "report_no": 35,
+      "depth_md_end_m": 2933.0,
+      "depth_tvd_end_m": 2026.0,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2531.0,
+          "remarks": "CONTINUED RIH WITH STAND FROM 2215 M TO 2531 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2632.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 2531 M TO 2632 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 2933.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 2632 M TO 2933 M. ORIENTATED FROM 2674 M TO 2684 M. (170L)"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 68.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 31.0,
+        "yp_Pa": 9.5
+      },
+      "remarks_combined": "DRILLED 12 1/4\" HOLE FROM 2632 M TO 3015 M.",
+      "days_behind": 33.1,
+      "days_ahead": null
+    },
+    {
+      "day": 89,
+      "date": "1992-12-06",
+      "report_no": 36,
+      "depth_md_end_m": 3017.0,
+      "depth_tvd_end_m": 2073.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 3015.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 2933 M TO 3015 M. ORIENTATED FROM 2965 M TO 2972 M. (95R)"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 3017.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 3015 M TO 3017 M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2460.0,
+          "remarks": "BACKREAMED FROM 3017 M TO 2460 M. PACKED OFF,AND CHARGED FORMATION."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2460.0,
+          "remarks": "CIRCULATED HI-VIS PILL AROUND. NO INCREASING OF AMOUNT OFF CUTTINGS OVER SHAKER."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 8.5,
+          "depth_md_m": 2120.0,
+          "remarks": "BACK REAMED FROM 2460 M TO 1960 M. HOLE PACKED OFF AT 2222 M,CHARGED FORMATION. ESTABLISHED CIRCULATION,PUMPED 10 M3 1,6 SG HI VIS PILL. HAD LARGE INCREASE IN CUTTINGS OVER SHAKER."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 64.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 29.0,
+        "yp_Pa": 11.0
+      },
+      "remarks_combined": "-DRILLED 12 1/4\" HOLE FROM 3015 M TO 3017 M.\n-BACK REAMED FROM 3017 M TO 1926 M.\n-CHANGED WASH PIPE ON TOP DRIVE.\n-BACK REAMED FROM 1926 M TO 1482 M.",
+      "days_behind": 34.1,
+      "days_ahead": null
+    },
+    {
+      "day": 90,
+      "date": "1992-12-07",
+      "report_no": 37,
+      "depth_md_end_m": 3017.0,
+      "depth_tvd_end_m": 2073.0,
+      "activities": [
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1926.0,
+          "remarks": "BACK REAMED FROM 1960 M TO 1926 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1926.0,
+          "remarks": "CHANGED WASH PIPE ON TOP DRIVE."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 1926.0,
+          "remarks": "BACK REAMED FROM 1926 M TO 1482 M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 800.0,
+          "remarks": "BACKREAMED FROM 13 3/8\" SHOE AT 1482 M TO 800 M."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 800.0,
+          "remarks": "CIRCULATED HI VIS PILL AROUND.BOOSTED RISER."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "POOH. LAID DOWN BIT AND MUD MOTOR."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 1400.0,
+          "remarks": "CHANGED OUT MUD MOTOR,MAKE UP BIT.REPLACED JARS.TESTED MUD MOTOR AND MWD. RIH TO 1400 M."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "FUNCTION TESTED BOP AND ACOUSTIC SYSTEM, OK."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2876.0,
+          "remarks": "CONTINUED RIH FROM 1400 M TO 2876 M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 3017.0,
+          "remarks": "REAMED FROM 2876 M TO 3017 M, DUE TO TIGHT HOLE."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 73.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 19.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "-BACKREAMED FROM 13 3/8\" SHOE TO 800 M.\n-CIRCULATED HOLE CLEAN.\n-POOH,CHANGED BIT,MUD MOTOR AND JARS.\n-RIH TO 1400 M.\n-FUNCTION TESTED BOP AND ACOUSTIC SYSTEM.\n-CONTINUED RIH TO 2876 M.\n-REAMED FROM 2876 M TO 3017 M.\n-DRILLED 12 1/4\" HOLE FROM 3017 M TO 3026 M.\n-REPAIRED MUDPUMP.\n-DRILLED 12 1/4\" HOLE FROM 3026 M TO 3078 M.",
+      "days_behind": 35.1,
+      "days_ahead": null
+    },
+    {
+      "day": 91,
+      "date": "1992-12-08",
+      "report_no": 38,
+      "depth_md_end_m": 3257.0,
+      "depth_tvd_end_m": 2200.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3026.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 3017 M TO 3026 M."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 3026.0,
+          "remarks": "CHANGED PISTON ON MUDPUMP NO.1,SYLINDER NO.2. RECHARGED PULSATION DAMPENER WITH NITROGEN ON MUDPUMP NO.3. CIRCULATED/ROTATED WHILE REPAIRING MUDPUMPS."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 3078.0,
+          "remarks": "DRILLED 12 1/4\" HOLE FROM 3026 M TO 3078 M."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 18.0,
+          "depth_md_m": 3257.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 3078 M TO 3257 M. ORIENTED FROM 3143 M TO 3150 M (180),FROM 3192 M TO 3198 M (120 L) REAMED EACH CONNECTION TWICE WITH 180 RPM ON STRING TO IMPROVE HOLE CLEANING."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 76.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 24.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "-DRILLED 12 1/4\" HOLE FROM 3078 M TO 3301 M.",
+      "days_behind": 36.1,
+      "days_ahead": null
+    },
+    {
+      "day": 92,
+      "date": "1992-12-09",
+      "report_no": 39,
+      "depth_md_end_m": 3353.0,
+      "depth_tvd_end_m": 2252.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 3301.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 3257 M TO 3301 M. ORIENTED FROM 3284 M TO 3288 M. REAMED EACH CONNECTION TWICE WITH 180 RPM ON STRING TO IMPROVE HOLE CLEANING."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 12.0,
+          "depth_md_m": 3353.0,
+          "remarks": "DRILLED/ORIENTATED 12 1/4\" HOLE FROM 3301 M TO 3353 M. ORIENTED FROM 3284 M TO 3288 M(120L) AND FROM 3311 M TO 3321 M (120 L) REAMED EACH CONNECTION TWICE WITH 180 RPM ON STRING TO IMPROVE HOLE CLEANING."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 3353.0,
+          "remarks": "CIRCULATED AND ROTATED STRING 180 RPM.PUMPED 8 M3 1,6 SG HI VIS PILL."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 3100.0,
+          "remarks": "BACK REAMED FROM 3353 M TO 3100 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 60.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 21.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "-DRILLED 12 1/4\" HOLE FROM 3301 M TO 3353 M.\n-CIRCULATED, PUMPED 8 M3 1,6 SG HI VIS PILL.\n-BACK REAMED FROM 3353 M TO 2830 M.\n-HOLE PACKED OFF AT 2830 M,WORKED/ROTATED PIPE DOWN TO 2866 M.",
+      "days_behind": 37.1,
+      "days_ahead": null
+    },
+    {
+      "day": 93,
+      "date": "1992-12-10",
+      "report_no": 40,
+      "depth_md_end_m": 3353.0,
+      "depth_tvd_end_m": 2252.0,
+      "activities": [
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 2830.0,
+          "remarks": "BACK REAMED FROM 3100 M TO 2830 M. PUMPED 8 M3 1,6 SG HI VIS PILL AT 3035 M"
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2866.0,
+          "remarks": "PACKED OFF AT 2830 M,WORKED/ROTATED PIPE DOWN TO 2866 M. NO RETURN."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 2.0,
+          "depth_md_m": 2904.0,
+          "remarks": "WORKED/ROTATED PIPE FROM 2866 M TO 2904 M. ESTABLISHED CIRCULATION."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 3.0,
+          "depth_md_m": 2904.0,
+          "remarks": "CIRCULATED, BOOSTED RISER BY PUMPING DOWN KILL/CHOKE LINE USING CEMENT PUMP."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 0.5,
+          "depth_md_m": 2904.0,
+          "remarks": "HOLE PACKED OFF AT 2904 M. WORKED PIPE AND ESTABLISHED CIRCULATION."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 4.5,
+          "depth_md_m": 2904.0,
+          "remarks": "ESTABLISHED FULL CIRCULATION (2700 LTR/MIN). PUMPED 10 M3 1,18 SG KCL PILL, FOLLOWED BY 8 M3 1,6 SG HI VIS PILL. CIRCULATED SAME OUT."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 0.5,
+          "depth_md_m": 2924.0,
+          "remarks": "CIRCULATED AND WORKED/ROTATED PIPE UP/DOWN FROM 2900 M TO 2924 M. BEAKREAMED FROM 2924 M TO 2900 M. LOST RETURN."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 2.0,
+          "depth_md_m": 2904.0,
+          "remarks": "WORKED PIPE TO ESTABLISH FULL CIRCULATION."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 5.0,
+          "depth_md_m": 2925.0,
+          "remarks": "CIRCULATED AND WORKED/ROTATED PIPE UP/DOWN FROM 2900 M TO 2925 M. ADDED KCL AND EZ MUD DP DIRECTLY INTO ACTIVE MUD SYSTEM."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2880.0,
+          "remarks": "BACK REAMED FROM 2900 M TO 2880 M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 62.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 21.0,
+        "yp_Pa": 13.0
+      },
+      "remarks_combined": "-WORKED/ROTATED PIPE FROM 2866 M TO 2904 M.\n-ESTABLISHED FULL RETURN.\n-PUMPED 10 M3 1,18 SG KCL PILL.\n-CIRCULATED AND WORKED/ROTATED PIPE UP/DOWN FROM 2900 M TO 2925 M.\n-BACK REAMED FROM 2900 M TO 2732 M.\n-HOLE PACKED OFF AT 2732 M, WORKED PIPE DOWN TO 2741 M.\n-CIRCULATED AND INCREASED FLOW RATE TO MAX 1400 LTR/MIN.",
+      "days_behind": 38.1,
+      "days_ahead": null
+    },
+    {
+      "day": 94,
+      "date": "1992-12-11",
+      "report_no": 41,
+      "depth_md_end_m": 3353.0,
+      "depth_tvd_end_m": 2252.0,
+      "activities": [
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2732.0,
+          "remarks": "BACK REAMED FROM 2880 M TO 2732 M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "operation failed",
+          "hours": 2.0,
+          "depth_md_m": 2741.0,
+          "remarks": "HOLE PACKED OFF AT 2732 M,WORKED PIPE DOWN TO 2741 M. HAD FULL RETURN WITH MAX 1400 LTR/MIN,NO ROTATION."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 12.0,
+          "depth_md_m": 2741.0,
+          "remarks": "ATTEMPTED TO WORK PIPE FREE AT 2741 M,MAX OVERPULL/DOWNWEIGHT 175/40 TON. MAX TORQUE 33000 FT-LBS. CIRCULATED WITH MAX 2900 LTR/MIN. PUMPED 9 M3 1,11 SG KCL PILL,FOLLOWED BY 1,6 SG HI VIS PILL,PUMPED SAME OUT.PUMPED 9 M3 1,03 SG LO VIS PILL,FOLLOWED BY 1,6 SG HI VIS PILL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 6.0,
+          "depth_md_m": 2741.0,
+          "remarks": "CONTINUED TO WORK PIPE FREE AT 2741 M,MAX PULL/DOWNWEIGHT 175/40 TON,MAX TORQUE 33000 FT-LBS. CIRCULATED WITH MAX 2900 LTR/MIN."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 70.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 35.0,
+        "yp_Pa": 14.5
+      },
+      "remarks_combined": "-ATTEMPTED TO WORK PIPE FREE AT 2741 M.\n-PUMPED 18 M3 EZ SPOT PILL.\n-DISPLACED PILL, LEFT 10,3 M3 EZ SPOT PILL AROUND BHA.\n-ATTEMPTED TO WORK PIPE FREE,PUMPED 200 LTR EZ SPOT PILL\n EVERY 1/2 HRS.",
+      "days_behind": 39.1,
+      "days_ahead": null
+    },
+    {
+      "day": 95,
+      "date": "1992-12-12",
+      "report_no": 42,
+      "depth_md_end_m": 3353.0,
+      "depth_tvd_end_m": 2252.0,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 2.0,
+          "depth_md_m": 2741.0,
+          "remarks": "CONTINUED TO WORK PIPE FREE AT 2741 M,MAX OVERPULL/DOWNWEIGHT 170/40 TON,MAX TORQUE 33000 FT-LBS. CIRCULATED WITH MAX 2900 LTR/MIN."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 1.0,
+          "depth_md_m": 2741.0,
+          "remarks": "PUMPED 18 M3 1,45 SG EZ SPOT PILL, DISPLACED SAME WITH 18 M3 1,4 SG MUD. SPOTTED 10,3 M3 AROUND BHA, LEFT 7,7 M3 INSIDE PIPE."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 3.0,
+          "depth_md_m": 2741.0,
+          "remarks": "CONTINUED TO WORK PIPE FREE AT 2741 M,MAX PULL/DOWNWEIGHT 175/40 TON. MAX TORQUE 33000 FT-LBS. PUMPED 210 LTR EZ SPOT PILL EVERY 1/2 HRS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 5.5,
+          "depth_md_m": 2741.0,
+          "remarks": "CONT. ATTEMPTING TO WORK PIPE FREE, NEGATIVE. MOVED EZ-SPOT EVERY HALF HOUR BY PUMPING 210 LITERS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 6.0,
+          "depth_md_m": 2652.0,
+          "remarks": "CHANGED TO 500 TON LINKS AND RIGGED UP ATLAS WIRELINE.  RAN IN WITH JRC CUTTER AND CCL AT 14:30 HRS.  WITH 50 TONS OVERPULL ON STRING, DETONATED CHARGE AT 2658,2M. PIPE NOT FREE.  POOH WITH WIRELINE. FOUND JRC TOOL, X-OVER TO SAME AND 1 SINKER BAR TO BE LEFT IN HOLE."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 2.5,
+          "depth_md_m": 2658.0,
+          "remarks": "CIRCULATED 2000 STROKES: SURFACE PUMPING PRESSURE 100 BAR LESS THAN BEFORE CUTTING AND NO COMMUNICATION WITH MWD. ATTEMPTED TO WORK STRING FREE FROM THE BHA BY APPLYING UP TO 34000 FTLBS TORQUE AND 180 TONS OVERPULL, NO SUCCESS."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 4.0,
+          "depth_md_m": 2510.0,
+          "remarks": "RIGGED UP WIRELINE. RAN FREE-POINT INDICATOR. CHECKED AND CALIBRATED TOOL AT 1400M, OK.  RAN IN TO 2512M, TOOL FAILURE. POOH."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 67.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 33.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "*CONT. ATTEMPTS TO WORK PIPE FREE.\n*RAN CUTTER. DETONATED AT 2658M, BUT PIPE NOT FREE.\n*RAN FREE-POINT INDICATOR: 1 MISRUN, POOH.  2.ND ATTEMPT OK, SHOWED\n 5\" DP TO BE FREE.  CHECKED INSIDE HWDP AT 2530 AND 2584M, POSSIBLY\n FREE.",
+      "days_behind": 40.1,
+      "days_ahead": null
+    },
+    {
+      "day": 96,
+      "date": "1992-12-13",
+      "report_no": 43,
+      "depth_md_end_m": 2414.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "FOUND SHORT ON MONOCONDUCTOR EXTENSION CABLE.  CUT OFF DAMAGED CABLE AND RETERMINATED."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 3.5,
+          "depth_md_m": 2584.0,
+          "remarks": "RAN IN WITH FREE-POINT INDICATOR AND CCL.  CHECKED AND CALIBRATED TOOL AT 1400M, OK.  FOUND 5\" DP TO BE FREE.  CHECKED INSIDE HWDP AT 2530 AND 2584M, POSSIBLY FREE.  POOH."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "PREPARED TO RUN IN WITH JRC CUTTER AND CCL."
+        },
+        {
+          "code": "interruption -- fish",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 4.5,
+          "depth_md_m": 2516.0,
+          "remarks": "RAN IN WITH JRC CUTTER AND CCL.  DETONATED CUTTER AT 2516M, KEPT 50 T OVERPULL ON STRING.  POOH WITH WIRELINE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 2516.0,
+          "remarks": "PULLED PIPE FREE WITH 100 T OVERPULL. CIRCULATED BU."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 2516.0,
+          "remarks": "POOH.   MAX. BREAK-OUT TORQUE 80000 FTLBS.  LD STUFFING BOX AND CIRCULATION SUB."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CHANGED BAILS AND ELEVATOR."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "SLIPPED AND CUT 32M DRILL LINE."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "CLEARED RIG FLOOR.  INSPECTED AND LUBRICATED TDS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 80.0,
+          "remarks": "MU BHA FOR SIDE TRACK."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 73.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 33.0,
+        "yp_Pa": 13.5
+      },
+      "remarks_combined": "*CUT PIPE AT 2516M. POOH.\n*MU BHA FOR SIDE TRACK, RIH TO 1266M, LOST RETURNS.\n*WASHED FROM 1266M TO 1390M.",
+      "days_behind": 41.1,
+      "days_ahead": null
+    },
+    {
+      "day": 97,
+      "date": "1992-12-14",
+      "report_no": 44,
+      "depth_md_end_m": 2414.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 1266.0,
+          "remarks": "CONT. MU BHA FOR SIDE TRACKING. DRIFTED AND SERVICE BROKE CONNECTIONS ON HWDP.  RAN IN TO 1266M.  LOST RETURNS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1390.0,
+          "remarks": "WORKED PIPE AND BROKE CIRCULATION, OK. WASHED/REAMED FROM 1266M TO 1390M."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 6.0,
+          "depth_md_m": 2220.0,
+          "remarks": "CONTINUED REAMING FROM 1390 TO 2220M.  HOLE PACKED OFF.  LOST RETURNS AND UNABLE TO ROTATE STRING."
+        },
+        {
+          "code": "interruption -- lost circulation",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 0.5,
+          "depth_md_m": 2188.0,
+          "remarks": "WORKED PIPE BACK TO 2188M.  ROTATED STRING AND RE-ESTABLISHED FULL CIRCULATION."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2188.0,
+          "remarks": "CIRCULATED AND CLEANED HOLE."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 2188.0,
+          "remarks": "DISPLACED HOLE TO 1,50 SG NEW KCL MUD."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 2188.0,
+          "remarks": "CHANGED SAVER SUB AND LOWER VALVE IN TDS."
+        },
+        {
+          "code": "drilling -- ream",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2188.0,
+          "remarks": "BACK-REAMED FROM 2188 TO 1971M."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.5,
+          "depth_md_m": 1971.0,
+          "remarks": "POOH"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.48,
+        "viscosity_cp": 122.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 44.0,
+        "yp_Pa": 20.0
+      },
+      "remarks_combined": "*REAMED TO 2220M.  HOLE PACKED OFF, LOST RETURNS, UNABLE TO ROTATE.\n*REGAINED CIRC, DISPLACED TO 1,50 SG NEW KCL MUD\n*BACKREAMED AND POOH.\n*RIH WITH OPEN ENDED PIPE. LOST RETURNS AT 1640M, REGAINED RETURNS AND\n CONT RIH.\n*LOST RETURNS AT 1902M. REGAINED RETURNS. CONT. RI TO 2020M.",
+      "days_behind": 42.1,
+      "days_ahead": null
+    },
+    {
+      "day": 98,
+      "date": "1992-12-15",
+      "report_no": 45,
+      "depth_md_end_m": 1550.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1971.0,
+          "remarks": "CONT. POOH. RACKED BACK BHA."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MU CEMENT HEAD. RACKED SAME BACK IN DERRICK."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 2.0,
+          "depth_md_m": 1640.0,
+          "remarks": "RAN IN WITH OPEN ENDED 5\" DP TO 1640M. LOST RETURNS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1640.0,
+          "remarks": "WORKED PIPE. CIRCULATED 800 STROKES, MAX. 60 SPM, FULL RETURNS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "circulation loss",
+          "hours": 1.0,
+          "depth_md_m": 1902.0,
+          "remarks": "CONT. RUNNING IN TO 1902M, LOST RETURNS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2020.0,
+          "remarks": "WORKED PIPE AND CIRCULATED 40 SPM, FULL RETURNS. CONT. RUNNING IN TO 2020M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2220.0,
+          "remarks": "CONT. RI TO 2220M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2220.0,
+          "remarks": "CIRCULATED. INCREASED RATE SLOWLY UP TO 2800 LPM."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 2220.0,
+          "remarks": "PUMPED 4 M3 HI-VIS 1,5 SG KCL MUD.  DISPLACED SAME WITH 19,5 M3 MUD."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 2220.0,
+          "remarks": "PULLED BACK TO 2180M.  HOOKED UP CEMENT HOSE, PRESSURE TESTED CEMENT LINES TO 100 BAR/5 MINS.  PUMPED 3,0 M3 FRESH WATER,  15,2 M3 1,95 SG CEMENT,  430 L FRESH WATER, DROPPED WIPER PLUG AND DISPLACED CEMENT WITH 17,3 M3 1,5 SG MUD.  ROTATED STRING DURING DISPLACEMENT."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 2180.0,
+          "remarks": "PULLED BACK TO 1850M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 1850.0,
+          "remarks": "CIRCULATED HOLE CLEAN."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1850.0,
+          "remarks": "PUMPED 3,0 M3 FRESH WATER, 22,8 M3 1,5 SG CEMENT, 350 L FRESH WATER. DISPLACED WITH 14 M3 MUD."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1410.0,
+          "remarks": "PULLED BACK TO 1410M"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1410.0,
+          "remarks": "CIRC. BU"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1410.0,
+          "remarks": "POOH"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "BROKE OUT 12 1/4\" BIT.  REARRANGED BHA IN DERRICK"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "LD CEMENT HEAD"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "MU 12 1/4\" CLEAN-OUT ASSEMBLY AND RAN IN HOLE"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.5,
+        "viscosity_cp": 94.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 35.0,
+        "yp_Pa": 14.0
+      },
+      "remarks_combined": "*RI TO 2220M, PUMPED 4M3 HI-VIS AS BASE FOR PLUG, PLACED BALANCED\n CEMENT PLUG FROM 2180 TO 1980 M AND FROM 1850 TO 1550M. POOH.\n*RI WITH CLEAN-OUT ASSEMBLY. WASHED/REAMED FROM 1400M, STUCK AT 1493M,\n WORKED PIPE FREE. WORKED TIGHT AREA 1492-1495M.",
+      "days_behind": 43.1,
+      "days_ahead": null
+    },
+    {
+      "day": 99,
+      "date": "1992-12-16",
+      "report_no": 46,
+      "depth_md_end_m": 1482.0,
+      "depth_tvd_end_m": 1247.0,
+      "activities": [
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1400.0,
+          "remarks": "CONT RIH TO 1400M"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "stuck equipment",
+          "hours": 1.0,
+          "depth_md_m": 1493.0,
+          "remarks": "FILLED PIPE. WASHED/REAMED FROM 1400M TO 1493M. PIPE STUCK AT 1493M WITHOUT ANY WARNING SIGNS. KEPT FULL CIRCULATION."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 1496.0,
+          "remarks": "WORKED PIPE FREE. WORKED PIPE ACROSS TIGHT AREAS AT 1492M TO 1494M. TENDENCIES OF GETTING STUCK SEVERAL TIMES.  CONTINUED WORKING PIPE. NO CEMENT IN RETURNS.  WORKED PIPE TO 1496M. FULL CIRCULATION AT ALL TIMES."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 1510.0,
+          "remarks": "CONT. WASHING/REAMING TO 1510M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1510.0,
+          "remarks": "CIRCULATED WHILE MIXING HI-VIS 1,75 SG PILL."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1510.0,
+          "remarks": "SWEPT PILL AROUND AND WASHED/REAMED TO 1540M. TOOK WEIGHT."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1540.0,
+          "remarks": "BACK-REAMED TO 1483M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1483.0,
+          "remarks": "CIRCULATED BU"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1483.0,
+          "remarks": "BACK-REAMED TO 1000M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1000.0,
+          "remarks": "CIRCULATED HOLE CLEAN"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 1000.0,
+          "remarks": "POOH. LD STABILISER/1 EACH 8\" DC/NB STABILISER/BIT."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "MU PRE-LOADED CEMENT HEAD, RACKED SAME IN DERRICK."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "RIH WITH 5\" OEDP.  BROKE CIRCULATION AT 1150M."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.5,
+        "viscosity_cp": 72.0,
+        "type": "KCL/PAC/PHPA",
+        "pv_mPas": 31.0,
+        "yp_Pa": 10.5
+      },
+      "remarks_combined": "*WASHED/REAMED TO 1540M.\n*BACK-REAMED TO 1000M. POOH.\n*RI W/OEDP. SET 3.RD CMT PLUG FROM 1543M TO 1430M. POOH.",
+      "days_behind": 44.1,
+      "days_ahead": null
+    },
+    {
+      "day": 100,
+      "date": "1992-12-17",
+      "report_no": 47,
+      "depth_md_end_m": 1482.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1470.0,
+          "remarks": "CONT. RIH WITH 5\" OEDP TO 1470M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1543.0,
+          "remarks": "WASHED/ROTATED FROM 1470 TO 1543M. WORKED THROUGH SPOTS AT 1529 AND 1535M.  TOOK WEIGHT AT 1543M.  PULLED BACK TO 1527M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1527.0,
+          "remarks": "RU CEMENT EQUIPMENT. PRESSURE TESTED SURFACE LINES TO 100 BAR/10 MINS. RAN IN TO 1541M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1541.0,
+          "remarks": "PUMPED 3,0 M3 FRESHWATER.  MIXED AND PUMPED 10,4 M3 1,95 SG CEMENT, PUMPED 420 L FRESH WATER.  DROPPED WIPER PLUG. DISPLACED WITH 12,2 M3 MUD."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1541.0,
+          "remarks": "DISCONNECTED CEMENT HOSE AND RACKED BACK CEMENT HEAD. PULLED BACK TO 1400M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1400.0,
+          "remarks": "CIRCULATED BU."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1400.0,
+          "remarks": "PUMPED SLUG AND POOH TO 1300M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "CONT. POOH."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 104.0,
+          "remarks": "RIH AND WASHED BOP AND WELLHEAD. INSTALLED TEST TOOL AND 1 STAND 5\" DP"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "LD CEMENT HEAD"
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 104.0,
+          "remarks": "PRESSURE TESTED BOP TO 20/220 BAR, 5/10 MINS. PRESSURE TESTED STAND PIPE, INSIDE BOP AND SPARE KELLY COCK TO 35/345 BAR, 5/10 MINS. BOP WAS FUNCTIONED ON BLUE POD.  FUNCTION TESTED BOP ON ACOUSTIC SYSTEM."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 8.5,
+          "depth_md_m": 1377.0,
+          "remarks": "MU BHA. TESTED MWD AND MUD MOTOR.  CHANGED OUT JARS.  PU 6 5/8\" HWDP. RI TO 1377M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1400.0,
+          "remarks": "DISPLACED WELL TO SEA WATER."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "*TESTED BOP.\n*M/U NEW BHA AND RIH.\n*WASHED/AND REAMED FROM 1400 - 1474 M. INDICATION OF CMT. FROM 1460 M.",
+      "days_behind": 45.1,
+      "days_ahead": null
+    },
+    {
+      "day": 101,
+      "date": "1992-12-18",
+      "report_no": 48,
+      "depth_md_end_m": 1486.0,
+      "depth_tvd_end_m": null,
+      "activities": [
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1400.0,
+          "remarks": "CONT. DISPLACING TO SEA WEATER"
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1474.0,
+          "remarks": "WASHED/REAMED FROM 1400M TO 1474M. INDICATION OF CEMENT FROM 1460 M. 1,5 - 2 TON WEIGHT."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.5,
+          "depth_md_m": 0.0,
+          "remarks": "FLUSHED THROUGH SURFACE LINES, CHOKEMANIFOLD. CLANED OUT SHAKERPITS, TRIPTANK, POORBOY DEGASSER AND MUD SURFACE SYSTEM. PLUGGED OFF ALL DRAINS."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 12.5,
+          "depth_md_m": 1470.0,
+          "remarks": "CONTINUED PREPARATIONS FOR PETROFREE MUD:  CLEANED SHAKER PITS AND MUD PITS.  PLUGGED OFF DRAINS.  STARTED OFFLOADING MUD FROM BOAT."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1470.0,
+          "remarks": "PUMPED 9 M3 SPACER AND DISPLACED WELL TO 1,35 SG PETROFREE MUD."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1470.0,
+          "remarks": "CIRCULATED TO CONDITION MUD WHILE FILLING SHAKERPITS AND SURFACE EQUIPMENT WITH MUD."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1486.0,
+          "remarks": "WASHED/REAMED FROM 1474M TO 1478M.  WITH PUMPS OFF, SET DOWN 5 TONS ON CEMENT. DRILLED CEMENT TO 1486M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "fail",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 1486.0,
+          "remarks": "WHILE PUMPING 2500 LPM, CHECKED TOOLFACE FOR 20 MINUTES, NEG. PULLED BACK INTO CASING. STOPPED PUMPS 2 MINUTES WHILE LINING UP FOR RETURNS OVER SHAKERS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1470.0,
+          "remarks": "HOLE PACKED OFF. UNABLE TO CIRCULATE/ROTATE.  WORKED PIPE FREE WITH 40 TONS OVERPULL."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "*PREPARED FOR AND TOOK ONBOARD PETROFREE.  DISPLACED WELL TO SAME.\n*DRILLED CEMENT TO 1486M.\n*PACKED OFF INSIDE CASING. PULLED BACK TO 1400M. RAN BACK IN TO 1480M.",
+      "days_behind": 46.1,
+      "days_ahead": null
+    },
+    {
+      "day": 102,
+      "date": "1992-12-19",
+      "report_no": 49,
+      "depth_md_end_m": 1536.0,
+      "depth_tvd_end_m": 1302.0,
+      "activities": [
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 1470.0,
+          "remarks": "PULLED BACK TO 1435M. LOOSING MUD WHEN CIRCULATING AT 1620LPM."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1400.0,
+          "remarks": "PULLED BACK TO 1400M.  CIRCULATED UP TO 2600 LPM, FULL RETURNS."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1482.0,
+          "remarks": "WASHED/REAMED FROM 1400 TO 1482M."
+        },
+        {
+          "code": "interruption -- sidetrack",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 1493.0,
+          "remarks": "WASHED/REAMED TO 1486M.  DRILLED CEMENT FROM 1486M TO 1493M."
+        },
+        {
+          "code": "formation evaluation -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1493.0,
+          "remarks": "CIRCULATED BOTTOMS UP."
+        },
+        {
+          "code": "formation evaluation -- rft/fit",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1493.0,
+          "remarks": "PRESSURE TESTED SURFACE LINES TO 100 BAR/10 MINS. PERFORMED F.I.T. TO 1,65 SG EQUIVALENT MUD WEIGHT."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 120.0,
+        "type": "PETROFREE",
+        "pv_mPas": 45.0,
+        "yp_Pa": 14.0
+      },
+      "remarks_combined": "None",
+      "days_behind": 47.1,
+      "days_ahead": null
+    }
+  ]
+}

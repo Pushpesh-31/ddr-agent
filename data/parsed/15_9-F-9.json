@@ -1,0 +1,2949 @@
+{
+  "well_id": "15/9-F-9",
+  "metadata": {
+    "spud_date": "2007-11-09",
+    "drill_complete_date": "2008-08-31",
+    "operator": "StatoilHydro",
+    "drill_contractor": "Maersk Drilling",
+    "rig_name": "MÆRSK INSPIRER",
+    "n_reports": 22,
+    "first_report_date": "2007-11-29",
+    "last_report_date": "2008-09-07",
+    "calendar_span_days": 284,
+    "total_days": 22,
+    "planned_days": 28.0,
+    "td_md_m": 1085.0,
+    "td_tvd_m": 1075.9
+  },
+  "daily_reports": [
+    {
+      "day": 1,
+      "date": "2007-11-29",
+      "report_no": 1,
+      "depth_md_end_m": 210.0,
+      "depth_tvd_end_m": 210.0,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 8.0,
+          "remarks": "Performed toolbox. Removed hatches and fenced off all levels in WH module. Picked up and hung off 36\" hole opener."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 50.0,
+          "remarks": "Made up powerpulse and drilcollar. RIH with 36\" hole opener from 8 m to 50 m MD. Observed leakage on elevator."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.25,
+          "depth_md_m": 50.0,
+          "remarks": "Changed leaking fitting on DP elevator."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 140.0,
+          "remarks": "RIH with 36\" holeopener BHA from 50 m to 140 m MD."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 144.0,
+          "remarks": "Stabbed 36\" hole opener BHA into F-9 funnel assisted by ROV."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 150.0,
+          "remarks": "Started washing and rotation with 900 lpm / 40 rpm. Tagged seabed at 144,3 m MD with 5 MT WOB. Washed and rotated down to 150 m MD with reduced parameters : Flow 900 lpm / Rotation 40 rpm / WOB 0,3 MT / Torque 6-14 kNm. ROV observed drill guide bushing landing in guide funnel."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 165.0,
+          "remarks": "Drilled 36\" hole section from 150 m to 165 m MD. Drilling parameters : Flow 2700 lpm / Rotation 70 rpm / WOB 2 MT / Torque 12-25 kNm. Performed survey, inclination 1,12 deg."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 165.0,
+          "remarks": "Reamed drilled section in order to redcue inclination. Observed excessive rattling in drillstring between 159 m and 161 m MD. Performed survey, inclination 0,56 deg. Observed hydraulic leak on TDS."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.25,
+          "depth_md_m": 165.0,
+          "remarks": "Repaired leaking fitting on TDS. Meanwhile pumped 10 m3 hi-vis."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.5,
+          "depth_md_m": 210.0,
+          "remarks": "Drilled 36\" hole section from 165 m to 210 m MD. Drilling parameters : Flow 2700-4400 lpm / SPP 70 bar / Rotation 90 rpm / WOB 2-3 MT / Torque 5-14 kNm. Performed survey every 10 m drilled. Swept hole with 20 m3 hi-vis before connections."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.4,
+        "viscosity_cp": 125.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Made up and RIH with 36\" hole opener BHA. Drilled 36\" x 26\" x 17 1/2\"  hole from 144 m to 226 m MD. Circulated well clean and displaced to 1,40 sg WBM. POOH with 36\" hole opener BHA to 50 m MD.",
+      "days_behind": null,
+      "days_ahead": 0.8
+    },
+    {
+      "day": 2,
+      "date": "2007-11-30",
+      "report_no": 2,
+      "depth_md_end_m": 226.0,
+      "depth_tvd_end_m": 226.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 226.0,
+          "remarks": "Drilled 36\" hole section from 210 m to 17 1/2\"  TD at 226 m MD. 36\" hole section TD 223 m MD. Drilling parameters : Flow 4400 lpm / SPP 72 bar / Rotation 90 rpm / WOB 0-3 MT / Torque 2-9 kNm. Performed survey every 10 m drilled. Final survey at 226 m MD 0,44 deg."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 226.0,
+          "remarks": "Circulated 1,5 times bottoms up while reaming hole with 10 rpm. Swept hole with 25 m3 hi-vis at 4400 lpm. Displaced hole from seawater to 80 m3 1,40 sg WBM pumping at 4400 lpm."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 151.0,
+          "remarks": "POOH wirh 36\" hole opener BHA from 226 m to 151 m MD. Meanwhile got ROV in position to observe BHA. Topped up hole with 10 m3 1,40 WBM."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 123.0,
+          "remarks": "Pulled 36\" hole opener BHA through funnel while observing with ROV. Observed 8 MT overpull when 36\" bit section was pulled through the guide funnel."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 123.0,
+          "remarks": "Performed FG check of derrick and TDS. Meanwhile troubleshot standjump function on TDS."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 50.0,
+          "remarks": "Checked dies on PRS for handling BHA. Continued to POOH with 36\" hole opener BHA from 123 m to 50 m MD. Racked back drillcollars in derrick."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 37.0,
+          "remarks": "Racked back drillcollars in derrick."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 37.0,
+          "remarks": "Held toolbox talk prior to racking MWD and laying out 36\" holeopener."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Broke out and racked back stand of DC/powerpulse MWD. Laid out 36\" x26\" x 17 1/2\" holeopener on deck. Cleared and tidied drillfloor."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held toolbox talk prior to rigging conductor running equipment."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "Removed elevator and drilling bails. Installed conductor bails and elevator. Transferred slips, bowl and dogcollars to drillfloor."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Took timeout with crews to go through lessons learnt from recent conductor running incident onboard and West Epsilon incident."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held toolbox talk prior to running 30\" conductor."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 6.0,
+          "remarks": "Picked up shoe joint. Had problems latching elevator due to weldings on joint. Installed casing inserts in RT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.75,
+          "depth_md_m": 68.0,
+          "remarks": "Ran 30\" conductor from surface to 68 m MD. Tested float for flowthrough- ok."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 68.0,
+          "remarks": "Held toolbox talk before changing handling equipment."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 68.0,
+          "remarks": "Removed conductor bails and elevator. Installed DP bails and elevator. Prepared casing tongs."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 90.0,
+          "remarks": "Picked up 30\" conductor housing. Made up conductor housing to conductor, applied 33000 ft lbs m/u torque. Ran in with conductor to 90 m MD. Installed C-plate in rotary and landed conductor housing in same. Removed handling CART. Filled conductor with 12 m3 seawater."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 90.0,
+          "remarks": "Installed C-plate on top of conductor housing. Ran 7 ea 4 3/4\" aluminium innerstring joints inside conductor. Installed centralizer on joint #2. Cleared riggfloor. Picked up running CART and made up innerstring x-over. Made up CART to innerstring. Made up CART to conductor housing with 5 lefthand turns according to Vetco instruction. Installed iInclinometer and valve handle on CART. Readings on inclinometer : pitch 0,2-0,3 / roll 0,10-0,25"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 108.0,
+          "remarks": "Installed masterbushing. RIH with 30\" conductor on dedicated landing string to 108 m MD. Attached sling to DP before lowering housing through Centralizer deck. Pulled condutor to oposite side of fillup valve/inclinometer and lowered conductor through deck in one continuous stroke."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 117.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Racked back BHA and laid out holeopener. Rigged up conductor running equipment. Ran 30\" conductor with cementing innerstring. Landed conductor and checked elavation. Installed cement stand and adjusted elevation. Tested cement line.",
+      "days_behind": null,
+      "days_ahead": 1.3
+    },
+    {
+      "day": 3,
+      "date": "2007-12-01",
+      "report_no": 3,
+      "depth_md_end_m": 226.0,
+      "depth_tvd_end_m": 226.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 132.0,
+          "remarks": "Ran in with 30\" conductor on dedicated landing string to 132 m MD. Filled conductor with 20 m2 seawater until returns thorugh shoe observed. Hookload after filling 109 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 148.0,
+          "remarks": "Stung 30\" conductor into funnel on F-9 while observing with ROV."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Ran in with 30\" conductor from 148 m to 221 m MD, only minor drag in hole. Observed 112,88 m mark on landing string flush with machined ring on Centralizer deck. Meanwhile deployed hotstab line on tugger wire."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Picked up and made up cement stand. Accidentally applied torque on TDS and put 2,5 turns righthand rotations on string. Inspected CART with ROV and backed CART in again using lefthand turns in rotary table. Performed digiquartz measurement on F-7 and F-9 indicating F-9 12 cm too high."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Made up cement hose to side entry sub. Adjusted height on F-9 conductor 10 cm down. Repeated elevation check on conductor housing by doing consecutive measurement on F-9 and F-7. Measured F-9 elevation 3 mm higher that F-7 - ok. Bad visiblity for establishing hotstab on template."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Poor visiblity on template base for establishing hotstab. Meanwhile tested cement line against lo-torque on side entry sub to 200 bar 10 min - ok. Made readings on inclinometer : pitch 1,3 deg / roll 0,3 deg."
+        },
+        {
+          "code": "drilling -- wait",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Waited for visiblity to improve for engaging hotstab."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 221.0,
+          "remarks": "Removed dummy stab and installed hotstab in bank #4 on template base. Shifted lever to \"on\". Energized centralizing pistons with 2000 psi and observed travel on pistons with ROV. Made readings on inclinometer : pitch 1,27 deg / roll 0,3 deg."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 221.0,
+          "remarks": "Broke circulation and verified conductor full of water by observing return through fillup valve.  Closed fillup valve with ROV. Hookload before circulating 87 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 221.0,
+          "remarks": "Stepped pumps up to 1500 lpm and circulated 50 m3 seawater. Poor visiblity, assumed to be caused by returns from hole. Meanwhile performed prejob meeting prior to cementing. Hookload after circulating 97 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 221.0,
+          "remarks": "Performed cement job. Mixed and pumped 54 m3 1,52 sg tuned light cement slurry from cement unit. Pump rate 650-750 lpm. Pump pressure 22 bar. Displaced cement with 6,5 m3 seawater to put theoretical TOC at 217 m MD inside conductor. Bad visiblity due to no current, hard to judge amount of returns from hole. Hookload after cementing 97 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 221.0,
+          "remarks": "Rigged down cement line and flushed through manifold."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 9.75,
+          "depth_md_m": 221.0,
+          "remarks": "Waited for cement to set up. \n\nMeanwhile :\n-Serviced TDS\n-Serviced fwd and aft PRS\n-Changed annular element\n-Housekeeping, cleaning and maintenance on drillfloor"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 221.0,
+          "remarks": "Waited on cement  to set up.\n\nMeanwhile :\n-Made x-y measurements on conductor relative to funnel 36 cm/36 cm\n-Shifted bank #4 handle to \"off\" and disengaged centralizer cylinders with 2000 psi through minireel\n-Retrieved hotstab and guidewire\n-Removed lo-torque on cement stand\n-Performed toolbox talk prior to releasing CART"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 221.0,
+          "remarks": "Slacked off 11 MT to obtain neutral at CART. Released CART by 5 righthand rotations. Lifted out CART from conductor housing and set slips on landing string."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 115.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Operated conductor centralizer pistons. Circulated well to seawater. Mixed and pumped 54 m3 cement and displaced with 6,5 m3 seawater. WOC. Made measurements on conductor. Released CART. Retrieved CART and innerstring. Installed hatches and prepared for skidding to F-1.",
+      "days_behind": null,
+      "days_ahead": 1.6
+    },
+    {
+      "day": 4,
+      "date": "2007-12-02",
+      "report_no": 4,
+      "depth_md_end_m": 226.0,
+      "depth_tvd_end_m": 226.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 219.0,
+          "remarks": "Broke out and racked back cement stand. Pumped 2 ea sponge balls at 2200 lpm to clean string."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 0.0,
+          "remarks": "Broke out an set back running CART. Pulled 4 3/4\" aluminium inner string using tugger, C-plate and clamps. Meanwhile made digiquartz measurement of conductor housing elevation with ROV. F-9 24 mm lower than F-7."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Installed hatches in wellhead module and removed barriers. Installed hatch in moonpool. Prepared for skidding to F-1. Meanwhile installed dummy stab in bank#4 with ROV.\n\n****Operations transferred to 15/9-F-1****"
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": null,
+      "days_ahead": 1.7
+    },
+    {
+      "day": 15,
+      "date": "2007-12-13",
+      "report_no": 5,
+      "depth_md_end_m": 226.0,
+      "depth_tvd_end_m": 226.0,
+      "activities": [
+        {
+          "code": "moving -- skid",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 0.0,
+          "remarks": "Removed hatch on F-9 and installed hatch on F-14 in wellhead module. Meanwhile carried out pre-skidding checklist. Held toolbox talk prior to skidding rig from F-14 to F-9. Skidded rig 1.5 m port."
+        },
+        {
+          "code": "drilling -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Cleared drilling areas and checked FWD PRS. Checked that all decks were in alignment. Rearranged hatches on F-14 and F-9."
+        },
+        {
+          "code": "drilling -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 0.0,
+          "remarks": "Sent down and installed cover on funnel and moved funnel to F-9. Meanwhile picked up bit assembly and inspected same. Serviced TDS. Discovered that part of scaffolding below centralizer deck on WH module have to be removed for 17 1/2\" BHA to pass on F-9."
+        },
+        {
+          "code": "drilling -- wait",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 0.0,
+          "remarks": "Waited on daylight for close standby to be able to remove scaffolding below centralizer deck in WH module.\n\nMeanwhile performed torque test on TDS and serviced equipment on drillfloor."
+        },
+        {
+          "code": "drilling -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "Removed scaffolding from below centralizer deck in WH module."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 23.0,
+          "remarks": "PU and MU 17 1/2\" bit, motor, 17 1/4\" stab and GWD. RIH with 17 1/2\" BHA to 23 m."
+        },
+        {
+          "code": "drilling -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 23.0,
+          "remarks": "Continued to remove scaffolding below centralizer deck in WH module."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 156.0,
+          "remarks": "MU and RIH with 17 1/2\" BHA from 23 m to 156 m. Sat UHBO sleeve to high side scribe line. Stabbed into CTS on top of conductor housing while observing with ROV."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 156.0,
+          "remarks": "Held tool box talk with new crew. Inspected PRS dies and tested mud pump #1 using controls from drillers remote panel."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 217.0,
+          "remarks": "Continued RIH from 156 m to 196 m. Washed down from 196 m with 2000 lpm / 51 bar / 20 RPM. Tagged cement at 217.8  m. Connected CTS hose to ROV and started pumping with dredge pump."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 226.0,
+          "remarks": "Drilled out 30\" shoe and rathole from 217 m to 226 m MD. Drilling parameters : Flow 3500 lpm / SPP 122 bar / Rotation 40 rpm / Torque 1-3 kNm / WOB 0-1 MT. Reamed back inside shoe for every 2 m drilled. Pumped 10 m3 his-vis sweep as required to clean the hole."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 120.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Removed scaffolding below centralizer deck. MU and RIH with 17 1/2\" BHA. Drilled out 30\" shoe and cleaned out rathole. Repaired hydraulic leak in TDS.",
+      "days_behind": null,
+      "days_ahead": 1.2
+    },
+    {
+      "day": 16,
+      "date": "2007-12-14",
+      "report_no": 6,
+      "depth_md_end_m": 652.0,
+      "depth_tvd_end_m": 651.6,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 227.0,
+          "remarks": "Drilled 1 m new formation from 226 m to 227 m MD.  Reamed hole and shoe track 3 times. No obstruction. Pulled through shoe track with no rotation. No obstruction. Pumped 10 m3 hi-vis and circulated BU while reciprocating 17 1/2\" BHA."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 229.0,
+          "remarks": "Drilled 17 1/2\" hole from 227 m to 229 m MD. Drilling parameters : Flow 4500 lpm / SPP 184 bar / Rotation 80 rpm / Torque 1-3 kNm / WOB 0-1 MT."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 4.75,
+          "depth_md_m": 229.0,
+          "remarks": "Had oil leak in TDS. Reamed back on std and RB in derrick to have 17 1/2\" bit inside shoe at 195 m. Investigated oil leak and found leaking o-ring in alignement cylinder. Changed o-ring and reinstalled cylinder. Meanwhile cleaned up oil spill on drill floor."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 195.0,
+          "remarks": "Changed o-ring and reinstalled alignement cylinder in top drive. Meanwhile cleaned up oil spill on drill floor."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 10.5,
+          "depth_md_m": 515.0,
+          "remarks": "Drilled 17 1/2\" section from 229 m to 515 m MD. Drilling parameters : Flow 4400 lpm / SPP 191-195 bar / WOB 2-8 MT / Torque 1 - 5 kNm / String RPM 80/ Bit RPM 212. Average ROP 27,2 m/ hrs, max ROP 95 m/hr. Pumped 10 m3 hi-vis sweep for every singel drilled. Performed gMWD survey on connections. Used sling and tugger on centralizer deck on drillpipe to stabilize same before taking survey."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 652.0,
+          "remarks": "Drilled 17 1/2\" section from 515 m to 652 m MD. Drilling parameters : Flow 3440 lpm / SPP 98-100 bar / WOB 2-8 MT / Torque 1-5 kNm / String RPM 40 / Bit RPM 143. ROP 30-50 m/hr, average ROP 22,8 m/ hrs. Pumped 10 m3 hi-vis sweep for every singel drilled. Performed gMWD survey on connections. Used sling and tugger on centralizer deck on drillpipe to stabilize same before taking survey until 555 m.\n\nSliding intervals: 515 - 535 m\n                           555 - 565 m\n                           595 - 610 m\n                           635 - 653 m"
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 130.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Drilled 17 1/2\" section from 229 m to 784 m MD using SW and hi-vis pills.",
+      "days_behind": null,
+      "days_ahead": 3.0
+    },
+    {
+      "day": 17,
+      "date": "2007-12-15",
+      "report_no": 7,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 784.0,
+          "remarks": "Drilled 17 1/2\" section from 652 m to 784 m MD. Drilling parameters : Flow 3440 lpm / SPP 99-100 bar / WOB 2-8 MT / Torque 2-8 kNm / String RPM 40 / Bit RPM 143. ROP 30-50 m/hr, average ROP 22,0 m/ hrs. Pumped 10 m3 hi-vis sweep for every singel drilled. Performed gMWD survey on connections. \n\nSliding intervals: 676 - 696 m\n                           716 - 736 m"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 830.0,
+          "remarks": "Drilled 17 1/2\" section from 784 m to 830 m MD. Drilling parameters : Flow 3440 lpm / SPP 101 bar / WOB 5-6 MT / Torque 2-8 kNm / String RPM 40 / Bit RPM 143. ROP 20-30 m/hr, average ROP 23,0 m/ hrs. Pumped 10 m3 hi-vis sweep for every singel drilled. Performed gMWD survey on connections.\n\nSliding interval: 815 - 830 m"
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.75,
+          "depth_md_m": 919.0,
+          "remarks": "Drilled 17 1/2\" section from 830 m to 919 m MD. Drilling parameters : Flow 4000 lpm / SPP 124 bar / WOB 6-7 MT / Torque 5-7 kNm / String RPM 80 / Bit RPM 200. ROP 40-50 m/hr, average ROP 23,7 m/ hrs. Pumped 10 m3 hi-vis sweep for every singel drilled. Performed gMWD survey on connections. Up weight 125 MT / down weight 116 MT."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 919.0,
+          "remarks": "Pumped 30 m3 hi-vis pill followed by 30 m3 SW and another 30 m3 hi-vis pill. Pulled up to 881 m while displacing pills out with SW. Circulation parameters : Flow 3500 lpm / SPP 119 bar / Torque 3-5 kNm /  RPM 80. Took survey at TD."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 919.0,
+          "remarks": "RIH to TD and displaced well to 1.40 sg bentonite mud. Staged up pump rate to 4000 lpm / 124 bar / 20 rpm / 1-3 kNm. Observed ECD level out at 1.28 sg at 5150 stks (113 m3)."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 9.25,
+          "depth_md_m": 0.0,
+          "remarks": "Took roadmap measurement, 200 lpm / 40 rpm / 1-3 kNm. Up weight 128 MT / down weight 118 MT. POOH with 17 1/2\" drilling BHA from 919 m MD to OOH. Worked through tight spots. Flushed through string with SW at 122 m with 2000 lpm. RB 17 1/2\" BHA and LD 17 1/2\" bit and motor assembly.\n\nTight spots: 660 m: 15 MT overpull\n                    371 m: 15 MT overpull"
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "PU two joints HWDP, one pup joint and cmt head. MU and RB cmt stand."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 130.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Drilled 17 1/2\" section from 784 m to TD at 919 m. Circulated well clean. Displaced open hole and conductor to 1.40 sg bentonite mud. POOH and RB 17 1/2\" BHA. RU for running 20 x 13 3/8\" csg.",
+      "days_behind": null,
+      "days_ahead": 3.9
+    },
+    {
+      "day": 18,
+      "date": "2007-12-16",
+      "report_no": 8,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Continued MU and RB cmt stand."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.75,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box meeting prior to RU csg equipment. RU casing running equipment, 20 ft bails, elevators, csg tong, slips and FAC tool. Tested csg tong and checked torque/turn."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 6.5,
+          "depth_md_m": 0.0,
+          "remarks": "Troubleshot torque/turn fault on Mærsk casing tong. No sucess. RD Mærsk csg tong and RU Odfjell csg tong."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 36.0,
+          "remarks": "PU and MU shoe joint, intermediate joint and float collar joint. Thread locked connections. Checked floats in shoe and float collar for flow through with SW."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 106.0,
+          "remarks": "RIH with 13 3/8\" csg from 36 m to 106 m MD. Filled every joint with SW. Average running speed 4 jnts/hr."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 106.0,
+          "remarks": "Sorted out PRS alignement problem."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.75,
+          "depth_md_m": 405.0,
+          "remarks": "RIH with 13 3/8\" csg from 106 m to 405 m MD. Filled every joint with SW. Average running speed 5 jnts/hr. No tight spots encountered. Laid out 2 joints.\n\nStabbed csg into conductor assisted by ROV. Used chain tongs in well head area to limit csg string movement and ROV used C-tool for guiding."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 134.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Changed to Odfjell casing tong. MU and ran 20 x 13 3/8\" csg to 754 m MD.",
+      "days_behind": null,
+      "days_ahead": 3.8
+    },
+    {
+      "day": 19,
+      "date": "2007-12-17",
+      "report_no": 9,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 754.0,
+          "remarks": "RIH with 13 3/8\" csg from 405 m to 754 m MD. Filled every joint with SW. Average running speed 6 jnts/hr. No tight spots encountered. Up weight 127 MT / down weight 108 MT.\n\nChanged worn dies on FJE on PRS."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "RD 13 3/8\" csg handling equipment and RU 5 1/2\" handling equipment."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 758.0,
+          "remarks": "PU 18 3/4\" WH housing/CART assembly and MU to 13 3/8\" casing. RIH with 18 3/4\" WH housing/CART assembly from 754 m to 758 m."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 758.0,
+          "remarks": "RD Odfjell casing tong and removed PS30 slips. Installed outer ring and master bushings."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 909.0,
+          "remarks": "RIH with 18 3/4\" WH housing/CART assembly from 758 m to 909 m."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 909.0,
+          "remarks": "Attempted to land 18 3/4\" WH housing into 30\" conductor without sucess. Observed WH housing shoulder landing out on top of conductor."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 795.0,
+          "remarks": "POOH with 18 3/4\" WH housing/CART assembly from 909 m to 795 m. Grinded off WH housing shoulder to enable stinging into 30\" conductor."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 909.8,
+          "remarks": "RIH with 18 3/4\" WH housing/CART assembly from 795 m to 909,8 m. Landed 18 3/4\" WH into 30\" conductor by setting down casing string weight + 5 MT to engage lock ring. Performed 25 MT overpull test. Slacked off and kept landing string in tension by an overpull of 3 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 909.8,
+          "remarks": "Established circulation in steps with SW to 2300 lpm / 20 bar with returns on F-9 only. Kept landing string in tension by an overpull of 3 MT. Meanwhile held pre-job meeting prior to cement job."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 909.8,
+          "remarks": "Lined up to pump from cement unit. Pressurized TDS to 20 bar and tested line up. Released 1 3/4\" preloaded ball for bottom wiper plug."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 909.8,
+          "remarks": "Mixed and pumped 40 m3 1.52 sg lead 1 slurry at 1200 lpm / 28 bar followed by 61,8 m3 1.52 sg lead 2 slurry at 1200 lpm / 28 bar and 15 m3 1.92 sg tail slurry at 900 lpm / 28 bar. Observed with ROV returns up F-9 only."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 909.8,
+          "remarks": "Released top dart. Displaced and sheared sub sea wiper plug by pumping 3 m3 SW with cement unit at 1200 lpm / 10 bar. Top plug sheared after 900 ltrs / 150 bar. Zeroed counters for mud pumps and lined up to displace cement with SW using mud pumps. Displaced cement with SW at 3000 lpm. Slowed down to 1200 lpm after 2250 stks. FCP was 40 bar. Bumped plug after 2505 strokes with 128 bar. Pump eff. 96.7%. Held pressure at 128 bar / 10 minutes to test casing. Observed with ROV returns up F-9 only."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 909.8,
+          "remarks": "Bled of pressure and checked for backflow to cement unit. Volume bled back was 850 ltr. Disconnected cement hose after pressure had been bled off."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 140.0,
+          "remarks": "Reduced overpull on landing string to neutral. Released CART by 5 right hand turns and observed wellhead with ROV. Pulled above top of wellhead. LD cmt head and 6 m pup joint. MU TDS and flushed through landing string with sponge balls. Flushed sub sea template as per ROV instructions."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 120.0,
+          "remarks": "LO 2 x HWDP and RB landing string in derrick."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.05,
+        "viscosity_cp": 134.0,
+        "type": "Spud Mud",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Changed to 5 1/2\" handling equipment.  MU X-over and 18 3/4\" wellhead housing assembly. RIH and landed 20 x 13 3/8\" csg. Circulated, pumped and displaced cement. Released CART and POOH. RB landing string and LD CART. Cleared rig floor and prepared for skidding to F-5.",
+      "days_behind": null,
+      "days_ahead": 4.2
+    },
+    {
+      "day": 20,
+      "date": "2007-12-18",
+      "report_no": 10,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "Continued RB landing string in derrick and LO 18 3/4\" CART. Cleared and cleaned rig floor area.\n\nPrepared for skidding rig to F-5."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": null,
+      "days_ahead": 4.3
+    },
+    {
+      "day": 273,
+      "date": "2008-08-27",
+      "report_no": 11,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "moving -- skid",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "Prepared to skid rig. Skidded rig 2.25 m fwd and 1.5 m starboard to F-9.\n\nMeanwhile MU riser RT to DP std and RB same."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.25,
+          "depth_md_m": 0.0,
+          "remarks": "Lifted riser spider in to rig floor. Changed 5 1/2\" handling equipment to long slings. Transported riser spider close to rotary, removed the master bushing and adapter ring. Installed the spider and hooked up hydraulic hoses and function tested same. Changed back to 5 1/2\" handling equipment."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Picked up 1st joint - TBC and stress joint, with simultaneous lift by deck crane and TDS. Checked guidewire clamp. Landed TBC and stress joint in the spider."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.25,
+          "depth_md_m": 0.0,
+          "remarks": "Picked up 1st double - lower pup joint and std joint #1 with simultaneous lift by deck crane and TDS. Removed handling flange on 1st joint. Made up connection using bolt tensioner tools. Tested flange to 3000 psi through test port - ok. Installed bolt caps and fairings. Attached guidewire slings and on TBC / stress joint."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 20.0,
+          "remarks": "RIH with production riser to 20 m. Function trested TBC and performed pre-operational checks according to Vetco procedure."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 20.0,
+          "remarks": "Shut in F-4 and F-5 at 23:00. PU riser and TBC to rig floor and secured riser. Prepared for and opened hatch covers on all levels for F-8, F-9 and F-10."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Skidded rig from F-5 to F-9. RU for running production riser. Installed riser spider. RIH with TBC and second riser double. Installed guide wires.",
+      "days_behind": null,
+      "days_ahead": 4.3
+    },
+    {
+      "day": 274,
+      "date": "2008-08-28",
+      "report_no": 12,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 20.0,
+          "remarks": "Continued to open hatch covers on all levels for F-8, F-9 and F-10."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 20.0,
+          "remarks": "Lowered boat collision stool down to centralizer deck. Prepared and lowered flow line hose down to XMT deck."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 37.0,
+          "remarks": "RIH with production riser to put guidewire clamp in convenient working height at Centralizer deck. Caught guidewires and attached to ROV hooks/slings on guidewire clamp. Ran guidewires individually to 2 m above riser guide funnel at seabed. RIH to 37 m and hung off production riser in riser spider."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 37.0,
+          "remarks": "Picked up 2nd double - 2 ea standard joints with simultaneous lift by deck crane and TDS. Removed handling tool type E from 1st double. Made up connection using bolt tensioner tools. Tested flange to 3000 psi through test port - ok. Installed bolt caps and fairings. \n\nMeanwhile installed guide wires on template fix between F-9 and F-10 and between F-3 and F-4 using ROV. Sea current is in direction of F-13."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 66.0,
+          "remarks": "RIH with production riser to 66 m. Hung off production riser in riser spider. Removed handling flange type E."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 95.0,
+          "remarks": "Picked up 3rd double - lower std joint and splash zone jnt with simultaneous lift by deck crane and TDS. Made up connection using bolt tensioner tools. Tested flange to 3000 psi through test port - ok. Installed bolt caps and fairings. RIH with production riser to 95 m. Hung off production riser in riser spider. Removed handling flange type E."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 118.0,
+          "remarks": "Picked up 4th double - upper pup joint and tensioner joint with simultaneous lift by deck crane and TDS. Made up connection using bolt tensioner tools. Tested flange to 3000 psi through test port - ok. Installed bolt caps and fairings. RIH with production riser to 118 m. Hung off production riser with hang off plate in riser spider. Removed handling flange. Picked up stand with premade running flange. Made up flange to tensioner joint. Picked up weight and removed hang off plate."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 138.0,
+          "remarks": "RIH on 5 1/2\" DP stand to land TBC on wellhead. Observed with ROV in riser guide funnel window while coming down. Ran TBC to 10 cm above bottom of window."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 138.0,
+          "remarks": "Released 6 MT guidewire from template and ROV hook on riser guidewire clamp. Retrieved guidewire to surface. Released 10 MT guidewire. Hooked 10 MT guidewire on funnel. Removed RLGF."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 139.0,
+          "remarks": "Confirmed orientation of TBC ROV panels.  Ran and established hotstab in TBC receptacle. Landed TBC/production riser on wellhead and set down 15 MT. Verified TBC fullly landed by oserving marker/band on TBC. Locked TBC connector by pressurising port A1 to 2500-3000 psi. Observed upwards movement on TBC upper body when locking TBC. Took 10 MT overpull on TBC to verify locked. Informed production to start up F-4 and F-5. Moved hotstab to port B1 and flushed lower dog cavity and upper piston cavity according to Vetco procedure."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 139.0,
+          "remarks": "Lined up cmt unit to standpipe to fill riser with SW while venting air through valve on top of tension joint. Closed valve. Performed pressure test of PR to 20/70 bar for 5/10 min using SW. Dropped 0.3 bar/10 min (0.4%). 447 ltrs pumped and 400 ltrs bled back. Maintained 10 MT overpull on PR throughout the operation."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.0,
+          "depth_md_m": 139.0,
+          "remarks": "Drained DP via needle valve on tensioner joint. Flushed TBC with corrosion inhibitor and retrieved hot stab to surface. Retrieved guidewires to surface and removed guidewire clamp from PR."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 0.0,
+          "remarks": "Lifted Norse cutting equipment down to tensioner deck and prepared line-up for installing hatches.\n\nMeanwhile prepared equipment for installing tensioner system on centralizer deck."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Re-installed hatches on F-8 and F-10."
+        }
+      ],
+      "mud": {
+        "density_sg": null,
+        "viscosity_cp": null,
+        "type": null,
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Continued MU and RIH with production riser. Landed riser and locked tie-back connector. Installed centralizers, boat collision stool and tension ring.",
+      "days_behind": null,
+      "days_ahead": 4.4
+    },
+    {
+      "day": 275,
+      "date": "2008-08-29",
+      "report_no": 13,
+      "depth_md_end_m": 919.0,
+      "depth_tvd_end_m": 913.0,
+      "activities": [
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 0.0,
+          "remarks": "Measured and marked groves on tensioner joint. Installed centralizer and boat collision stool in Centralizer deck. Made up contact ring. Made up tensioner assembly half hubs. Raised tensioner assembly to contact ring using tensioner cylinders."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.5,
+          "depth_md_m": 0.0,
+          "remarks": "Continued raising tensioner assembly to contact ring using tensioner cylinders. Adjusted pressure to 90 bar and transferred tension from block to tension cylinders. Installed centralizer in Tensioner deck."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Measured and marked tensioner joint 136,0 cm above Tensioner deck. Rigged up, adjusted and dressed Norse cutting equipment on tensioner joint. Barriered off area. Adjusted block weight to put slight overpull at cut height. Drained riser through port on running flange."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "Cut riser according to Norse cutting procedure. Retrieved cut part of tensioner joint. Removed riser spider. Installed outer ring and masterbushing. Broke out landing stand. Laid out cut part of tensioner joint. Installed hole cover in rotary.\n\nMeanwhile put debris barrier inside tensioner joint. Re-configured cutting jig for making bevel. Cut bevel. Used handtools to dress cut and bevel. Removed cutting jig, cleared and tidied Tensioner deck."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 0.0,
+          "remarks": "Installed hatch cover on F-9. BO and LO riser running tool. RU to lay out riser spider and moved to main deck. Took TDS measurements for \"riser project\"."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "Installed 4 slings in pad-eys on surface riser for dual lift in order to avoid F-4/F-5 shut-in. Lifted surface riser into drillfloor with crane and drillfloor tugger. Hooked slings on to TDS bails and picked up surface riser with top drive.  \n\nMeanwhile removed hatches on F-9 and lifted Norse cutting equipment from tension deck to moonpool."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Lifted multibowl onto rotary using PRS. Installed bowl protector in multibowl and lowered surface riser to connect onto multibowl. RU 2 slings from surface riser to pad-eys on multibowl for dual lift."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 20.0,
+          "remarks": "Pulled master bushings and outer ring. Lowered multibowl from drillfloor to well head. Slipped multibowl over tension joint and adjusted to correct orientation STB - against F-14."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 20.0,
+          "remarks": "Injected and energized plastic in upper and lower BT-seals. Tested BT seals to 70 bar / 10 min - ok. Energized multibowl slips by torquing up cap screws to 600 ft-lbs."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.28,
+        "viscosity_cp": null,
+        "type": "Soludril-N",
+        "pv_mPas": 28.0,
+        "yp_Pa": 18.0
+      },
+      "remarks_combined": "Installed tension cylinders. Cut and beveled riser. Installed multibowl and surface riser. Installed diverter.",
+      "days_behind": null,
+      "days_ahead": 4.9
+    },
+    {
+      "day": 276,
+      "date": "2008-08-30",
+      "report_no": 14,
+      "depth_md_end_m": 1085.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 20.0,
+          "remarks": "PU 7 MT overpull on riser/multibowl to ensure slips was locked. Released slings from TDS."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 0.0,
+          "remarks": "Secured surface riser with BOP horizontal tension system in moonpool. Removed handling slings from surface riser and installed split covers. \n\nMeanwhile removed rollers and trolly on HTS."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 0.0,
+          "remarks": "PU and installed diverter onto surface riser. Installed outer ring and master bushings."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "Waiting on MWD to troubleshoot tools and get ready to run 12 1/4\" BHA.\n\nMeanwhile function tested diverter inserts and valves."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Waiting on MWD to troubleshoot tools and get ready to run 12 1/4\" BHA.\n\nMeanwhile prepared for function test of diverter. Could not operate diverter bag."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "Investigated diverter operation. Pulled master bushings, installed fitting on hydraulic hose. Tested system and found another leaking fitting. Changed out fitting. Re-installed master bushings."
+        },
+        {
+          "code": "drilling -- bop activities",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Function tested diverter. Ok. Removed 10\" diverter inserts and RB std in derrick."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk prior to PU 12 1/4\" BHA. Installed link adaptor on elevators. Prepared rig floor equipment and moved 5 HWDP in derrick."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 8.0,
+          "remarks": "PU and MU 12 1/4\" BHA. RIH from surface to 8 m. Spinner on aft iron roughneck would not move."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.25,
+          "depth_md_m": 8.0,
+          "remarks": "Repaired aft iron rough neck spinner carriage."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 17.0,
+          "remarks": "PU and MU 12 1/4\" BHA. RIH from 8 m to 17 m. Not able to MU collar to powerpulse tool."
+        },
+        {
+          "code": "interruption -- rig up/down",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 20.0,
+          "remarks": "Had to break out proper XO from back-up assembly to be able to cross over from powerpulse tool to drill collar."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 29.0,
+          "remarks": "MU and RIH with 12 1/4\" BHA from 20 m to 29 m."
+        },
+        {
+          "code": "interruption -- wait",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 29.0,
+          "remarks": "Waiting on helicopter/crane.\n\nMeanwhile installed 10\" diverter inserts."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 135.0,
+          "remarks": "MU and RIH with 12 1/4\" BHA from 29 m to 135 m."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 135.0,
+          "remarks": "Installed PS21 slips. RU auto pipe handling system."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 862.0,
+          "remarks": "RIH with 12 1/4\" BHA on 5 1/2\" DP from 135 m to 862 m. Average running speed was 9 stds/hr."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 879.0,
+          "remarks": "MU TDS, established circulation and washed down from 862 m with 1250 lpm and 30 rpm. Tagged TOC at 879 m. Up weight 106 MT / down weight 98 MT."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 895.0,
+          "remarks": "Drilled on cement/plug/float from 879 m to 895 m MD. Drilling parameters : Flow 3100 lpm / SPP 95 bar / String RPM 65 / WOB 0-4 MT / Torque 2-14 kNm / ECD 1.05 sg. Picked off bottom every 10-15 min to clean bit. Up weight 114 MT / down weight 104 MT (with pumpes off).\n\nMeanwhile RU and arranged hoses on csg tong."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.28,
+        "viscosity_cp": null,
+        "type": "Soludril-N",
+        "pv_mPas": 28.0,
+        "yp_Pa": 18.5
+      },
+      "remarks_combined": "MU and RIH with 12 1/4\" BHA from surface to 862. Washed down with 12 1/4\" BHA to 879 m. Drilled out 13 3/8\" shoe and rat-hole using SW and hi-vis down to 919 m.",
+      "days_behind": null,
+      "days_ahead": 5.1
+    },
+    {
+      "day": 277,
+      "date": "2008-08-31",
+      "report_no": 15,
+      "depth_md_end_m": 1083.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 909.3,
+          "remarks": "Drilled on cement from 895 m to 909,3 m MD. Drilling parameters : Flow 3100 lpm / SPP 95 bar / String RPM 65 / WOB 2-3 MT / Torque 4-12 kNm / ECD 1.05 sg. Picked off bottom every 10-15 min to clean bit. Pumped 10 m3 hi-vis before connection at 902 m.\n\nMeanwhile MU and RB 9 5/8\" csg. stds."
+        },
+        {
+          "code": "drilling -- casing",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 919.0,
+          "remarks": "Drilled out shoe track from 909,3 m to 919,7 m MD. Drilling parameters : Flow 3100 lpm / SPP 97 bar / String RPM 65 / WOB 0-1 MT / Torque 4-6 kNm / ECD 1.05 sg. Cleaned out rathole in 2 m steps and reamed. \n\nMeanwhile MU and RB 9 5/8\" csg. stds. A total of 3 stds RB in derrick."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 921.0,
+          "remarks": "Cleaned out rathole from 919,7 m to 921 m MD. Drilling parameters : Flow 3100 lpm / SPP 97 bar / String RPM 65 / WOB 0-1 MT / Torque 4-6 kNm / ECD 1.05 sg.  Pumped 30 m3 hi-vis pill and swept the hole clean. Pulled 12 1/4\" BHA into 13 3/8\" csg shoe and verified no restrictions in shoe track."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 7.5,
+          "depth_md_m": 1083.0,
+          "remarks": "Displaced to 1.27 sg Soludril-N WBM (sized salt system) while drilling new formation. Drilled 12 1/4\" hole from 921 m to 1083 m MD. Drilling parameters : Flow 3300 lpm / SPP 125-127 bar / String RPM 140 / WOB 7-9 MT / Torque 8-12 kNm / ECD 1.32-1.35 sg.  Surveys taken at 991.68 m and 1049 m. Found base Utsira at 1073 as predicted.\n\nMeanwhile MU and RB 9 5/8\" csg. stds. A total of 6 stds RB in derrick."
+        },
+        {
+          "code": "drilling -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1082.0,
+          "remarks": "Circulated 3 x btms up while reciprocating with bit inside shale formation from 1073 m to 1082 m. Circulating parameters : Flow 3000 lpm / SPP 127 bar / String RPM 120 / Torque 5-7 kNm.  Upweight 118 MT / down weight 107 MT. After 3 x btms up torque was reduced to 3-7 kNm and ECD had dropped from 1.35 sg to 1.32 sg.\n\nMeanwhile checked out equipment for POOH."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 1082.0,
+          "remarks": "Flow checked well for 15 min. Well was static.\n\nMeanwhile held tool box meeting before POOH."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 897.0,
+          "remarks": "Dropped 2.75\" drift and POOH wet with 12 1/4\" BHA from 1082 and into 13 3/8\" csg shoe at 897 m. No overpull observed. Flow checked well inside csg shoe. Well was static."
+        },
+        {
+          "code": "drilling -- drill",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 135.0,
+          "remarks": "Pumped 5 m3 1.40 sg brine slug and continued to POOH from 897 m to 135 m. Average pulling speed 381 m/hr."
+        },
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.0,
+          "depth_md_m": 2.7,
+          "remarks": "Pulled master bushings and removed 10\" diverter inserts and PS21. Re-installed master bushings. BO and LD 12 1/4\" BHA from 135 m to 2,7 m."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.27,
+        "viscosity_cp": null,
+        "type": "Soludril-N",
+        "pv_mPas": 25.0,
+        "yp_Pa": 16.5
+      },
+      "remarks_combined": "Drilled 12 1/4\" hole from 919 m to 1083 m MD. Circulated well clean using 3 x btms up. Performed flow check and POOH. LD 12 1/4\" BHA. MU and RIH with clean out BHA from surface to 547 m.",
+      "days_behind": null,
+      "days_ahead": 5.4
+    },
+    {
+      "day": 278,
+      "date": "2008-09-01",
+      "report_no": 16,
+      "depth_md_end_m": 1083.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "drilling -- trip",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "BO and LD 12 1/4\" BHA from 135 m to OOH. Cleaned and cleared rig floor prior to PU clean out BHA."
+        },
+        {
+          "code": "interruption -- maintain",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Serviced top drive."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 221.0,
+          "remarks": "Held tool box meeting. PU and MU bullnose assembly. MU and RIH with 5 1/2\" DP from surface to 221 m."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 236.0,
+          "remarks": "MU magnet and csg brush assembly. MU SABS circulation sub assembly. Pulled master bushings and installed 10\" diverter inserts and PS21 when assemblies was below rotary. Re-installed master bushings."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 547.0,
+          "remarks": "Continued to RIH with clean up BHA on 5 1/2\" DP from 236 m to 547 m."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 1071.0,
+          "remarks": "RIH with clean up BHA on 5 1/2\" DP from 547 m to 1071 m. \n\nBroke circulation at 880 m with 500 lpm / SPP 4 bar. Upweight 98 MT / down weight 92 MT."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1082.0,
+          "remarks": "MU and RIH with 2 x 5 1/2\" pup- joints, TIW and air operated ball release sub. RIH and spaced out with ball drop sub in suitable position above rotary and bull nose at 1082 m.\n\nCirculated 3 x btms up while reciprocating with bit inside shale formation from 1073 m to 1082 m. Circulating parameters : Flow 3000 lpm / SPP 127 bar / String RPM 120 / Torque 5-7 kNm.  Upweight 118 MT / down weight 107 MT."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 1082.0,
+          "remarks": "Circulated and increased pump rate in steps to 3000 LPM. String rotation 40 RPM. Reciprocated the string while circulating between 1073 m and 1082 m inside shale formation. Circulated 1.2 x btms up. Brushed hanger setting area from 848 m to 857 m."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 1082.0,
+          "remarks": "Attached air control hose to ball release sub. Pumped 49 m3 of 1.20 SG saturated NaCl brine at 3000 lpm/127 bar. Displaced 1,28 SG Soludril-N mud from open hole and +/-150 m into 13 3/8\" casing. Reciprocated the string while circulating.\n\nReleased 2 1/8\" ball and pumped 400 lpm at 2 bar prior to shear the SABS sub. SABS sheared at 59 bar and pressure droppet back to 2 bar, confirming that ports were open. \n\nIncreased pump rate to 3000 lpm/22 bar after opening SABS and continued to circulate 120 m3 1.20 sg brine at 40 rpm while reciprocating string. Pumped the hi-vis soap train according to Halliburton procedure while reciprocating and rotating the string. Continued displacing the soap train with 115 m3 1.20 SG NaCl brine until the well was clean. NTU readings: 452/341/198/146/112."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1082.0,
+          "remarks": "Observed well for 30 min, well static."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 867.0,
+          "remarks": "LO ball sub. Recorded up weight 105 MT / down weight 98 MT and 20 cm strech with no pumping or rotation. Rotated with 10 rpm and recorded free rotational weight 101 MT / free rotational torque 1.5-3.5 kNm. \n\nPOOH wet with clean out assembly from 1081 to 867 m."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 300.0,
+          "remarks": "Recorded up weight 97 MT / down weight 92 MT and 10 cm strech with no pumping or rotation. Rotated with 10 rpm and recorded free rotational weight 95 MT / free rotational torque 1-2 kNm. \n\nPumped slug brine. POOH with clean out assembly from 867 to 300 m."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 300.0,
+          "remarks": "Investigated and repaired oil leak on aft roughneck."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 250.0,
+          "remarks": "Continued POOH with clean out assembly from 300 to 250 m. Pulled PS21 and 10\" diverter inserts."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 221.0,
+          "remarks": "LO circulation sub. LO and cleaned bristle back (no dope on brush). Cleaned 445 g of swarf off magnets and LO same."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "POOH with 5 1/2\" DP from 221 m to OOH."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Cleaned and cleared rig floor."
+        },
+        {
+          "code": "interruption -- wait",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Performed well control drill. Focused on how to set off the deluge system on rig floor and in cantiliver."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "RU for running 9 5/8\" Bakerweld screens. Moved and re-installed Odfjell csg tong."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held pre job meeting prior to picking up 9 5/8\" sand screens."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 36.0,
+          "remarks": "PU and RIH with 9 5/8\" 13%Cr Bakerweld 250 HD screens from surface to 36 m. Lifted screens from basket on cantilever onto HTS using soft slings. Removed screen protection on rig floor. Installed centralizer and stop collar on box end on each joint."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.2,
+        "viscosity_cp": null,
+        "type": "NaCl Brine",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Continued RIH with clean out BHA on 5 1/2\" DP from 547 m to 1082 m. Circulated well while reciprocating string. Displaced well to salt saturated 1.20 sg NaCl brine. Verified that well was stable. POOH and LD clean out BHA. RU for running 9 5/8\" sand screens. MU and RIH with 14 joints of Bakerweld screens and 3 joints of blank pipe.",
+      "days_behind": null,
+      "days_ahead": 6.3
+    },
+    {
+      "day": 279,
+      "date": "2008-09-02",
+      "report_no": 17,
+      "depth_md_end_m": 1083.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 5.0,
+          "depth_md_m": 168.0,
+          "remarks": "PU and RIH with 9 5/8\" 13%Cr Bakerweld 250 HD screens from 36 to 168 m. Lifted screens from basket on cantilever onto HTS using soft slings. Removed screen protection on rig floor. Installed centralizer and stop collar on box end on each joint."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 204.0,
+          "remarks": "PU and RIH with 9 5/8\" blank pipe from 168 m to 204 m."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 218.0,
+          "remarks": "Made up Screen Hanger assembly to screen liner as per Weatherford procedure. Filled PBR with hi-vis pill. up/down 93/78 MT. Installed 5½\" DP slips inserts."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 218.0,
+          "remarks": "Held tool box talk and rigged down casing tong and cleaned rig floor."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 365.0,
+          "remarks": "Continued RIH with Screens on 5½\" HWDP to 365 m."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 1051.0,
+          "remarks": "Continued RIH Screens on 5½\" DP from 365m to 1051m."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1064.0,
+          "remarks": "At 1064 m. up/down 123/105 MT. Rigged up ball drop sub control hose and panel."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 1064.0,
+          "remarks": "Spaced out and dropped ball. Lined up and circulated ball with 200 lpm. Attempeted to set Screen Hanger."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.5,
+          "depth_md_m": 1064.0,
+          "remarks": "Ball landed. Pressured up to 107 bars and held pressure for 2 min. Bled down to 70 bars. Applied 30 MT on top of liner to verify that hanger was set (70 MT on weight indicator). Attempted to set Hanger.\nPulled up to leave 15 MT on running tool (85 MT on weight indicator) to shear ball seat. Started to pressure up to 233 bars to release running tool and shear ball seat. Ball seat sheared at 190 bars (7% below theoretical value 202 bars). Bled off pressure. Took pick up. New up weight 123 MT (peak at 130 MT). Up weight indicated that running tool still engaged to the hanger. Started emergency release procedure by first torqued up the drill pipe to 10k ftlbs while holding 15 MT on running tool (85 MT on weight indicator).\nDrill pipe started to rotate freely at approx. 2.5 kNm. Abandoned emergency release procedure.\nPulled up weight (123 MT) plus additional 2.5 m to activate packer setting dogs. Set down weight to set packer. Weight lost within 20 cm.\nLaid down 32 MT (68 MT on weight indicator) on top of PBR to set packer. No clear indications of shear seen."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.75,
+          "depth_md_m": 1057.0,
+          "remarks": "Held tool box talk and laid out Ball drop assy, DPSV and the two DP pups."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.75,
+          "depth_md_m": 1039.0,
+          "remarks": "Made up to TDS and pulled up 18 m. Displaced 13 3/8\" casing to 1.03 SG. 67m³ and 2500 lpm, 48 bars."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.75,
+          "depth_md_m": 218.0,
+          "remarks": "POOH with landing string. Having Screens and Screen Hanger still attached."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.25,
+          "depth_md_m": 204.0,
+          "remarks": "Pulled up Hanger RT/ Screen Hanger and inspected same, RT sheared, no visible marks or damage."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.0,
+          "depth_md_m": 204.0,
+          "remarks": "Held tool box talk and rigged up casing tong and picked up and laid out Screen Hanger with Hanger RT."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.75,
+          "depth_md_m": 204.0,
+          "remarks": "Picked up back-up Screen Hanger and waited for go ahead. Simultaneously cleared and cleaned rig floor."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 218.0,
+          "remarks": "Held tool box talk and picked up and made up Screen Hanger. Rigged down casing tong."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "NaCl Brine",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "None",
+      "days_behind": null,
+      "days_ahead": 6.0
+    },
+    {
+      "day": 280,
+      "date": "2008-09-03",
+      "report_no": 18,
+      "depth_md_end_m": 1083.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 4.75,
+          "depth_md_m": 1050.0,
+          "remarks": "RIH with 5 std 5½\" HWDP and 5½\" DP from 218m to 1050m"
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.25,
+          "depth_md_m": 1059.0,
+          "remarks": "Picked up and made up 6 and 3 m pups."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.5,
+          "depth_md_m": 1064.0,
+          "remarks": "Held tool box talk and picked up and made up drop ball sub assy."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.25,
+          "depth_md_m": 1064.0,
+          "remarks": "Took up/down weight 125/107 MT. at 1064m."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.25,
+          "depth_md_m": 1064.0,
+          "remarks": "Dropped ball and chased same at 200 lpm."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 1064.0,
+          "remarks": "Continued chasing ball, landed after 100 stks, pressured up to 107 bars and held pressure for 2 mins. Bled down to 70 bars and applied 40 MT WOB on top of liner to verify that the hanger was set (73 MT on weight indicator) and marked pipe. Left 40 MT on running tool and pressured to 178 bars to release R/T, held for 3 mins and then bled off. P/U to 125 MT. No indication of R/T was released."
+        },
+        {
+          "code": "interruption -- other",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 1064.0,
+          "remarks": "Went back to setting depth and put hanger in tension 125 MT. Pressured up to 107 bars, set liner hanger and held for 3mins. Bled off pressure to 10 bars. Slacked off to 40 MT, WOB 70 MT on weight indicator to verify hanger was set, and held for 5mins. Increased pressure to 190 bars at a quicker rate and held for 3 mins. P/U to new up weight 107 MT, good indication of releasing the R/T. Slacked off to 15 MT WOB and pressured up to blow ball seat. Pressure dropped off @ 221 bars, theoretical pressure 217 bars. P/U to new up weight 107 MT and measured up 2.5 m. Slacked of 30 MT WOB. Set packer and observed 1st shear at 18 MT WOB and 2nd shear at 25 MT WOB, held for 5 mins."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 14.0,
+          "remarks": "Held tool box talk and laid out drop ball sub assembly, pups, TIW. Greased PS21 slips and commenced POOH from 845 to last stand HWDP."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 14.0,
+          "remarks": "Removed PS21 slips, 10\" diverter inserts and installed master bushings."
+        },
+        {
+          "code": "completion -- sand control",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Continued POOH, inspect and laid out RT, cleared and cleaned rig floor."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 146.0,
+          "remarks": "Picked up swab assemblies and RIH to 146m."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 146.0,
+          "remarks": "Held tool box talk and pulled master bushings and installed 10\" diverter inserts and ps-21 slips."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 1044.0,
+          "remarks": "Continued RIH from 146m @ 2 mins STD, up weight 97 MT, down weight 91 MT, @ 845m continue to RIH to 1044m, picked up pup joint."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1050.0,
+          "remarks": "Made up to TDS, RIH to 1050, pumped 16m³ of Citric Acid, 1.06 SG @ 1500 lpm, pressure 13.7bars, displaced with 12m³ 1.03 SG brine @ 1500 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1050.0,
+          "remarks": "Closed STD pipe valve, monitored well on trip tank for losses. Loss rate 260lpm dropped to 118lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well 2 times with 20 m strokes 30 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 50 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well 2 times with 20 m strokes 30 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 50 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well 3 times with 20 m strokes 40 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 50 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well 4 times with 20 m strokes 50 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 50 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well for 10mins, 11times with 20 m strokes 50 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 250lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well for 10mins, 11times with 20 m strokes 50 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 700lpm dropped to 520lpm."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "NaCl Brine",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Set Screen Hanger. POOH with Screen Hanger RT. RIH swab cups. Pumped citric acid and swabbed well. Loss rate from 700, 520, 320, 220, 110 and finally 80 lpm. Total losses during swabbing 93 m³. POOH to 890m. Located lower swab cup inside the blank pipe.",
+      "days_behind": null,
+      "days_ahead": 5.8
+    },
+    {
+      "day": 281,
+      "date": "2008-09-04",
+      "report_no": 19,
+      "depth_md_end_m": 1085.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1050.0,
+          "remarks": "Loss rate 320lpm. Filled trip tanks."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well for 10mins, 8 times with 20 m strokes 50 m/min. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Losses rate 220lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well for 10mins, 11times with 20 m strokes 50 m/min. Change in drag as swabbing. Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 110 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 1050.0,
+          "remarks": "Pulled the upper cup into the blank pipe and swabbed the well for 10mins, 11times with 20 m strokes 50 m/min.  Ran back to 1050 m. Opened the stand pipe valve. Pumped 0.5 m³ down DP and displaced clean acid into well bore. Closed stand pipe valve. Let Citric acid soak. Loss rate 80 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 1050.0,
+          "remarks": "Lined up on 1.03 sg brine and attempted to pump down into formation. Had full return 400lpm. Total pumped 2.3m³."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 890.0,
+          "remarks": "Held tool box talk, lined up and POOH to 890m. Located lower swab cup inside the blank pipe."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 860.0,
+          "remarks": "Pumped 20 m³ 1.03 SG NaCl packer fluid at 440 - 450 lpm 1.4 bar."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 840.0,
+          "remarks": "POOH from 890m to 840m. Made up TDS"
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 840.0,
+          "remarks": "Established loss rate and monitored trip tank. Filled trip tank with packer fluid. Average loss rate 540 lpm."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 172.0,
+          "remarks": "Broke TDS, POOH from 840m to 172m. Filled with packer fluid via trip tank 90 m³. Pulled slowly due to U-tubing."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 172.0,
+          "remarks": "Held tool box talk and removed PS 21 slips and 10 inch. diverter inserts."
+        },
+        {
+          "code": "completion -- circulating conditioning",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Continued POOH Swab assy from 172m to surface. Measured Swabs: upper 8.4\" lower 8.7\"."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk prior to pull bowl protector."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Made up bowl protector pull tool."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Pulled master bushing and diverter inserts. Pulled bowl protector and laid out same."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Made up jet assy and jet well head 12-21 mtrs. 1500 lpm. 5 RPM. Pulled out and laid out jet assy."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk, picked up hanger assy and ran same. Verified position of orientation slot on TBG head. Pulled back to surface. \"O\" ring on TBG hanger missing."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 2.0,
+          "depth_md_m": 0.0,
+          "remarks": "Investigated and discoustednted further action with onshore orginsation."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk and retrived diverter."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Hold tool box talk and rigged up to pull riser. Removed horizontal tensioning system. Attempted to pull riser."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "Packer fluid",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Pumped 20 m³ 1.03 SG NaCl packer fluid. Took loss rate at 840m - 540 lpm. POOH and L/D BHA. RIH, retrieved bowl protector. Performed Tubing Hanger dummy run. Lost polypac seal \"O\" ring in well. Disconnected riser and verified no \"O\" in Well head. Made up Riser and diverter.",
+      "days_behind": null,
+      "days_ahead": 5.5
+    },
+    {
+      "day": 282,
+      "date": "2008-09-05",
+      "report_no": 20,
+      "depth_md_end_m": 1085.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 4.25,
+          "depth_md_m": 0.0,
+          "remarks": "Unable to release riser from well head. Trouble shoot problem. Worked snap ring several times. Found the 12 threaded holes of the riser connector to be damaged, re-cutted the threaded holes. Made up the 12 bolt to correct distance to be able to collapse snap ring probably."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Pulled surface riser from well head. No sign of \"O\" ring. Re-installed surface riser and horizontal tensioning system."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Rigged down riser handling gear. Nippled up diverter."
+        },
+        {
+          "code": "interruption -- repair",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "equipment failure",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Installed diverter and master bushing."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Cleared and cleaned rig floor prior to ESP operation."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk, rigged up csg equipment and m/u swegde."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk, picked up and made up ESP assembly."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 0.0,
+          "remarks": "Changed inserts to 7 5/8\". Picked up and made up xo jnt."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Installed control line sheave in hang off wire."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.75,
+          "depth_md_m": 0.0,
+          "remarks": "Connected control lines to motor. Pumped oil into the motor by a hand pump. Serviced the motor and evacuated the air. Connected up the electrical cable to the motor and tested out same. Made up ¼\" hydraulic line from Multisensor gauge."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 16.0,
+          "remarks": "Leak tested ¼\" hydraulic line from the Multisensor gauge to discharge pressure assembly 207 bar (3000 psi) for 10 minutes."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 16.0,
+          "remarks": "Cleared rig floor of redundant equipment."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 56.0,
+          "remarks": "Hold tool box talk. Made up 1st 7 5/8\" stand of tubing from derrick to ESP assembly. Installed and function tested auto slips.\n\nParallel activity. Retrieved riser guide funnel."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 2.0,
+          "depth_md_m": 163.0,
+          "remarks": "RIH with ESP on 7 5/8\" casing in stands from surface to 163m. Installed cable clamps every joint. Checked the Phoenix connection frequently. Running speed: 72 m/hr."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "Packer fluid",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "MU ESP assemblies and connected cable. RIH with ESP from surface to 699m.",
+      "days_behind": null,
+      "days_ahead": 5.8
+    },
+    {
+      "day": 283,
+      "date": "2008-09-06",
+      "report_no": 21,
+      "depth_md_end_m": 1085.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 6.0,
+          "depth_md_m": 699.0,
+          "remarks": "Continued RIH with ESP on 7 5/8\" casing in stand from 163m to 699m. Installed cable clamps every joint. Checked the Phoenix connection frequently. Running speed: 90 m/hr.\n\nParallel activity: Injected slop in well F14."
+        },
+        {
+          "code": "completion -- completion string",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 3.5,
+          "depth_md_m": 806.0,
+          "remarks": "Held tool box and continued RIH with ESP on 7 5/8\" casing, picked up singles from cantilever from 699m to 807m. Installed cable clamps every joint. Checked the Phoenix connection frequently.\n\nParallel activity: Injected slop in well F14.\n                          Derrick insp. Daily maintenance \n                          Worked on flow line hose on wellhead.\n                          Performed BOP test to 15 k."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 806.0,
+          "remarks": "Changed elevator inserts to 5½\""
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 806.0,
+          "remarks": "Held tool box talk prior to pick up and make up Tubing Hanger."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.75,
+          "depth_md_m": 806.0,
+          "remarks": "Picked up complete Tubing Hanger/swivel sub assembly and made up to 7 5/8\" tubing. Attempted to brake FAST connection. Modified dies to brake FAST connection."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 806.0,
+          "remarks": "Installed big wheels to casing tong due to high stick up of FAST connection."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 806.0,
+          "remarks": "Broke FAST connection, Orientated hanger by rotating hanger assy in FAST connector according to Schlumberger procedure, and made up FAST connection."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 806.0,
+          "remarks": "Held tool box talk, removed slips, Master Bushing and disconnected casing tong."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 806.0,
+          "remarks": "Installed penetrator and performed cable test to 1100 psi (76 bars) 10 min."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 812.0,
+          "remarks": "Spaced out and measured for cutting length of control cable."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 4.25,
+          "depth_md_m": 812.0,
+          "remarks": "Checked electrical down hole system before cutting main cable. Cut main cable. Spliced cable to pigtail. Checked electrical system.\n\nParallel activity: Installed RLGF on F-15"
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 812.0,
+          "remarks": "Held tool box talk and checked equipment."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 812.0,
+          "remarks": "Attached penetrator to tubing hanger. \n\nParallel activity: Continuing BOP test to 15k.\n                         Installed 4 tension cylinders F-15,"
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 812.0,
+          "remarks": "Leak tested penetrator \"O\"-rings in tubing hanger, to 69 bars for 10 minutes. Checked electrical system."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 834.0,
+          "remarks": "Removed Master bushing. RIH with Tubing Hanger and landed off at surface well head. 20.9m."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Checked electrical system. Cable resistance 2000 mega OHM. Released test lead. Installed master bushing. Backed off landing string, pulled out and laid down landing string."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Removed casing tong. Rigged down tubing handling equipment. Laid out running tool."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk prior to rig down ESP electrical cable and sheave from derrick."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "Packer fluid",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Continued RIH with ESP on 7 5/8\" tubing from 699m to 806m. Made up Tubing Hanger and Penetrator. Installed the tubing hanger and released RT from same. Nippled down Diverter and surface riser.",
+      "days_behind": null,
+      "days_ahead": 6.1
+    },
+    {
+      "day": 284,
+      "date": "2008-09-07",
+      "report_no": 22,
+      "depth_md_end_m": 1085.0,
+      "depth_tvd_end_m": 1075.9,
+      "activities": [
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Rigged down ESP electrical cable and sheave from derrick."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk, removed redundant equipment from rig floor."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.5,
+          "depth_md_m": 0.0,
+          "remarks": "Rigged up to nipple down diverter and surface riser. Bled off diverter insert and overshot pressure."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Pulled diverter, parked and secured same at set back area."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Rigged up to pull surface riser."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Removed horizontal tensioning system. Released the surface riser and pull out surface riser."
+        },
+        {
+          "code": "drilling -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk and laid out surface riser."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.0,
+          "depth_md_m": 0.0,
+          "remarks": "Prepared for run Tubing Bonnet/spacer spool."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Held tool box talk prior to installation of Tubing bonnet/spacer spool."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Picked up Tubing Bonnet/spacer spool and made up to dual lifting assy."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Prepared Well head for landing off Tubing Bonnet/spacer spool. Vetco/Schlumberger"
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Lowered down Tubing Bonnet/spacer spool. Installed same."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.75,
+          "depth_md_m": 0.0,
+          "remarks": "Leak tested Tubing Bonnet cavity to 69 bar 10 min."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Pressure tested penetrator to 69 bar 10 min."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.5,
+          "depth_md_m": 0.0,
+          "remarks": "Retrieved dual lifting assy slings from Tubing Bonnet/spacer spool. Installed Master bushing."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 0.25,
+          "depth_md_m": 0.0,
+          "remarks": "Signal tested Schlumberger connection. Laid out dual lifting assy slings."
+        },
+        {
+          "code": "completion -- bop/wellhead equipment",
+          "phase": "fixed",
+          "state": "ok",
+          "state_detail": "success",
+          "hours": 1.25,
+          "depth_md_m": 0.0,
+          "remarks": "Lowered down flowline spool piece for F9. Installed hatches in moon pool. Installed BX elevator on TDS bails. P/U spider to rig floor. Pre-check prior to skidding of cantilever from F-9 to F-15.............Handed well over to Maersk Production........."
+        }
+      ],
+      "mud": {
+        "density_sg": 1.03,
+        "viscosity_cp": null,
+        "type": "Packer fluid",
+        "pv_mPas": null,
+        "yp_Pa": null
+      },
+      "remarks_combined": "Installed Tubing Bonnet. Leak tested Tubing Bonnet cavity to 69 bar 10 min. Pressure tested penetrator to 69 bar 10 min.",
+      "days_behind": null,
+      "days_ahead": 6.0
+    }
+  ]
+}

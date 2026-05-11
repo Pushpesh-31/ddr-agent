@@ -1,0 +1,126 @@
+[
+  {
+    "name": "load_well_data",
+    "description": "Load parsed DDR data for a single Volve well from the JSON cache. Returns an array of daily entries, each containing date, depth_md, depth_tvd, activities, mud_properties, hours_breakdown, and remarks. Always call this first when analyzing a specific well.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "well_id": {
+          "type": "string",
+          "description": "Volve well identifier, e.g., '15/9-F-14' or '15/9-F-1A'"
+        }
+      },
+      "required": ["well_id"]
+    }
+  },
+  {
+    "name": "load_fleet_data",
+    "description": "Load aggregated, parsed data for all wells in the Volve fleet (~24 wells). Returns a summary array with one entry per well containing well_id, total_days, td_md, npt_percent, on_bottom_percent, and notable_events. Use for cross-well comparisons or 'rank wells by X' questions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "classify_activities",
+    "description": "Take parsed well data and tag every daily activity with a category. Categories are: drilling, tripping, casing, cementing, bha_handling, logging, testing, npt, other. For activities flagged as 'npt', also returns an npt_subcategory using the taxonomy in your system prompt. The classifier reads both IADC codes and free-text remarks.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "well_data": {
+          "type": "object",
+          "description": "The full well data object returned by load_well_data."
+        }
+      },
+      "required": ["well_data"]
+    }
+  },
+  {
+    "name": "compute_kpis",
+    "description": "Compute headline KPIs and surface anomalies from classified well data. Returns: total_days, planned_days (if available), days_delta, td_md, td_tvd, npt_total_days, npt_percent, on_bottom_percent, avg_rop_per_section, top_anomalies (list of {day, depth, description, severity}). Anomalies are detected by rate-of-change rules (sudden ROP drop, unplanned stops >12 hr, depth stagnation).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "classified_data": {
+          "type": "object",
+          "description": "Output of classify_activities."
+        }
+      },
+      "required": ["classified_data"]
+    }
+  },
+  {
+    "name": "build_chart",
+    "description": "Generate a chart specification (Recharts-compatible JSON) for inclusion in the memo or UI. Use 'days_vs_depth' for the canonical drilling progress chart, 'npt_pareto' for NPT category breakdown, 'activity_breakdown' for stacked time allocation, 'fleet_npt_ranking' for cross-well NPT comparison.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "chart_type": {
+          "type": "string",
+          "enum": ["days_vs_depth", "npt_pareto", "activity_breakdown", "fleet_npt_ranking"],
+          "description": "Which standard chart to generate."
+        },
+        "data": {
+          "type": "object",
+          "description": "The data to chart — typically the output of compute_kpis or load_fleet_data."
+        }
+      },
+      "required": ["chart_type", "data"]
+    }
+  },
+  {
+    "name": "write_morning_memo",
+    "description": "Assemble the final morning memo by filling the template at templates/morning_memo.md with provided KPIs, anomalies, and chart references. Returns the rendered Markdown ready for display. Use this only after running compute_kpis and build_chart.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "well_id": {
+          "type": "string",
+          "description": "Volve well identifier"
+        },
+        "kpis": {
+          "type": "object",
+          "description": "Output of compute_kpis"
+        },
+        "anomalies": {
+          "type": "array",
+          "description": "Top anomalies list, typically a slice of kpis.top_anomalies",
+          "items": { "type": "object" }
+        },
+        "charts": {
+          "type": "array",
+          "description": "Array of chart specs from build_chart calls",
+          "items": { "type": "object" }
+        },
+        "recommendation": {
+          "type": "string",
+          "description": "One specific, actionable recommendation for next spud, written in drilling supt voice. Max 50 words."
+        }
+      },
+      "required": ["well_id", "kpis", "anomalies", "recommendation"]
+    }
+  },
+  {
+    "name": "answer_question",
+    "description": "Answer a free-text question about a well or the fleet using parsed DDR data. Use this in Q&A mode. The function returns relevant data slices the agent must then synthesize into a prose answer. If the question is out of scope (geology, reservoir, completions), the function returns an out_of_scope flag.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "type": "string",
+          "enum": ["well", "fleet"],
+          "description": "Whether the question is about a single well or the full fleet."
+        },
+        "well_id": {
+          "type": "string",
+          "description": "Required if scope='well'. Volve well identifier."
+        },
+        "question": {
+          "type": "string",
+          "description": "The user's natural-language question, passed through unchanged."
+        }
+      },
+      "required": ["scope", "question"]
+    }
+  }
+]

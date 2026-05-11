@@ -1,0 +1,25 @@
+# Secrets — never commit
+.streamlit/secrets.toml
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Raw DDR XMLs (large; students re-pull from the Volve mirror).
+# data/parsed/ IS committed so students can run the agent without the raw data.
+data/raw/
+
+# Cached agent runs are committed for the demo-mode safety net.
+# (data/cached_runs/ is intentionally NOT ignored)
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
