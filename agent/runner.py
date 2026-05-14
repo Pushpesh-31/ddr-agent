@@ -17,8 +17,8 @@ AGENT_DIR = Path(__file__).resolve().parent
 SYSTEM_PROMPT_PATH = AGENT_DIR / "system_prompt.md"
 TOOLS_PATH = AGENT_DIR / "tools.json"
 
-MAX_TURNS = 12  # Safety cap. The triage workflow needs ~6 turns; more than 12 means the agent
-                # is looping — better to abort cleanly than burn tokens.
+MAX_TURNS = 8   # Safety cap. The triage workflow needs ~6 turns; 8 leaves room for one
+                # model recovery from a tool error, but caps ITPM blast radius.
 
 
 def load_system_prompt() -> str:

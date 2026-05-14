@@ -46,8 +46,8 @@ def _summarize(output) -> str:
     if isinstance(output, dict):
         if "error" in output:
             return f"error: {output['error']}"
-        if "well_id" in output and "daily_reports" in output:
-            return f"loaded {output['well_id']} ({len(output['daily_reports'])} reports)"
+        if "well_id" in output and "n_daily_reports" in output:
+            return f"loaded {output['well_id']} ({output['n_daily_reports']} reports)"
         if "wells" in output:
             return f"fleet ({output.get('n_wells', len(output['wells']))} wells)"
         if "npt_breakdown" in output:

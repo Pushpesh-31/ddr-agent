@@ -101,7 +101,10 @@ class AnthropicClient(LLMClient):
                 "ANTHROPIC_API_KEY not found. Set it in .streamlit/secrets.toml for local dev "
                 "or in the Streamlit Cloud Secrets dashboard for the deployed app."
             )
-        self.client = Anthropic(api_key=api_key)
+        # max_retries=0: the SDK defaults to 2 retries, which on a 429 silently re-sends
+        # the same request twice more inside the same rate-limit window — compounding
+        # ITPM consumption 3x. Surface the error and let the user re-click instead.
+        self.client = Anthropic(api_key=api_key, max_retries=0)
         self.model = model or self.DEFAULT_MODEL
         self.max_tokens = max_tokens
 
