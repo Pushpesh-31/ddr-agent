@@ -29,13 +29,13 @@ CACHED_DIR = Path(__file__).resolve().parent.parent / "data" / "cached_runs"
 
 
 def build_for_well(well_id: str, recommendation: str) -> dict:
-    wd = load_well_data(well_id)
-    if "error" in wd:
+    summary = load_well_data(well_id)
+    if "error" in summary:
         raise SystemExit(f"Well not found: {well_id}")
-    cd = classify_activities(wd)
-    kpis = compute_kpis(cd)
-    chart_dvd = build_chart("days_vs_depth", cd)
-    chart_pareto = build_chart("npt_pareto", kpis)
+    cls = classify_activities(well_id)
+    kpis = compute_kpis(well_id)
+    chart_dvd = build_chart("days_vs_depth", well_id=well_id)
+    chart_pareto = build_chart("npt_pareto", kpis=kpis)
     memo = write_morning_memo(
         well_id=well_id,
         kpis=kpis,
@@ -49,14 +49,14 @@ def build_for_well(well_id: str, recommendation: str) -> dict:
         "charts": [chart_dvd, chart_pareto],
         "log": [
             f"→ load_well_data({{\"well_id\": \"{well_id}\"}})",
-            f"← load_well_data: ok",
-            f"→ classify_activities(<well_data>)",
-            f"← classify_activities: ok",
-            f"→ compute_kpis(<classified>)",
+            f"← load_well_data: {summary['n_daily_reports']} daily reports",
+            f"→ classify_activities({{\"well_id\": \"{well_id}\"}})",
+            f"← classify_activities: {cls['category_counts'].get('npt', 0)} NPT activities tagged",
+            f"→ compute_kpis({{\"well_id\": \"{well_id}\"}})",
             f"← compute_kpis: {kpis['npt_percent']}% NPT",
-            f"→ build_chart({{\"chart_type\": \"days_vs_depth\"}})",
+            f"→ build_chart({{\"chart_type\": \"days_vs_depth\", \"well_id\": \"{well_id}\"}})",
             f"← build_chart: days_vs_depth",
-            f"→ build_chart({{\"chart_type\": \"npt_pareto\"}})",
+            f"→ build_chart({{\"chart_type\": \"npt_pareto\", \"kpis\": <...>}})",
             f"← build_chart: npt_pareto",
             f"→ write_morning_memo(<...>)",
             f"← write_morning_memo: rendered",

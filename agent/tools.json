@@ -1,13 +1,13 @@
 [
   {
     "name": "load_well_data",
-    "description": "Load parsed DDR data for a single Volve well from the JSON cache. Returns an array of daily entries, each containing date, depth_md, depth_tvd, activities, mud_properties, hours_breakdown, and remarks. Always call this first when analyzing a specific well.",
+    "description": "Look up a single Volve well in the parsed DDR cache. Returns a compact summary: well_id, metadata (operator, planned_days, total_days, td_md_m, td_tvd_m, spud_date), n_daily_reports, n_activities, date_range, first_day, last_day. The full per-day payload stays server-side; downstream tools access it by well_id. Always call this first when analyzing a specific well.",
     "input_schema": {
       "type": "object",
       "properties": {
         "well_id": {
           "type": "string",
-          "description": "Volve well identifier, e.g., '15/9-F-14' or '15/9-F-1A'"
+          "description": "Volve well identifier, e.g., '15/9-F-4' or '15/9-F-1A'"
         }
       },
       "required": ["well_id"]
@@ -15,7 +15,7 @@
   },
   {
     "name": "load_fleet_data",
-    "description": "Load aggregated, parsed data for all wells in the Volve fleet (~24 wells). Returns a summary array with one entry per well containing well_id, total_days, td_md, npt_percent, on_bottom_percent, and notable_events. Use for cross-well comparisons or 'rank wells by X' questions.",
+    "description": "Load aggregated, parsed data for all wells in the Volve fleet (~26 wells). Returns one entry per well with well_id, total_days, planned_days, td_md_m, npt_percent, on_bottom_percent, npt_days, and notable_events. Use for cross-well comparisons or 'rank wells by X' questions.",
     "input_schema": {
       "type": "object",
       "properties": {}
@@ -23,35 +23,35 @@
   },
   {
     "name": "classify_activities",
-    "description": "Take parsed well data and tag every daily activity with a category. Categories are: drilling, tripping, casing, cementing, bha_handling, logging, testing, npt, other. For activities flagged as 'npt', also returns an npt_subcategory using the taxonomy in your system prompt. The classifier reads both IADC codes and free-text remarks.",
+    "description": "Tag every daily activity for the well with a category (drilling, tripping, casing, bha_handling, logging, testing, completion, workover, npt, other) and an npt_subcategory for NPT entries. Classification reads both IADC codes and free-text remarks server-side. Returns a compact summary: category_counts, category_hours, npt_subcategory_counts. Call this after load_well_data to confirm the well classifies cleanly before computing KPIs.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "well_data": {
-          "type": "object",
-          "description": "The full well data object returned by load_well_data."
+        "well_id": {
+          "type": "string",
+          "description": "Volve well identifier. The function loads + classifies internally."
         }
       },
-      "required": ["well_data"]
+      "required": ["well_id"]
     }
   },
   {
     "name": "compute_kpis",
-    "description": "Compute headline KPIs and surface anomalies from classified well data. Returns: total_days, planned_days (if available), days_delta, td_md, td_tvd, npt_total_days, npt_percent, on_bottom_percent, avg_rop_per_section, top_anomalies (list of {day, depth, description, severity}). Anomalies are detected by rate-of-change rules (sudden ROP drop, unplanned stops >12 hr, depth stagnation).",
+    "description": "Compute headline KPIs and surface anomalies for the well. Returns: total_days, planned_days, days_delta, td_md_m, td_tvd_m, npt_total_days, npt_percent, on_bottom_percent, npt_breakdown (sorted by hours descending), top_anomalies (list of {day, date, depth_md_m, description, top_subcategory, severity, remarks}). Anomalies are detected by NPT-per-day thresholds and long single stops.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "classified_data": {
-          "type": "object",
-          "description": "Output of classify_activities."
+        "well_id": {
+          "type": "string",
+          "description": "Volve well identifier. The function loads + classifies + computes internally."
         }
       },
-      "required": ["classified_data"]
+      "required": ["well_id"]
     }
   },
   {
     "name": "build_chart",
-    "description": "Generate a chart specification (Recharts-compatible JSON) for inclusion in the memo or UI. Use 'days_vs_depth' for the canonical drilling progress chart, 'npt_pareto' for NPT category breakdown, 'activity_breakdown' for stacked time allocation, 'fleet_npt_ranking' for cross-well NPT comparison.",
+    "description": "Generate a chart specification for the UI to render with Plotly. Inputs are kept small: pass well_id for charts that need per-day data ('days_vs_depth', 'activity_breakdown'), the kpis dict for 'npt_pareto', and no input for 'fleet_npt_ranking' (loads the fleet itself).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -60,12 +60,16 @@
           "enum": ["days_vs_depth", "npt_pareto", "activity_breakdown", "fleet_npt_ranking"],
           "description": "Which standard chart to generate."
         },
-        "data": {
+        "well_id": {
+          "type": "string",
+          "description": "Required for 'days_vs_depth' and 'activity_breakdown'. Accepted as a fallback for 'npt_pareto' when kpis is not provided."
+        },
+        "kpis": {
           "type": "object",
-          "description": "The data to chart — typically the output of compute_kpis or load_fleet_data."
+          "description": "Preferred input for 'npt_pareto' — the dict returned by compute_kpis. Cheaper than re-loading."
         }
       },
-      "required": ["chart_type", "data"]
+      "required": ["chart_type"]
     }
   },
   {

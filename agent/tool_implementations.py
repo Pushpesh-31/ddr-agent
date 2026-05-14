@@ -3,10 +3,17 @@
 Conventions (per CLAUDE.md):
 - Pure functions over the parsed JSON cache. No network, no XML re-parsing.
 - Return JSON-serializable dicts. On failure, return {"error": "<code>", ...} — do not raise.
+
+Token-budget rule (added 2026-05-13):
+- Tool *return values* are passed back into the model's message history on every loop
+  iteration. Keep them small. Wells are ~140k tokens raw, so we pass `well_id` between
+  tools and re-load the cache server-side via `_load_full_well` / `_classify_full`.
+  The agent never sees the full daily-reports payload.
 """
 
 from __future__ import annotations
 
+import functools
 import json
 import re
 from collections import Counter, defaultdict
@@ -118,13 +125,57 @@ def _classify_one(activity: dict) -> tuple[str, str | None]:
     return cat, sub
 
 
-# ---------- Tools ----------
+# ---------- Server-side helpers (NOT exposed as tools) ----------
+#
+# These return the full classified well dict. Cached so a single agent run that calls
+# classify_activities → compute_kpis → build_chart hits the disk + regex pass once,
+# not three times. The cache is process-local and tiny (one entry per well).
 
-def load_well_data(well_id: str) -> dict:
+@functools.cache
+def _load_full_well(well_id: str) -> dict:
     path = PARSED_DIR / _well_filename(well_id)
     if not path.exists():
         return {"error": "well_not_found", "well_id": well_id, "available": _all_well_ids()}
     return json.loads(path.read_text())
+
+
+@functools.cache
+def _classify_full(well_id: str) -> dict:
+    wd = _load_full_well(well_id)
+    if "error" in wd:
+        return wd
+    out_dailies = []
+    for r in wd["daily_reports"]:
+        out_acts = []
+        for a in r["activities"]:
+            cat, sub = _classify_one(a)
+            out_acts.append({**a, "category": cat, "npt_subcategory": sub})
+        out_dailies.append({**r, "activities": out_acts})
+    return {**wd, "daily_reports": out_dailies}
+
+
+# ---------- Tools ----------
+
+def load_well_data(well_id: str) -> dict:
+    """Tool entry point. Returns a *small* summary — confirms the well exists and gives
+    the agent enough metadata to orient. The full 100k+ token payload stays server-side."""
+    wd = _load_full_well(well_id)
+    if "error" in wd:
+        return wd
+    md = wd.get("metadata", {})
+    dailies = wd.get("daily_reports", [])
+    n_activities = sum(len(r.get("activities") or []) for r in dailies)
+    first = dailies[0] if dailies else {}
+    last = dailies[-1] if dailies else {}
+    return {
+        "well_id": wd["well_id"],
+        "metadata": md,
+        "n_daily_reports": len(dailies),
+        "n_activities": n_activities,
+        "date_range": {"start": first.get("date"), "end": last.get("date")},
+        "first_day": {"day": first.get("day"), "date": first.get("date"), "depth_md_m": first.get("depth_md_end_m")},
+        "last_day": {"day": last.get("day"), "date": last.get("date"), "depth_md_m": last.get("depth_md_end_m")},
+    }
 
 
 def load_fleet_data() -> dict:
@@ -166,17 +217,30 @@ def load_fleet_data() -> dict:
     return {"wells": fleet, "n_wells": len(fleet)}
 
 
-def classify_activities(well_data: dict) -> dict:
-    if "error" in well_data:
-        return well_data
-    out_dailies = []
-    for r in well_data["daily_reports"]:
-        out_acts = []
+def classify_activities(well_id: str) -> dict:
+    """Tool entry point. Classifies server-side and returns a *summary* of the result
+    (counts by category/subcategory), not the full classified payload. Downstream tools
+    call _classify_full internally via well_id."""
+    cd = _classify_full(well_id)
+    if "error" in cd:
+        return cd
+    cat_counts: Counter = Counter()
+    sub_counts: Counter = Counter()
+    cat_hours: dict[str, float] = defaultdict(float)
+    for r in cd["daily_reports"]:
         for a in r["activities"]:
-            cat, sub = _classify_one(a)
-            out_acts.append({**a, "category": cat, "npt_subcategory": sub})
-        out_dailies.append({**r, "activities": out_acts})
-    return {**well_data, "daily_reports": out_dailies}
+            cat = a.get("category") or "other"
+            cat_counts[cat] += 1
+            cat_hours[cat] += a.get("hours") or 0
+            if cat == "npt":
+                sub_counts[a.get("npt_subcategory") or "other"] += 1
+    return {
+        "well_id": well_id,
+        "n_daily_reports": len(cd["daily_reports"]),
+        "category_counts": dict(cat_counts),
+        "category_hours": {k: round(v, 1) for k, v in cat_hours.items()},
+        "npt_subcategory_counts": dict(sub_counts),
+    }
 
 
 def _sum_hours(activities: list[dict], category: str | None = None, subcategory: str | None = None) -> float:
@@ -190,11 +254,14 @@ def _sum_hours(activities: list[dict], category: str | None = None, subcategory:
     return total
 
 
-def compute_kpis(classified_data: dict) -> dict:
-    if "error" in classified_data:
-        return classified_data
-    md = classified_data["metadata"]
-    dailies = classified_data["daily_reports"]
+def compute_kpis(well_id: str) -> dict:
+    """Tool entry point. Loads + classifies server-side from well_id, returns the existing
+    small KPIs dict (~1-2 KB). The agent does not need to thread classified data through."""
+    cd = _classify_full(well_id)
+    if "error" in cd:
+        return cd
+    md = cd["metadata"]
+    dailies = cd["daily_reports"]
 
     npt_hours = _sum_hours([a for r in dailies for a in r["activities"]], category="npt")
     on_bottom_hours = _sum_hours([a for r in dailies for a in r["activities"]], category="drilling")
@@ -252,7 +319,7 @@ def compute_kpis(classified_data: dict) -> dict:
     anomalies.sort(key=lambda x: (-1 if x["severity"] == "high" else 0, x["day"]))
 
     return {
-        "well_id": classified_data["well_id"],
+        "well_id": cd["well_id"],
         "total_days": md.get("total_days"),
         "planned_days": md.get("planned_days"),
         "days_delta": round((md.get("total_days") or 0) - (md.get("planned_days") or 0), 1) if md.get("planned_days") else None,
@@ -268,56 +335,65 @@ def compute_kpis(classified_data: dict) -> dict:
     }
 
 
-def build_chart(chart_type: str, data: dict) -> dict:
-    """Return a chart spec the UI's `ui/charts.py` knows how to render with Plotly.
+def build_chart(chart_type: str, well_id: str | None = None, kpis: dict | None = None) -> dict:
+    """Return a small chart spec the UI's `ui/charts.py` knows how to render with Plotly.
 
-    Spec shape: {chart_type, title, x, y, [series, labels, values, ...]} — keep it small
-    and JSON-friendly. The UI does the rendering."""
+    Inputs are kept small: pass `well_id` for charts that need per-day data (the function
+    loads + classifies server-side), or pass the already-small `kpis` dict for npt_pareto.
+    `fleet_npt_ranking` loads the fleet internally and needs no input."""
     if chart_type == "days_vs_depth":
-        # Accepts either a classified well dict (with daily_reports) or a precomputed pair.
-        if "daily_reports" in data:
-            xs = [r["day"] for r in data["daily_reports"]]
-            ys = [r.get("depth_md_end_m") for r in data["daily_reports"]]
-            title = f"Days vs Depth — {data.get('well_id', '')}"
-        else:
-            xs = data.get("days", [])
-            ys = data.get("depth_md_m", [])
-            title = data.get("title", "Days vs Depth")
-        return {"chart_type": chart_type, "title": title, "x": xs, "y": ys, "x_label": "Day", "y_label": "MD (m)"}
+        if not well_id:
+            return {"error": "missing_well_id", "chart_type": chart_type}
+        cd = _classify_full(well_id)
+        if "error" in cd:
+            return cd
+        xs = [r["day"] for r in cd["daily_reports"]]
+        ys = [r.get("depth_md_end_m") for r in cd["daily_reports"]]
+        return {
+            "chart_type": chart_type,
+            "title": f"Days vs Depth — {cd.get('well_id', '')}",
+            "x": xs, "y": ys, "x_label": "Day", "y_label": "MD (m)",
+        }
 
     if chart_type == "npt_pareto":
-        # Accepts kpis (with npt_breakdown) or {labels, values}.
-        if "npt_breakdown" in data:
-            items = data["npt_breakdown"]
-            labels = [it["subcategory"] for it in items]
-            values = [it["days"] for it in items]
-            title = f"NPT by Category — {data.get('well_id', '')}"
+        # Prefer the passed-in kpis (cheaper than re-classifying); fall back to well_id.
+        if kpis and "npt_breakdown" in kpis:
+            items = kpis["npt_breakdown"]
+            title = f"NPT by Category — {kpis.get('well_id', '')}"
+        elif well_id:
+            k = compute_kpis(well_id)
+            if "error" in k:
+                return k
+            items = k["npt_breakdown"]
+            title = f"NPT by Category — {well_id}"
         else:
-            labels = data.get("labels", [])
-            values = data.get("values", [])
-            title = data.get("title", "NPT by Category")
+            return {"error": "missing_input", "chart_type": chart_type, "expected": "well_id or kpis"}
+        labels = [it["subcategory"] for it in items]
+        values = [it["days"] for it in items]
         return {"chart_type": chart_type, "title": title, "labels": labels, "values": values, "value_label": "Days lost"}
 
     if chart_type == "activity_breakdown":
-        # Stacked time allocation. Accepts a classified well dict.
-        if "daily_reports" not in data:
-            return {"error": "bad_input", "chart_type": chart_type, "expected": "classified well data"}
+        if not well_id:
+            return {"error": "missing_well_id", "chart_type": chart_type}
+        cd = _classify_full(well_id)
+        if "error" in cd:
+            return cd
         totals: dict[str, float] = defaultdict(float)
-        for r in data["daily_reports"]:
+        for r in cd["daily_reports"]:
             for a in r["activities"]:
                 totals[a.get("category") or "other"] += (a.get("hours") or 0) / 24.0
         items = sorted(totals.items(), key=lambda kv: -kv[1])
         return {
             "chart_type": chart_type,
-            "title": f"Time Allocation — {data.get('well_id', '')}",
+            "title": f"Time Allocation — {cd.get('well_id', '')}",
             "labels": [k for k, _ in items],
             "values": [round(v, 2) for _, v in items],
             "value_label": "Days",
         }
 
     if chart_type == "fleet_npt_ranking":
-        wells = data.get("wells") or []
-        wells = sorted(wells, key=lambda w: -(w.get("npt_percent") or 0))
+        fleet = load_fleet_data()
+        wells = sorted(fleet["wells"], key=lambda w: -(w.get("npt_percent") or 0))
         return {
             "chart_type": chart_type,
             "title": "Fleet NPT % by well",
@@ -472,11 +548,10 @@ def answer_question(scope: str, question: str, well_id: str | None = None) -> di
     if scope == "well":
         if not well_id:
             return {"error": "missing_well_id", "scope": scope}
-        wd = load_well_data(well_id)
-        if "error" in wd:
-            return wd
-        cd = classify_activities(wd)
-        kpis = compute_kpis(cd)
+        cd = _classify_full(well_id)
+        if "error" in cd:
+            return cd
+        kpis = compute_kpis(well_id)
         # Pre-aggregate a few useful slices.
         worst_days = sorted(
             [
