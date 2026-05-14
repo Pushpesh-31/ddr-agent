@@ -83,8 +83,8 @@ class AnthropicClient(LLMClient):
 
     Tier-1 budgeting (ITPM=30,000):
     - `max_tokens` is reserved against the per-minute input budget at request time, so we
-      keep it tight. The triage memo is capped at 200 words; tool-use turns produce just
-      a tool_use block plus minimal text. 1024 is plenty.
+      keep it tight. With prompt caching on system+tools and well_id-only tool I/O, a full
+      triage run lands around 17k ITPM at max_tokens=2048 — comfortable under 30k.
     - System prompt + tool schemas are marked cache_control=ephemeral so subsequent turns
       within the 5-min cache TTL pay ~10% of the input-token cost (and rate-limit cost)
       for those segments.
@@ -92,7 +92,7 @@ class AnthropicClient(LLMClient):
 
     DEFAULT_MODEL = "claude-sonnet-4-6"
 
-    def __init__(self, model: str | None = None, max_tokens: int = 1024):
+    def __init__(self, model: str | None = None, max_tokens: int = 2048):
         from anthropic import Anthropic
 
         api_key = _read_secret("ANTHROPIC_API_KEY")
