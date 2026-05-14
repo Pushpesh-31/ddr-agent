@@ -161,15 +161,27 @@ def test_dispatch_tool_round_trip_new_signatures():
 
 
 def test_write_morning_memo_renders_template():
-    kpis = compute_kpis(HERO)
+    # The agent path: pass only well_id + recommendation + charts.
+    # KPIs/anomalies are loaded server-side.
     out = write_morning_memo(
         well_id=HERO,
-        kpis=kpis,
-        anomalies=kpis["top_anomalies"][:3],
-        charts=[],
         recommendation="Test recommendation.",
+        charts=[],
     )
     md = out["markdown"]
     assert HERO in md
     assert "{ACTUAL_DAYS}" not in md  # all placeholders filled
     assert "Test recommendation." in md
+
+
+def test_write_morning_memo_accepts_overrides():
+    # The cached-run builder path: pass pre-computed kpis to avoid extra disk reads.
+    kpis = compute_kpis(HERO)
+    out = write_morning_memo(
+        well_id=HERO,
+        recommendation="Override test.",
+        charts=[],
+        kpis=kpis,
+        anomalies=kpis["top_anomalies"][:3],
+    )
+    assert "Override test." in out["markdown"]

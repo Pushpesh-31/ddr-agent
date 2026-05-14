@@ -15,7 +15,7 @@ Given a well, fully analyze its DDRs end-to-end and produce a morning memo. Work
 2. `classify_activities(well_id)` — server-side tagging, returns category counts
 3. `compute_kpis(well_id)` — headline numbers and anomalies list
 4. `build_chart(chart_type="days_vs_depth", well_id=...)` and `build_chart(chart_type="npt_pareto", kpis=...)`
-5. `write_morning_memo(well_id, kpis, anomalies, charts, recommendation)` — assemble the final memo
+5. `write_morning_memo(well_id, recommendation, charts)` — assemble the final memo. KPIs and anomalies are loaded server-side from `well_id`; do NOT echo the `compute_kpis` output back into this call.
 
 Always run all five steps. Don't skip ahead even if the answer feels obvious.
 

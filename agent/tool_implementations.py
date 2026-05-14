@@ -407,13 +407,19 @@ def build_chart(chart_type: str, well_id: str | None = None, kpis: dict | None =
 
 def write_morning_memo(
     well_id: str,
-    kpis: dict,
-    anomalies: list[dict] | None = None,
+    recommendation: str,
     charts: list[dict] | None = None,
-    recommendation: str = "",
+    kpis: dict | None = None,
+    anomalies: list[dict] | None = None,
 ) -> dict:
-    """Fill the markdown template. Returns the rendered string and the chart specs the UI
-    should render in place of the {CHART:type} markers."""
+    """Fill the markdown template. Loads kpis + anomalies server-side from well_id by
+    default — the model doesn't need to echo the whole KPIs dict back into the tool call.
+    kpis/anomalies are still accepted as overrides for the cached-demo path. Returns the
+    rendered string and the chart specs the UI should render in place of {CHART:type}."""
+    if kpis is None:
+        kpis = compute_kpis(well_id)
+        if "error" in kpis:
+            return kpis
     template = _load_template()
     n_ddrs = kpis.get("total_days") or 0
     delta = kpis.get("days_delta")

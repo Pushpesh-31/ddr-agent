@@ -38,10 +38,10 @@ def build_for_well(well_id: str, recommendation: str) -> dict:
     chart_pareto = build_chart("npt_pareto", kpis=kpis)
     memo = write_morning_memo(
         well_id=well_id,
+        recommendation=recommendation,
+        charts=[chart_dvd, chart_pareto],
         kpis=kpis,
         anomalies=kpis["top_anomalies"][:3],
-        charts=[chart_dvd, chart_pareto],
-        recommendation=recommendation,
     )
     return {
         "well_id": well_id,

@@ -79,11 +79,20 @@ class AnthropicClient(LLMClient):
     """Anthropic Messages API, non-streaming under the hood (yields one TextDelta per text
     block and one ToolUse per tool_use block at the end of each turn). Good enough for the
     Streamlit UI's "agent thinking" expander to feel live; upgrade to true token streaming
-    if you want token-by-token text rendering."""
+    if you want token-by-token text rendering.
+
+    Tier-1 budgeting (ITPM=30,000):
+    - `max_tokens` is reserved against the per-minute input budget at request time, so we
+      keep it tight. The triage memo is capped at 200 words; tool-use turns produce just
+      a tool_use block plus minimal text. 1024 is plenty.
+    - System prompt + tool schemas are marked cache_control=ephemeral so subsequent turns
+      within the 5-min cache TTL pay ~10% of the input-token cost (and rate-limit cost)
+      for those segments.
+    """
 
     DEFAULT_MODEL = "claude-sonnet-4-6"
 
-    def __init__(self, model: str | None = None, max_tokens: int = 4096):
+    def __init__(self, model: str | None = None, max_tokens: int = 1024):
         from anthropic import Anthropic
 
         api_key = _read_secret("ANTHROPIC_API_KEY")
@@ -97,10 +106,17 @@ class AnthropicClient(LLMClient):
         self.max_tokens = max_tokens
 
     def stream_with_tools(self, system, tools, messages):
+        # Cache the system prompt as a single text block.
+        system_blocks = [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}]
+        # Cache the tool schemas by attaching cache_control to the last tool — that marks
+        # a cache breakpoint covering all preceding tools.
+        cached_tools = [dict(t) for t in tools]
+        if cached_tools:
+            cached_tools[-1] = {**cached_tools[-1], "cache_control": {"type": "ephemeral"}}
         response = self.client.messages.create(
             model=self.model,
-            system=system,
-            tools=tools,
+            system=system_blocks,
+            tools=cached_tools,
             messages=messages,
             max_tokens=self.max_tokens,
         )
