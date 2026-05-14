@@ -51,7 +51,7 @@
   },
   {
     "name": "build_chart",
-    "description": "Generate a chart specification for the UI to render with Plotly. Inputs are kept small: pass well_id for charts that need per-day data ('days_vs_depth', 'activity_breakdown'), the kpis dict for 'npt_pareto', and no input for 'fleet_npt_ranking' (loads the fleet itself).",
+    "description": "Generate a chart specification for the UI to render with Plotly. Pass chart_type and (for well-specific charts) well_id. The function loads everything it needs server-side — do NOT echo kpis dicts or other tool outputs back into this call. For 'fleet_npt_ranking' no well_id is needed.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -62,11 +62,7 @@
         },
         "well_id": {
           "type": "string",
-          "description": "Required for 'days_vs_depth' and 'activity_breakdown'. Accepted as a fallback for 'npt_pareto' when kpis is not provided."
-        },
-        "kpis": {
-          "type": "object",
-          "description": "Preferred input for 'npt_pareto' — the dict returned by compute_kpis. Cheaper than re-loading."
+          "description": "Required for 'days_vs_depth', 'activity_breakdown', and 'npt_pareto'. Omit for 'fleet_npt_ranking'."
         }
       },
       "required": ["chart_type"]
@@ -74,22 +70,17 @@
   },
   {
     "name": "write_morning_memo",
-    "description": "Assemble the final morning memo by filling the template at templates/morning_memo.md. KPIs and anomalies are loaded server-side from well_id — do NOT echo the compute_kpis output back into this call. Only pass the chart specs you got from build_chart and your recommendation. Returns the rendered Markdown ready for display. Use this only after running compute_kpis and build_chart.",
+    "description": "Assemble the final morning memo. KPIs, anomalies, and chart placement are all handled server-side — you only need to provide your one-line recommendation. Do NOT echo kpis, anomalies, or chart specs back into this call. Returns the rendered Markdown. Use this only after running compute_kpis and build_chart.",
     "input_schema": {
       "type": "object",
       "properties": {
         "well_id": {
           "type": "string",
-          "description": "Volve well identifier. KPIs and anomalies are loaded internally."
+          "description": "Volve well identifier. KPIs, anomalies, and charts are loaded/threaded server-side."
         },
         "recommendation": {
           "type": "string",
           "description": "One specific, actionable recommendation for next spud, written in drilling supt voice. Max 50 words."
-        },
-        "charts": {
-          "type": "array",
-          "description": "Array of chart specs returned by build_chart calls.",
-          "items": { "type": "object" }
         }
       },
       "required": ["well_id", "recommendation"]

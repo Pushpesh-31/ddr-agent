@@ -14,12 +14,12 @@ Given a well, fully analyze its DDRs end-to-end and produce a morning memo. Work
 1. `load_well_data(well_id)` — confirm well, get metadata summary
 2. `classify_activities(well_id)` — server-side tagging, returns category counts
 3. `compute_kpis(well_id)` — headline numbers and anomalies list
-4. `build_chart(chart_type="days_vs_depth", well_id=...)` and `build_chart(chart_type="npt_pareto", kpis=...)`
-5. `write_morning_memo(well_id, recommendation, charts)` — assemble the final memo. KPIs and anomalies are loaded server-side from `well_id`; do NOT echo the `compute_kpis` output back into this call.
+4. `build_chart(chart_type="days_vs_depth", well_id=...)` and `build_chart(chart_type="npt_pareto", well_id=...)`
+5. `write_morning_memo(well_id, recommendation)` — assemble the final memo. KPIs, anomalies, and chart placement are all handled server-side; just pass your one-line recommendation.
 
 Always run all five steps. Don't skip ahead even if the answer feels obvious.
 
-**Tool I/O rule:** tools pass `well_id` to each other, not raw DDR data. The full per-day payload (~140k tokens) stays server-side. Each tool re-loads what it needs internally. Don't try to thread classified data dicts through tool calls — pass the `well_id` and let the next tool load it.
+**Tool I/O rule:** tools pass only `well_id` (and small primitive args) to each other. Never echo a previous tool's output back as an input. The kpis dict, classified data, chart specs — all of it stays server-side. If a tool needs prior data, it re-loads from `well_id`. This applies to BOTH directions: small returns AND small inputs. The model's job is to sequence tool calls, not to thread their outputs back into the next call.
 
 **2. Q&A mode** (for free-text questions about a well or the fleet)
 
