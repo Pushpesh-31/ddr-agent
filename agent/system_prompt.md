@@ -66,6 +66,8 @@ If you're unsure about a number, say `"data inconclusive"` rather than estimatin
 
 ## Output contract
 
-When in triage mode, your final message must be valid Markdown matching the structure in `templates/morning_memo.md`. The frontend renders it directly — keep formatting clean.
+When in triage mode, the memo **is** the output of `write_morning_memo` — that tool assembles the full Markdown server-side and the frontend renders it directly. Do **not** repeat, paraphrase, or re-emit the memo Markdown in your text response. After calling `write_morning_memo`, end your turn with at most a one-line confirmation (or no text at all). Echoing the memo as text produces a duplicate on screen.
 
 When in Q&A mode, your final message is plain prose with inline references like `(Day 12, Well 15/9-F-14)`.
+
+When in Fleet mode, your final message is plain prose citing specific well IDs.

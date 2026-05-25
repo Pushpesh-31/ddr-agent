@@ -99,6 +99,9 @@ def _stream_agent_into_ui(
     text_buf: list[str] = []
     chart_specs: list[dict] = []
     log_lines: list[str] = []
+    # The triage memo comes from write_morning_memo, not from streamed text. Track it
+    # separately so trailing model chatter can't get appended onto the memo body.
+    memo_md_from_tool: str | None = None
 
     for ev in run_agent(prompt, mode=mode_str):
         if isinstance(ev, TextDelta):
@@ -118,7 +121,7 @@ def _stream_agent_into_ui(
                 chart_specs.append(ev.output)
             elif ev.name == "write_morning_memo" and isinstance(ev.output, dict):
                 if md := ev.output.get("markdown"):
-                    text_buf = [md]
+                    memo_md_from_tool = md
                     if memo_placeholder is not None:
                         memo_placeholder.markdown(md)
                 for c in ev.output.get("charts") or []:
@@ -127,7 +130,8 @@ def _stream_agent_into_ui(
             if log:
                 log.push(ev)
 
-    return "".join(text_buf), chart_specs, log_lines
+    # Triage: return the clean tool memo. Q&A/Fleet: return the streamed prose answer.
+    return (memo_md_from_tool or "".join(text_buf)), chart_specs, log_lines
 
 
 # ---------- Main panel ----------
@@ -140,45 +144,41 @@ if mode == "Triage":
 
     if st.button("Run triage", type="primary"):
         st.session_state.triage_result = None
-        memo_col, log_col = st.columns([3, 2])
-        with memo_col:
-            st.subheader("Memo")
-            memo_placeholder = st.empty()
-        with log_col:
-            with st.expander("Agent thinking", expanded=True):
-                log_container = st.container()
-
-        if demo_mode:
-            cached = _cached_run("triage", well_id)
-            if cached is None:
-                st.warning(f"No cached run for {well_id} yet. Disable demo mode and run live to record one.")
+        # Run the agent, streaming only the live activity log. The memo itself is NOT
+        # streamed into a placeholder — it renders once, below, via render_memo so the
+        # charts substitute inline at their {CHART:...} markers.
+        with st.status("Agent working...", expanded=True) as status:
+            log_container = st.container()
+            if demo_mode:
+                cached = _cached_run("triage", well_id)
+                if cached is None:
+                    st.warning(f"No cached run for {well_id} yet. Disable demo mode and run live to record one.")
+                else:
+                    st.session_state.triage_result = cached
+                status.update(label="Loaded cached run.", state="complete")
             else:
-                memo_placeholder.markdown(cached.get("memo", ""))
-                st.session_state.triage_result = cached
-        else:
-            prompt = f"Triage well {well_id}. Produce the morning memo per your standard workflow."
-            try:
-                memo_md, charts, log_lines = _stream_agent_into_ui(
-                    prompt, "triage",
-                    memo_placeholder=memo_placeholder,
-                    log_container=log_container,
-                )
-                st.session_state.triage_result = {"memo": memo_md, "charts": charts, "log": log_lines}
-                # Soft warning if memo body is over the 200-word cap.
-                wc = word_count_body(memo_md)
-                if wc > 220:
-                    st.caption(f"_memo body: {wc} words (target ≤ 200)_")
-            except Exception as exc:
-                st.error(f"Agent error: {exc}")
+                prompt = f"Triage well {well_id}. Produce the morning memo per your standard workflow."
+                try:
+                    memo_md, charts, log_lines = _stream_agent_into_ui(
+                        prompt, "triage",
+                        memo_placeholder=None,
+                        log_container=log_container,
+                    )
+                    st.session_state.triage_result = {"memo": memo_md, "charts": charts, "log": log_lines}
+                    status.update(label="Memo ready.", state="complete")
+                except Exception as exc:
+                    st.error(f"Agent error: {exc}")
+                    status.update(label="Agent error.", state="error")
 
-    # Re-render saved result on subsequent interactions.
+    # Single render path — covers the button-click run and every subsequent rerun.
     res = st.session_state.triage_result
-    if res and not st.session_state.get("_just_rendered_triage"):
-        # The button branch already rendered into the placeholders above; on a rerun
-        # without a button click, re-render from scratch using render_memo so charts
-        # land in the right places.
+    if res:
         st.subheader("Memo")
         render_memo(res["memo"], res.get("charts") or [])
+        # Soft warning if memo body is over the 200-word cap.
+        wc = word_count_body(res["memo"])
+        if wc > 220:
+            st.caption(f"_memo body: {wc} words (target ≤ 200)_")
         if res.get("log"):
             with st.expander("Agent thinking (last run)", expanded=False):
                 for line in res["log"]:
