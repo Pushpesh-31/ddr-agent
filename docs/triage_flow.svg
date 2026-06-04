@@ -1,141 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1200"
-     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1280"
+     font-family="'Helvetica Neue', Helvetica, Arial, 'Segoe UI', sans-serif">
 
   <defs>
-    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#4b5563"/>
+    <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#7B8794"/>
     </marker>
-    <marker id="arr-loop" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#6366f1"/>
+    <marker id="arr-t" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#00A9CE"/>
     </marker>
   </defs>
 
-  <rect width="1100" height="1200" fill="#ffffff"/>
+  <rect width="1200" height="1280" fill="#ffffff"/>
 
-  <!-- Title -->
-  <text x="550" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">
-    DDR Triage Agent — Tool-Use Loop
-  </text>
-  <text x="550" y="65" text-anchor="middle" font-size="14" fill="#6b7280">
-    One Triage run = 6 tool calls orchestrated by Claude (claude-sonnet-4-6)
-  </text>
+  <!-- ===== Header ===== -->
+  <rect x="0" y="0" width="1200" height="6" fill="#00A9CE"/>
 
-  <!-- USER -->
-  <g transform="translate(330, 100)">
-    <rect width="440" height="60" rx="8" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
-    <text x="20" y="22" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="0.5">USER</text>
-    <text x="20" y="46" font-size="14" fill="#111827" font-family="ui-monospace, 'SF Mono', Menlo, monospace">"Triage well 15/9-F-4. Produce the morning memo."</text>
-  </g>
+  <text x="80" y="54" font-size="13" font-weight="700" fill="#00A9CE" letter-spacing="2.5">AGENTIC SYSTEM DESIGN</text>
+  <text x="80" y="96" font-size="29" font-weight="700" fill="#051C2C">The model orchestrates; deterministic tools produce every number.</text>
+  <text x="80" y="126" font-size="15" fill="#5C6B7A">How the DDR Triage Agent turns ~1,380 daily drilling reports into a one-page morning memo &#8212; without hallucinating the data.</text>
 
-  <line x1="550" y1="160" x2="550" y2="195" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="80" y1="150" x2="1120" y2="150" stroke="#DBE1E8" stroke-width="1.5"/>
 
-  <!-- CLAUDE -->
-  <g transform="translate(290, 200)">
-    <rect width="520" height="80" rx="10" fill="#6366f1" stroke="#4338ca" stroke-width="1.5"/>
-    <text x="20" y="22" font-size="10" font-weight="700" fill="#e0e7ff" letter-spacing="0.8">CLAUDE  ·  claude-sonnet-4-6</text>
-    <text x="20" y="48" font-size="16" font-weight="600" fill="#ffffff">Tool-use loop</text>
-    <text x="20" y="68" font-size="12" fill="#e0e7ff">Picks a tool → observes the result → picks the next.</text>
-  </g>
+  <!-- ===== Stage 1: Data preparation ===== -->
+  <circle cx="92" cy="188" r="12" fill="#051C2C"/>
+  <text x="92" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">1</text>
+  <text x="115" y="193" font-size="15" font-weight="700" fill="#051C2C" letter-spacing="0.5">DATA PREPARATION</text>
+  <text x="330" y="193" font-size="13" fill="#7B8794">runs once, offline &#183; the AI never sees a raw file</text>
 
-  <!-- Loop arrow: tool results return to Claude -->
-  <path d="M 920 950 C 1075 950, 1075 240, 815 240"
-        stroke="#6366f1" stroke-width="2.5" stroke-dasharray="6,5" fill="none"
-        marker-end="url(#arr-loop)"/>
-  <text x="1078" y="600" font-size="12" fill="#6366f1" font-weight="600"
-        text-anchor="middle" transform="rotate(90 1078 600)">
-    ↻ Claude re-invoked after each tool result · 6 iterations
-  </text>
+  <!-- Box A: raw -->
+  <rect x="80" y="220" width="290" height="96" rx="6" fill="#F4F6F8" stroke="#DBE1E8" stroke-width="1.5"/>
+  <text x="100" y="248" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">INPUT</text>
+  <text x="100" y="274" font-size="16" font-weight="700" fill="#051C2C">Raw DDR XML</text>
+  <text x="100" y="294" font-size="11" fill="#5C6B7A">~1,380 reports &#183; 26 wells &#183; WITSML</text>
+  <text x="100" y="310" font-size="11" font-weight="600" fill="#B0392E">Not committed (gitignored)</text>
 
-  <!-- Tool 1 -->
-  <line x1="550" y1="280" x2="550" y2="315" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 320)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">1 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">load_well_data</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(well_id="15/9-F-4")</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">metadata + 107 reports</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~160 tokens out</text>
-  </g>
+  <!-- Box B: parser -->
+  <rect x="455" y="220" width="290" height="96" rx="6" fill="#F4F6F8" stroke="#DBE1E8" stroke-width="1.5"/>
+  <text x="475" y="248" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">DETERMINISTIC BUILD STEP</text>
+  <text x="475" y="274" font-size="15" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">parse_ddrs.py</text>
+  <text x="475" y="294" font-size="11" fill="#5C6B7A">parse &#8594; normalize &#8594; validate</text>
+  <text x="475" y="310" font-size="11" fill="#5C6B7A">handles sentinels, units, missing fields</text>
 
-  <!-- Tool 2 -->
-  <line x1="550" y1="400" x2="550" y2="425" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 430)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">2 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">classify_activities</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(well_id="15/9-F-4")</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">category + NPT subcategory counts</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~145 tokens out</text>
-  </g>
+  <!-- Box C: cache -->
+  <rect x="830" y="220" width="290" height="96" rx="6" fill="#F4F6F8" stroke="#DBE1E8" stroke-width="1.5"/>
+  <text x="850" y="248" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">CLEAN CACHE</text>
+  <text x="850" y="274" font-size="16" font-weight="700" fill="#051C2C">Parsed JSON</text>
+  <text x="850" y="294" font-size="11" fill="#5C6B7A">data/parsed/ &#183; committed to repo</text>
+  <text x="850" y="310" font-size="11" font-weight="600" fill="#0B7C8C">What the agent reads</text>
 
-  <!-- Tool 3 -->
-  <line x1="550" y1="510" x2="550" y2="535" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 540)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">3 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">compute_kpis</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(well_id="15/9-F-4")</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">24.6% NPT · 8 anomalies · breakdown</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~812 tokens out</text>
-  </g>
+  <!-- connectors -->
+  <line x1="375" y1="268" x2="448" y2="268" stroke="#7B8794" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="750" y1="268" x2="823" y2="268" stroke="#7B8794" stroke-width="2" marker-end="url(#arr)"/>
 
-  <!-- Tool 4 -->
-  <line x1="550" y1="620" x2="550" y2="645" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 650)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">4 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">build_chart</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(chart_type="days_vs_depth", well_id=…)</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">Plotly spec · x[107], y[107]</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~375 tokens out</text>
-  </g>
+  <text x="80" y="352" font-size="13" fill="#5C6B7A" font-style="italic">Parsing is done before runtime &#8212; so the agent stays fast, cheap, and reproducible, and raw files never enter the model context.</text>
 
-  <!-- Tool 5 -->
-  <line x1="550" y1="730" x2="550" y2="755" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 760)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">5 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">build_chart</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(chart_type="npt_pareto", well_id=…)</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">Plotly spec · labels + values</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~50 tokens out</text>
-  </g>
+  <line x1="80" y1="380" x2="1120" y2="380" stroke="#DBE1E8" stroke-width="1.5"/>
 
-  <!-- Tool 6 -->
-  <line x1="550" y1="840" x2="550" y2="865" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
-  <g transform="translate(180, 870)">
-    <rect width="740" height="80" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <rect width="6" height="80" rx="3" fill="#0ea5e9"/>
-    <text x="22" y="22" font-size="10" font-weight="700" fill="#0369a1" letter-spacing="0.6">6 · TOOL</text>
-    <text x="22" y="46" font-size="16" font-weight="600" fill="#0f172a" font-family="ui-monospace, 'SF Mono', Menlo, monospace">write_morning_memo</text>
-    <text x="22" y="66" font-size="12" fill="#6b7280" font-family="ui-monospace, 'SF Mono', Menlo, monospace">(well_id=…, recommendation=…)</text>
-    <text x="718" y="46" text-anchor="end" font-size="13" font-weight="600" fill="#059669">rendered markdown</text>
-    <text x="718" y="66" text-anchor="end" font-size="11" fill="#9ca3af" font-style="italic">~370 tokens out · 1,471 chars</text>
-  </g>
+  <!-- ===== Stage 2: The agent loop ===== -->
+  <circle cx="92" cy="416" r="12" fill="#051C2C"/>
+  <text x="92" y="421" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <text x="115" y="421" font-size="15" font-weight="700" fill="#051C2C" letter-spacing="0.5">THE AGENT LOOP</text>
+  <text x="300" y="421" font-size="13" fill="#7B8794">runs on every request</text>
 
-  <line x1="550" y1="950" x2="550" y2="985" stroke="#4b5563" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- User -->
+  <rect x="300" y="446" width="600" height="50" rx="6" fill="#F4F6F8" stroke="#DBE1E8" stroke-width="1.5"/>
+  <text x="320" y="470" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">USER</text>
+  <text x="320" y="488" font-size="13" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">"Triage well 15/9-F-4. Produce the morning memo."</text>
 
-  <!-- OUTPUT -->
-  <g transform="translate(290, 990)">
-    <rect width="520" height="100" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
-    <text x="20" y="22" font-size="10" font-weight="700" fill="#047857" letter-spacing="0.6">FINAL OUTPUT  ·  rendered in Streamlit</text>
-    <text x="20" y="48" font-size="15" font-weight="600" fill="#064e3b">Morning memo + Days-vs-Depth chart + NPT Pareto chart</text>
-    <text x="20" y="70" font-size="12" fill="#047857">The UI captures chart specs from build_chart ToolResults and renders</text>
-    <text x="20" y="88" font-size="12" fill="#047857">them in place of {CHART:type} markers inside the memo markdown.</text>
-  </g>
+  <line x1="600" y1="496" x2="600" y2="518" stroke="#7B8794" stroke-width="2" marker-end="url(#arr)"/>
 
-  <!-- Footer insight -->
-  <text x="550" y="1140" text-anchor="middle" font-size="13" font-weight="600" fill="#6366f1">
-    Key design: tools pass well_id back and forth — not the 140k-token raw payload.
-  </text>
-  <text x="550" y="1160" text-anchor="middle" font-size="11" fill="#6b7280">
-    Each tool re-loads what it needs server-side. The LLM context stays compact across all 6 iterations.
-  </text>
+  <!-- Claude orchestrator -->
+  <rect x="300" y="520" width="600" height="74" rx="8" fill="#051C2C"/>
+  <text x="320" y="548" font-size="10" font-weight="700" fill="#00A9CE" letter-spacing="1.2">ORCHESTRATOR &#183; claude-sonnet-4-6</text>
+  <text x="320" y="572" font-size="17" font-weight="700" fill="#ffffff">Tool-use loop</text>
+  <text x="320" y="590" font-size="12" fill="#AEC4CE">Picks a tool &#8594; reads the result &#8594; picks the next.</text>
+
+  <line x1="600" y1="594" x2="600" y2="612" stroke="#7B8794" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Tool table -->
+  <rect x="80" y="614" width="1040" height="346" rx="8" fill="#ffffff" stroke="#DBE1E8" stroke-width="1.5"/>
+  <rect x="80" y="614" width="5" height="346" rx="2.5" fill="#00A9CE"/>
+
+  <text x="112" y="640" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">STEP &#183; TOOL</text>
+  <text x="600" y="640" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">RETURNS</text>
+  <text x="1096" y="640" text-anchor="end" font-size="10" font-weight="700" fill="#7B8794" letter-spacing="1">TOKENS OUT</text>
+  <line x1="100" y1="652" x2="1100" y2="652" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <circle cx="116" cy="688" r="11" fill="#00A9CE"/><text x="116" y="692" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+  <text x="138" y="684" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">load_well_data</text>
+  <text x="138" y="700" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(well_id)</text>
+  <text x="600" y="692" font-size="12" fill="#3D4A57">metadata + 107 reports</text>
+  <text x="1096" y="692" text-anchor="end" font-size="11" fill="#9AA5B1">~160</text>
+  <line x1="100" y1="714" x2="1100" y2="714" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <circle cx="116" cy="740" r="11" fill="#00A9CE"/><text x="116" y="744" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+  <text x="138" y="736" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">classify_activities</text>
+  <text x="138" y="752" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(well_id)</text>
+  <text x="600" y="744" font-size="12" fill="#3D4A57">category + NPT subcategory counts</text>
+  <text x="1096" y="744" text-anchor="end" font-size="11" fill="#9AA5B1">~145</text>
+  <line x1="100" y1="766" x2="1100" y2="766" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <circle cx="116" cy="792" r="11" fill="#00A9CE"/><text x="116" y="796" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+  <text x="138" y="788" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">compute_kpis</text>
+  <text x="138" y="804" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(well_id)</text>
+  <text x="600" y="796" font-size="12" fill="#3D4A57">24.6% NPT &#183; 8 anomalies &#183; breakdown</text>
+  <text x="1096" y="796" text-anchor="end" font-size="11" fill="#9AA5B1">~812</text>
+  <line x1="100" y1="818" x2="1100" y2="818" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <circle cx="116" cy="844" r="11" fill="#00A9CE"/><text x="116" y="848" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+  <text x="138" y="840" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">build_chart</text>
+  <text x="138" y="856" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(days_vs_depth)</text>
+  <text x="600" y="848" font-size="12" fill="#3D4A57">Plotly spec &#183; x[107], y[107]</text>
+  <text x="1096" y="848" text-anchor="end" font-size="11" fill="#9AA5B1">~375</text>
+  <line x1="100" y1="870" x2="1100" y2="870" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <circle cx="116" cy="896" r="11" fill="#00A9CE"/><text x="116" y="900" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+  <text x="138" y="892" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">build_chart</text>
+  <text x="138" y="908" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(npt_pareto)</text>
+  <text x="600" y="900" font-size="12" fill="#3D4A57">Plotly spec &#183; labels + values</text>
+  <text x="1096" y="900" text-anchor="end" font-size="11" fill="#9AA5B1">~50</text>
+  <line x1="100" y1="922" x2="1100" y2="922" stroke="#ECEFF2" stroke-width="1"/>
+
+  <!-- Row 6 -->
+  <circle cx="116" cy="948" r="11" fill="#00A9CE"/><text x="116" y="952" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+  <text x="138" y="944" font-size="14" font-weight="700" fill="#051C2C" font-family="ui-monospace, Menlo, monospace">write_morning_memo</text>
+  <text x="138" y="960" font-size="10" fill="#9AA5B1" font-family="ui-monospace, Menlo, monospace">(well_id, recommendation)</text>
+  <text x="600" y="952" font-size="12" fill="#3D4A57">rendered markdown</text>
+  <text x="1096" y="952" text-anchor="end" font-size="11" fill="#9AA5B1">~370</text>
+
+  <!-- Loop-back arrow -->
+  <path d="M 1120 786 C 1165 786, 1165 557, 905 557"
+        stroke="#00A9CE" stroke-width="2" stroke-dasharray="5,5" fill="none" marker-end="url(#arr-t)"/>
+  <text x="1162" y="690" font-size="11" font-weight="600" fill="#00A9CE" text-anchor="middle"
+        transform="rotate(90 1162 690)">Claude re-invoked after each result &#183; 6 iterations</text>
+
+  <line x1="600" y1="960" x2="600" y2="982" stroke="#7B8794" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Output -->
+  <rect x="300" y="984" width="600" height="82" rx="8" fill="#EAF7F9" stroke="#00A9CE" stroke-width="1.5"/>
+  <text x="320" y="1011" font-size="10" font-weight="700" fill="#0B7C8C" letter-spacing="1">OUTPUT &#183; rendered in Streamlit</text>
+  <text x="320" y="1035" font-size="15" font-weight="700" fill="#051C2C">Morning memo + Days-vs-Depth + NPT Pareto charts</text>
+  <text x="320" y="1055" font-size="11" fill="#3D4A57">UI swaps {CHART:type} markers for the Plotly specs returned by build_chart.</text>
+
+  <!-- ===== Takeaway band ===== -->
+  <rect x="80" y="1098" width="1040" height="104" rx="8" fill="#051C2C"/>
+  <text x="108" y="1132" font-size="12" font-weight="700" fill="#00A9CE" letter-spacing="2">THE TAKEAWAY</text>
+  <text x="108" y="1162" font-size="17" font-weight="700" fill="#ffffff">Tools pass a well_id back and forth &#8212; never the 140k-token raw payload.</text>
+  <text x="108" y="1186" font-size="13" fill="#AEC4CE">The model brings the judgment; the deterministic tools bring the numbers. Remove the tools and you get confident hallucination.</text>
+
+  <!-- Source -->
+  <text x="80" y="1240" font-size="11" fill="#9AA5B1">Source: github.com/Pushpesh-31/ddr-agent &#160;&#183;&#160; Data: Volve field, Equinor open data</text>
 
 </svg>
