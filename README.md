@@ -52,7 +52,25 @@ pytest tests/
 
 ---
 
+## Make your own copy
+
+This repo is built to be forked and rebuilt — a clone, one API key, and a deploy:
+
+1. **Fork / clone** this repo into your own GitHub account.
+2. **Get an Anthropic API key** at <https://console.anthropic.com/>, and set a monthly **spend limit** on it (Settings → Limits) so a fork can never surprise you.
+3. **Keep the key as a secret — never in code or git.** This project reads the key from `st.secrets` *only*. There is no shared or hosted key; every person who runs a copy uses their own.
+   - *Local dev:* `cp .streamlit/secrets.toml.example .streamlit/secrets.toml` and paste your key into `ANTHROPIC_API_KEY`. The file is gitignored.
+   - *Deployed:* paste the same key into the Streamlit Cloud **Settings → Secrets** dashboard (see "Deploy your own" below). Streamlit injects it into `st.secrets` at runtime.
+4. **Data is already bundled** — the parsed Volve JSON is committed, so a fresh clone runs out of the box. To swap in your own DDRs, follow "Use your own dataset" below.
+5. **Run it** (`streamlit run app.py`) or **deploy it free** to Streamlit Community Cloud.
+
+> **Sharing tip:** share the *repo link*, not a live app URL. A public link wired to your own key spends your money on every visitor. Let people clone it and bring their own key — that's the safe way to share this in a post.
+
+---
+
 ## How the agent loop works
+
+![DDR Triage Agent tool-use loop](docs/triage_flow.png)
 
 The interesting code is in two files:
 
