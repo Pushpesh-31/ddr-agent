@@ -2,7 +2,7 @@
 
 An agentic workflow over daily drilling reports (DDRs) from the Volve field. The agent loads parsed DDRs, classifies activities, surfaces non-productive time (NPT) by category, and writes a 200-word morning memo for the drilling superintendent. It also answers free-text questions about a single well or the whole 26-well fleet.
 
-Built for the SPE young-professionals webinar as a teaching artifact — short, legible, and deliberately easy to take apart.
+I've been experimenting with AI and building small, real tools to learn how agents actually work — not toy chatbots, but systems that plan, call tools, and produce something a domain expert would trust. This is one of those experiments: a drilling-domain agent kept deliberately short, legible, and easy to take apart so anyone can read the loop, fork it, and build their own. If you're learning to build with AI, start in `agent/runner.py` — the whole tool-use loop is about 70 lines.
 
 - **UI:** Streamlit (single-page Python app).
 - **Agent:** Anthropic SDK tool-use loop, behind an `LLMClient` abstraction so you can swap models later.
@@ -176,9 +176,9 @@ The runner, the seven tools, and the Streamlit UI don't need to change. None of 
    ANTHROPIC_API_KEY = "sk-ant-..."
    ```
    Streamlit Cloud injects these into `st.secrets` at runtime. **Do not commit `secrets.toml`.**
-4. Deploy. The first cold start takes ~30 sec; subsequent visits are instant. Idle apps sleep — pre-warm by visiting the URL ~5 min before a demo.
+4. Deploy. The first cold start takes ~30 sec; subsequent visits are instant. Idle apps sleep and wake on the next visit.
 
-For a live demo, the **Demo mode (cached)** sidebar checkbox is your insurance — it bypasses the API entirely and replays a pre-recorded run from `data/cached_runs/`. To record a new clean run:
+To run without spending any API tokens, the **Demo mode (cached)** sidebar checkbox replays a pre-recorded run from `data/cached_runs/` and bypasses the API entirely — handy for showing the app to someone without a key, or for screen recordings. To record a new clean run:
 
 ```bash
 python scripts/build_cached_run.py --well 15/9-F-4
@@ -199,7 +199,7 @@ ddr-agent/
 ├── ui/                   # Plotly figures + memo renderer + activity log
 ├── templates/            # Markdown skeleton the agent fills
 ├── docs/hero_well.md     # The story the agent must recover (eval rubric)
-├── docs/DEMO_PLAN.md     # Webinar talk track and rehearsal checklist
+├── docs/DEMO_PLAN.md     # Build notes and walkthrough script
 ├── tests/                # Pytest suite over the tool functions
 ├── app.py                # Streamlit entrypoint
 └── CLAUDE.md             # Architecture spec — read this if you want to extend
