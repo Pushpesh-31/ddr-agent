@@ -16,7 +16,7 @@
   <!-- ===== Header ===== -->
   <rect x="0" y="0" width="1200" height="6" fill="#00A9CE"/>
 
-  <text x="80" y="54" font-size="13" font-weight="700" fill="#00A9CE" letter-spacing="2.5">AGENTIC SYSTEM DESIGN</text>
+  <text x="80" y="54" font-size="13" font-weight="700" fill="#00A9CE" letter-spacing="2">FRIDAY LEARNING SERIES: AGENTIC SYSTEM DESIGN</text>
   <text x="80" y="96" font-size="29" font-weight="700" fill="#051C2C">The model orchestrates; deterministic tools produce every number.</text>
   <text x="80" y="126" font-size="15" fill="#5C6B7A">How the DDR Triage Agent turns ~1,380 daily drilling reports into a one-page morning memo &#8212; without hallucinating the data.</text>
 
@@ -155,6 +155,6 @@
   <text x="108" y="1186" font-size="13" fill="#AEC4CE">The model brings the judgment; the deterministic tools bring the numbers. Remove the tools and you get confident hallucination.</text>
 
   <!-- Source -->
-  <text x="80" y="1240" font-size="11" fill="#9AA5B1">Source: github.com/Pushpesh-31/ddr-agent &#160;&#183;&#160; Data: Volve field, Equinor open data</text>
+  <text x="80" y="1240" font-size="11" fill="#9AA5B1">By Pushpesh &#160;&#183;&#160; github.com/Pushpesh-31/ddr-agent &#160;&#183;&#160; Data: Volve field, Equinor open data</text>
 
 </svg>
